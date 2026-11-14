@@ -201,7 +201,8 @@ def carregar_depara(caminho, br, sp):
         if i is None or i in usados or bi in resolvidos:
             continue  # produto saiu do Superpão: volta para a heurística
         nota = int(r["nota"] or 100)
-        pares.append((bi, i, nota, "De-para conferido" if r["origem"] == "revisado" else "De-para automático"))
+        orig = {"revisado": "De-para conferido", "revisado_peso": "De-para conferido (peso diferente)"}
+        pares.append((bi, i, nota, orig.get(r["origem"], "De-para automático")))
         resolvidos.add(bi); usados.add(i)
     return pares, resolvidos, usados
 
@@ -222,6 +223,9 @@ def precos_comparaveis(b, p):
         return round(conv, 2), ps, "R$/kg"
     if kg_b and not kg_s and p["tam"]:
         return pb, round(ps / (p["tam"] / 1000), 2), "R$/kg"
+    # mesmo produto com peso/volume diferente no cadastro (ex.: 90 g x 80 g): compara por kg ou litro
+    if b["tam"] and p["tam"] and abs(b["tam"] - p["tam"]) / p["tam"] > 0.02:
+        return round(pb / (b["tam"] / 1000), 2), round(ps / (p["tam"] / 1000), 2), "R$/kg ou L (peso diferente)"
     return pb, ps, "kg" if (kg_b and kg_s) else "unidade"
 
 

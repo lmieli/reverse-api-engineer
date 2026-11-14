@@ -17,6 +17,9 @@ Vale para a Bramil, o Superpão e qualquer mercado novo que entrar na comparaç�
      Mercado novo = um CSV de de-para novo, no mesmo formato.
    - Preço por kg: quando um lado vende por quilo (unidade KG sem peso no nome) e o outro informa o
      peso, a comparação é feita em R$/kg.
+   - Peso diferente no cadastro: o mesmo produto (marca, linha e sabor) às vezes aparece com peso
+     diferente nos dois sites (ex.: 90 g x 80 g, embalagem reduzida). Esses pares são conferidos à mão,
+     gravados com `origem = revisado_peso` e comparados em R$ por kg ou litro.
 3. Preço em promoção: guardar o preço normal e o promocional separados.
 4. Usar só o que o site já entrega ao visitante. Se a API recusar o acesso direto (403), não
    contornar: ler as páginas públicas permitidas pelo robots.txt.
