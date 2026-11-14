@@ -43,3 +43,9 @@ Vale para a Bramil, o Superpão e qualquer mercado novo que entrar na comparaç�
 - Hortifruti e carnes vendidos por kg entram quando o produto é o mesmo (ex.: banana ouro kg x bandeja 500 g);
   o preço comparável por kg deve ser usado ao comparar.
 - Os dados também ficam na tabela `depara_remercado` da base histórica.
+
+## De-para Remercado x Superpão (`scripts/depara_remercado_superpao.csv`)
+- Colunas: `remercado_id`, `superpao_id`, `origem` (`auto` ou `revisado`), `nota`. 1 para 1, 1.449 pares.
+- Pares com nota < 85 e candidatos com nota >= 62 entre os sem par foram revisados item a item; candidatos
+  com nota 55-61 (cerca de 400) não foram revisados.
+- Vira a tabela `depara_remercado_superpao` na base histórica (`base.py carregar`).

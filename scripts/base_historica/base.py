@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS preco (
 CREATE TABLE IF NOT EXISTS coleta (mercado TEXT, data TEXT, itens INTEGER, PRIMARY KEY (mercado, data));
 CREATE TABLE IF NOT EXISTS depara (bramil_sku TEXT, superpao_id TEXT, origem TEXT);
 CREATE TABLE IF NOT EXISTS depara_remercado (bramil_sku TEXT, remercado_id TEXT, origem TEXT);
+CREATE TABLE IF NOT EXISTS depara_remercado_superpao (remercado_id TEXT, superpao_id TEXT, origem TEXT);
 CREATE INDEX IF NOT EXISTS ix_preco_data ON preco(data);
 """
 MERCADOS = [("bramil", "Bramil em Casa (Nova Friburgo)", "https://www.bramilemcasa.com.br/"),
@@ -89,6 +90,11 @@ def carregar(data):
     if os.path.exists(arq):
         for r in csv.DictReader(open(arq, encoding="utf-8")):
             c.execute("INSERT INTO depara_remercado VALUES (?,?,?)", (r["bramil_sku"], r["remercado_id"], r["origem"]))
+    c.execute("DELETE FROM depara_remercado_superpao")
+    arq2 = os.path.join(RAIZ, "scripts/depara_remercado_superpao.csv")
+    if os.path.exists(arq2):
+        for r in csv.DictReader(open(arq2, encoding="utf-8")):
+            c.execute("INSERT INTO depara_remercado_superpao VALUES (?,?,?)", (r["remercado_id"], r["superpao_id"], r["origem"]))
     c.commit(); resumo(c)
 
 def resumo(c=None):
@@ -97,6 +103,7 @@ def resumo(c=None):
         print(f"{d}  {m:9s} {n} itens")
     print("pares Bramil x Superpao:", c.execute("SELECT COUNT(*) FROM depara WHERE superpao_id IS NOT NULL").fetchone()[0])
     print("pares Bramil x Remercado:", c.execute("SELECT COUNT(*) FROM depara_remercado").fetchone()[0])
+    print("pares Remercado x Superpao:", c.execute("SELECT COUNT(*) FROM depara_remercado_superpao").fetchone()[0])
 
 if __name__ == "__main__":
     a = sys.argv[1:] or ["resumo"]
