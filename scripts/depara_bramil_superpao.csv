@@ -115,7 +115,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-02771,Arroz Tio Joao Parboilizado 1kg Com 8 Saquinhos,328,ARROZ TIO JOAO 1KG PARBOILIZADO SAQUINHO,auto,100
 35-024CF,Arroz Tio Joao Tipo 1 5kg,324,ARROZ TIO JOAO 5KG,revisado,86
 35-00812,Atum Coqueiro Ralado 170g,5105,ATUM COQUEIRO 170G RALADO EM MOLHO DE TOMATE,revisado,80
-35-00932,Atum Coqueiro Solido Natural 170g,4760,ATUM COQUEIRO 170G SOLIDO NAT EM OLEO,auto,89
+35-00932,Atum Coqueiro Solido Natural 170g,,,revisado_sem_par,
 35-02079,Atum Ralado 88 Natural 140g,25848,ATUM 88 140G RALADO NATURAL LT,auto,100
 35-0208D,Atum Ralado 88 Oleo 140g,52704,ATUM 88 140G RALADO OLEO LT,auto,100
 35-020AA,Atum Ralado 88 Tomate 140g,52703,ATUM 88 140G RALADO MOLHO TOMATE LT,auto,88
@@ -128,7 +128,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-03DF8,Aveia Flocos Quaker 165g,8683,AVEIA QUAKER 165G FLOCOS,auto,100
 35-00CB3,Aveia Flocos Yoki 170gr,54745,AVEIA YOKI 170G FLOCOS,auto,100
 35-00CD7,Aveia Flocos Yoki Finos 170gr,11758,AVEIA YOKI 170G FLOCOS FINOS,auto,100
-35-05AEA,Azeite Andorinha Extra Virgem 200ml,13081,AZEITE ANDORINHA 200ML EXTRA VIRGEM SPRAY,auto,90
+35-05AEA,Azeite Andorinha Extra Virgem 200ml,,,revisado_sem_par,
 35-05AEB,Azeite Andorinha Extra Virgem 250ml,21003,AZEITE PORTUGUES ANDORINHA 250ML EXTRA VIRGEM,auto,90
 35-027D1,Azeite Extra Virgem Andorinha 500ml,339,AZEITE ANDORINHA 500ML EXTRAVIRGEM,revisado,84
 35-02C07,Azeite Extra Virgem Gallo 200ml,4322,AZEITE PORT GALLO LT 200ML EXTRA VIRGEM,revisado,87
@@ -394,7 +394,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-0316E,Bolo Ana Maria Cenoura / Chocolate 35g,7689,ANA MARIA CENOURA COM CHOCOLATE 35G,revisado,90
 35-016E9,Bolo Ana Maria Duplochocolate 35g,6096,BOLO ANA MARIA 35G DUPLO CHOC,auto,89
 35-068DF,Bolo Bauducco Cenoura Com Chocolate 200gr,49345,BOLO BAUDUCCO 200G CENOURA C/ CHOCOLATE,auto,100
-35-068CE,Bolo Bauducco Laranja Com Chocolate 200gr,49343,BOLO BAUDUCCO 200G LARANJA,auto,89
+35-068CE,Bolo Bauducco Laranja Com Chocolate 200gr,,,revisado_sem_par,
 35-04092,Bolo De Chocolate Com Chocolate 450gr,1284,BOLO DE CHOCOLATE KG,auto,100
 35-0719F,Bolo Suavipan Zero Mesclado 250gr,8842,BOLINHO SUAVIPAN ZERO 250G MESCLADO,revisado,77
 35-025D9,Bom Ar Air Wick Aerosol Cheirinho De Talco 360ml,7471,BOM AR AIR WICK 360ML CHEIRINHO DE TALCO,auto,94
@@ -541,8 +541,8 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-01D8E,Cerveja Colorado Ribeirão Lager 600ml,7951,CERV COLORADO 600ML RIBEIRAO,revisado,85
 35-053C1,Cerveja Corona Extra Latao 473 Ml,24038,CERVEJA CORONA EXTRA LATAO 473ML,auto,100
 35-053E5,Cerveja Corona Zero Long Neck 330ml,43894,CERVEJA CORONA 330ML CERO SUNBREW LONG NECK,revisado,69
-35-0702B,Cerveja Eisenbahn Lata American Ipa 350ml,7164,CERV EISENBAHN 355ML AMERICAN IPA,auto,98
-35-0702E,Cerveja Eisenbahn Lata Pale Ale 350ml,3088,CERV EISENBAHN 355ML PALE ALE,auto,98
+35-0702B,Cerveja Eisenbahn Lata American Ipa 350ml,,,revisado_sem_par,
+35-0702E,Cerveja Eisenbahn Lata Pale Ale 350ml,,,revisado_sem_par,
 35-04528,Cerveja Eisenbahn Pilsen Latao 473ml,46911,CERVEJA EISENBAHN PILSEN 473ML,revisado,83
 35-02605,Cerveja Escura Caracu 350ml,119,CERVEJA CARACU ESCURA LATA 350ML,auto,100
 35-01FEE,Cerveja Estrella Galicia 355ml,41812,CERVEJA ESTRELLA GALICIA 355ML 1906,auto,100
@@ -1276,7 +1276,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-06F75,Margarina Becel Gourmet Com Sal 500g ,7632,MARGARINA VEG BECEL 500G C/SAL ORIGINAL,revisado,70
 35-02543,Margarina Claybom Perdigao Com Sal 250g,5995,MARG CLAYBOM 250G CREMOSA C/SAL,revisado,74
 35-0474E,Margarina Claybom Sabor Manteiga 500g,53882,MARG CLAYBOM 500G MANTEIGA,revisado,86
-35-03C8E,Margarina Claybom Sem Sal 500g,27384,MARGARINA CLAYBOM COM SAL 500G,auto,100
+35-03C8E,Margarina Claybom Sem Sal 500g,,,revisado_sem_par,
 35-03C8F,Margarina Qualy Aera Com Sal 500g,17553,MARG QUALY 500G C/SAL AERADA,auto,94
 35-001C1,Margarina Qualy Light Sadia C/ Sal 250g,553,MARG QUALY 250G C/SAL LIGHT,auto,89
 35-03957,Margarina Qualy Sadia 250g,552,MARGARINA QUALY COM SAL 250G,revisado,74
@@ -1584,7 +1584,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-02864,Refrigerante Coca Cola Sem Açúcar 2l,2033,REFRIGERANTE COCA COLA SEM ACUCAR 2L,auto,100
 35-02863,Refrigerante Coca Cola Sem Açúcar 350ml,26353,REFRIGERANTE COCA COLA SEM ACUCAR LATA 350ML,auto,100
 35-045D5,Refrigerante Cola Pepsi Pet 200ml,2501,REFRIGERANTE PEPSI COLA 200ML,auto,100
-35-01A00,Refrigerante Guarana Antarctica Garrafa 600ml,26367,REFRIGERANTE GUARANA ANTARCTICA ZERO 600ML,auto,89
+35-01A00,Refrigerante Guarana Antarctica Garrafa 600ml,,,revisado_sem_par,
 35-00CCE,Refrigerante Guarana Antarctica Lata 350ml,26357,REFRIGERANTE GUARANA ANTARCTICA 350ML,auto,100
 35-01CBB,Refrigerante Guarana Antarctica Pet 1l,19429,REF GUARANA ANTARCTICA 1L ORIGINAL,revisado,85
 35-086C6,Refrigerante Guarana Antartica Zero Com Fibras 350ml,54379,REF GUARANA ANTARCTICA ZERO C/FIBRAS 350ML,auto,97
@@ -1925,7 +1925,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-02CB7,"Água Mineral Crystal Com Gás Pet 1,5l",2923,"AGUA MINERAL CRYSTAL COM GAS 1,5L",revisado,100
 35-061C0,Água Mineral Crystal Sem Gás 500ml,28308,AGUA MINERAL CRYSTAL SEM GAS 500ML,revisado,100
 35-005F8,"Água Mineral São Lourenço Com Gás 1,25l",115,"AGUA MIN SAO LOURENCO 1,26L C/GAS",auto,98
-35-06C28,Água Saborizada Crystal Tangerina Com Limão 510ml,49886,AGUA SABORIZADA CRYSTAL 510ML LIMAO,auto,89
+35-06C28,Água Saborizada Crystal Tangerina Com Limão 510ml,,,revisado_sem_par,
 35-04E6A,Cerveja Puro Malte Pilsen 473ml,,,revisado_sem_par,
 35-06F0E,Cerveja Cerpa Export Long Neck 350ml,,,revisado_sem_par,
 35-07931,Cerveja Budweiser Zero Alcool 473ml,,,revisado_sem_par,
@@ -1980,7 +1980,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-02E8A,Espumante Salton Brut Rose 750ml,,,revisado_sem_par,
 35-04DBA,Espumante Chandon Brut Rose 750ml,,,revisado_sem_par,
 35-01259,Refrigerante Guarana Fanta Pet 2l,,,revisado_sem_par,
-35-01A4B,Refrigerante Guarana Antarctica Sem Acucar Garrafa 600ml,,,revisado_sem_par,
+35-01A4B,Refrigerante Guarana Antarctica Sem Acucar Garrafa 600ml,26367,REFRIGERANTE GUARANA ANTARCTICA ZERO 600ML,revisado,95
 35-0277D,Refrigerante Soda Antarctica Zero Garrafa 2l,,,revisado_sem_par,
 35-02CF4,Refrigerante Grapette Framboesa Pet 2l,,,revisado_sem_par,
 35-0303D,Refrigerante Guarana Mil Pet 2l,,,revisado_sem_par,
@@ -2660,7 +2660,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-0206A,Espumante Garibaldi Brut Chardonnay 750ml,15776,ESPUMANTE NAC GARIBALDI 750ML CHARDONNAY,revisado,75
 35-03A48,Vinho Portugues Dom Jose Rubi Tinto 750ml,746,VINHO POR DOM JOSE 750ML RUBY,revisado,68
 35-01618,Vinho Chileno Indomita Gran Reserva Chardomay 750ml,11667,VINHO CHI INDOMITA GRAN RES 750ML 750ML CHARDONNAY,revisado,74
-35-044E2,Vinho Italiano Amarone Della Valpolicella Docg Tinto 750ml,51052,VINHO ITA AMARONE DELLA 750ML VOLPOCICEL,revisado,62
+35-044E2,Vinho Italiano Amarone Della Valpolicella Docg Tinto 750ml,,,revisado_sem_par,
 35-06A8E,Bebida Fresca Vida Veg Amendoas 700ml ,9876,BEB VEGETAL VIDA VEG 700ML AMENDOA,revisado,74
 35-06A8C,Bebida Fresca Vida Veg Coco 700ml,9875,BEB VEGETAL VIDA VEG 700ML COCO,revisado,73
 35-06A8B,Bebida Fresca Vida Veg Aveia 700ml,23319,BEB VEGETAL VIDA VEG 700ML AVEIA,revisado,73
@@ -2899,7 +2899,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-02644,Tempero Receita De Casa Classico Ajinomoto 450g,2483,RECEITA DE CASA AJINO 450G CASEIRO S/PIMENTA,revisado,61
 35-062FE,Molho Pesto Fil Berio Tom 190g,8484,MOLHO PESTO FILIPPO BERIO 190TOMATE SECO,revisado,69
 35-04B97,Mix Pimentas Marca Do Sabor Com Moedor 35g,17774,MSABOR FR 35G MIX DE PIMENTA,revisado,60
-35-04B91,Mollho De Pimenta Goumert Marca Do Sabor 150ml,46729,TEMPERO MARCA SABOR MOLHO DE PIMENTA 150ML,revisado,76
+35-04B91,Mollho De Pimenta Goumert Marca Do Sabor 150ml,,,revisado_sem_par,
 35-026DD,Maionese Liza Tradicional 450g,47041,MAIONESE LIZA CASEIRA TRAD 450G - INATIVAR,revisado,64
 35-01DE7,Molho Shoyu Sakura Premium 150g,885,MOLHO DE SOJA SAKURA PREMIUM 150ML,revisado,73
 35-025C2,Tempero Sazon Legumes 60g,1134,TEMPERO SAZON 60G LEG VERD/ARROZ AMARELO,revisado,64
@@ -3127,7 +3127,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-028CC,Vanish Alvejante Sem Cloro Embalagem Economica Refil 500ml,2436,ALVEJANTE VANISH SACHE 500ML,revisado,47
 35-01530,Tira Manchas Vanish Cristal White Refil 400g,7181,ALVEJANTE VANISH WHITE 400G,revisado,44
 35-034D5,Desengordurante Cif Ultra Rapido Gatilho 500ml,25421,LIMP CIF 500ML COZINHA DESESNG GATILHO,revisado,39
-35-04068,Kit Limpador Multiuso Gold+desinfetante Banheiro Cloro 2em1 X14+desengordurante Cozinha Limao 500ml,50767,KIT LIMP VEJA  500ML VEJA GOLD + X14,revisado,47
+35-04068,Kit Limpador Multiuso Gold+desinfetante Banheiro Cloro 2em1 X14+desengordurante Cozinha Limao 500ml,,,revisado_sem_par,
 35-04344,Biscoito Piraque Goiaba Roladinho 75g,9122,BISC PIRAQUE GOIABINHA 75G,revisado,43
 35-03302,Kinder Chocolate Recheio Ao Leite 50g,593,CHOC KINDER 50G T4,revisado,45
 35-02CAA,Adocante Em Po Linea Culinario Granular 70g,18940,ADOC LINEA 70G FORNO/FOGAO,revisado,40
@@ -3144,7 +3144,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-02AF6,Massa Instantanea Renata Carne 85gr,18315,MACARRAO LAMEN RENATA 85G CARNE,revisado,46
 35-01668,Massa Fidelinho Renata Com Ovos Numero 10 500gr,620,MACARRAO RENATA FIDELINHO N10 500G,revisado,48
 35-057E6,Nuggets Vegetal Sadia Veg E Tal 275g,9853,NUGGETS SADIA PLANT PLUS 275G,revisado,42
-35-05F8B,Polpa Caruaru Abacaxi Com Hortela 100gr (pedido Somente Com Multiplo De 10unds),52404,POLPA FRUTA POLPANORTE 100G ABACAXI C/HORTELA,revisado,42
+35-05F8B,Polpa Caruaru Abacaxi Com Hortela 100gr (pedido Somente Com Multiplo De 10unds),,,revisado_sem_par,
 35-05ED9,Petit Gateu Mr Bey Chocolate240g,26976,PETIT GATEAU MRBEY 240G,revisado,48
 35-012DD,Bolinho Bauducco Roll Chocolate 34gr,17262,ROCAMBOLE BAUDUCCO 34G CHOCOLATE,revisado,45
 35-01194,Pao Arabe Arabinho Xexeu 200g,1149,ARABINHO 200G,revisado,45
@@ -3220,5 +3220,28 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-039F1,Rabanete Bandeja 300g,3806,RABANETE COMUM,revisado,71
 35-039B3,Repolho Bandeja 1kg (aproximadamente 1 Unid),18140,REPOLHO VERDE KG,revisado,77
 35-027B1,Queijo Minas Padrao Macuco 550g,54,QUEIJO MINAS PADRAO MACUCO METADE,revisado,83
-35-02C0B,Limpador Uau Banheiro Cloro Ativo 500ml,15640,LIMP UAU 500ML CLORO ATIVO TIRA LIMO C/,revisado,69
+35-02C0B,Limpador Uau Banheiro Cloro Ativo 500ml,,,revisado_sem_par,
 35-082F6,Pasta De Alho Seara Churrasco 200g,,,revisado_sem_par,
+35-06000,Café Torrado E Moído L`or Ultimo 250g,48857,CAFE LOR DOY BAG 250G ULTIMO,revisado,38
+35-080B2,Café L`or Gourmet Edição Limitada Capri 250g,54304,CAFE LOR DOY BAG 250G CAPRI,revisado,35
+35-080B3,Café L`or Pouch Gourmet Edição Limitada Santorini 250g,54303,CAFE LOR 250G SANTORINI DOY BAG,revisado,33
+35-06E99,Café Torrado E Moído L`or Mogiana 250g,51758,CAFE LOR DOY BAG 250G MOGIANA,revisado,37
+35-03861,Higienizador Asseptgel Cristal 70% 420g,8634,GEL ANTISSEPTICO ASSEPTGEL  420G,revisado,39
+35-06825,Queijo Holandes Kroon Landana Truffle 150g,50558,QUEIJO GOUDA LANDANA 150G TRUFAS NEGRAS,revisado,37
+35-045B3,"Tira Manchas Vanish Gel Multiuso Refil 1,2l",,,revisado_sem_par,
+35-055DC,"Tira Manchas Vanish Gel White Sem Cloro Refil 1,2l",,,revisado_sem_par,
+35-003B3,Desengordurante Cif Ultra Rapido 450ml,52729,LIMP CIF 450ML DESENG DERRETE GORD SACHE,revisado,38
+35-029B2,"Inseticida Sbp Eletrico 45noites+refil 32,9ml",13047,"REPELENTE SBP AP+REFIL 32,9ML",revisado,39
+35-0393C,Bebida Isotonica Yakult Taffman110ml,24253,TAFF MAN EX  110ML C/VITAMINAS PET,revisado,28
+35-056EA,Trident Adams Garrafa Morango Limao 54g,14415,CHICLE TRIDENT GF 54G XSENSES MORANGO LIME,revisado,32
+35-068DD,Drops Mentos Garrafa Pure Fresh Morango 56g,55050,GOMA MENTOS 56G GF MORANGO,revisado,39
+35-05B1A,Biscoito Salgadinho Gatytos 120g,6162,SALGADINHO GARYTOS 120G,revisado,32
+35-06E4F,Amendoim Amindus Sem Pele 90g,50009,AMINDUS STA HELENA 90G SALGADO,revisado,35
+35-00800,Salame Snack Sadia 36g,6623,SALAMITOS SADIA 36G TRADICIONAL,revisado,31
+35-03BCE,Salame Ssnack Limao Sadia 36gramas,23583,SALAMITOS SADIA 36G LIMAO,revisado,35
+35-03259,Flor Ornamental Natural Roseira P13 Un,2938,FL/PL ROSEIRA P13,revisado,30
+35-0325A,Flor Ornamental Natural Begonia P15 Un,,,revisado_sem_par,
+35-06276,Lava Roupas Surf 5em1 Lavanda 3l,15998,SABAO LIQ SURF 3L LAVANDA GL,revisado,39
+35-04508,"Lava Roupas Ype Ativo Concentrado Power 1,6kg",25296,"SABAO PO YPE  POWER SACHE 1,6KG",revisado,38
+35-03627,Tira Manchas Vanish Po Oxi R 240g,26862,ALVEJ VANISH 240G OXI ACTION CRISTAL WHITE REFIL,revisado,37
+35-05CCA,Lava Roupas Omo Po Roupas Brancas Expert 720g,28178,SABAO PO OMO 720G BRANCO ABSOLUTO,revisado,34
