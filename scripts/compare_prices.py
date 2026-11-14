@@ -201,10 +201,14 @@ def precos_comparaveis(b, p):
     pb, ps = float(b["Preço (R$)"]), float(p["preco_efetivo"])
     # só é "por kg" quando a unidade é KG e o nome não traz o peso da embalagem
     # (os sites marcam KG em alguns itens vendidos em pacote, ex.: salame 100 g)
-    kg_b = (b.get("Unidade") or "").upper() == "KG" and b["tam"] is None
-    kg_s = (p.get("unidade") or "").lower() == "kg" and p["tam"] is None
+    kg_b = b["tam"] is None and ((b.get("Unidade") or "").upper() == "KG" or re.search(r"\bkg\b", norm(b["Produto"])))
+    kg_s = p["tam"] is None and ((p.get("unidade") or "").lower() == "kg" or re.search(r"\bkg\b", norm(p["nome"])))
     if kg_s and not kg_b and b["tam"]:
-        return round(pb / (b["tam"] / 1000), 2), ps, "R$/kg"
+        conv = pb / (b["tam"] / 1000)
+        # frios fatiados: alguns já vêm com preço por kg mesmo com o peso no nome
+        if conv > 2 * ps and abs(pb - ps) / ps < 0.4:
+            return pb, ps, "R$/kg"
+        return round(conv, 2), ps, "R$/kg"
     if kg_b and not kg_s and p["tam"]:
         return pb, round(ps / (p["tam"] / 1000), 2), "R$/kg"
     return pb, ps, "kg" if (kg_b and kg_s) else "unidade"
@@ -241,7 +245,7 @@ def main(bramil_xlsx, superpao_json, saida, depara=None):
     w = wb.active; w.title = "Comparação"
     w.append(["Produto Bramil", "Produto Superpão", "Preço Bramil (R$)", "Preço Superpão (R$)",
               "Diferença (R$) Bramil-Superpão", "Bramil é mais barato (%)", "Mais barato", "Confiança",
-              "Depto Bramil", "Depto Superpão", "Link Superpão", "Conferir",
+              "Depto Bramil", "Depto Superpão", "Link Superpão", "Diferença > 40%",
               "Imagem Bramil (URL)", "Imagem Superpão (URL)", "Origem do par", "Base do preço"])
     for bi, i, nota in sorted(pares, key=lambda x: -x[2]):
         b, p = br[bi], sp[i]
@@ -250,7 +254,7 @@ def main(bramil_xlsx, superpao_json, saida, depara=None):
         w.append([b["Produto"], p["nome"], pb, ps, round(pb - ps, 2),
                   round((ps - pb) / ps * 100, 1) if ps else None, mais, nota,
                   b["Departamento"], p["departamento"], p["url"],
-                  "Conferir (diferença > 40%)" if ps and abs(pb - ps) / ps > 0.4 else "",
+                  "Diferença > 40%" if ps and abs(pb - ps) / ps > 0.4 else "",
                   b.get("Imagem (URL)"), p.get("imagem"), origem[(bi, i)], base])
     for c in w[1]: c.font = Font(bold=True)
     for col in "CDE":
