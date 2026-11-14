@@ -23,3 +23,14 @@ Vale para a Bramil, o Superpão e qualquer mercado novo que entrar na comparaç�
 3. Preço em promoção: guardar o preço normal e o promocional separados.
 4. Usar só o que o site já entrega ao visitante. Se a API recusar o acesso direto (403), não
    contornar: ler as páginas públicas permitidas pelo robots.txt.
+
+## Base histórica (`scripts/base_historica/`)
+- `base.py carregar [AAAA-MM-DD]` lê os arquivos atuais de cada mercado e grava um snapshot em
+  `precos_historico.db` (SQLite): uma linha de preço por produto por data (`preco`), cadastro do produto
+  (`produto`, com primeira/última coleta, imagem e URL), controle de coletas (`coleta`) e o de-para.
+- Para ter histórico, rode a coleta de cada mercado e depois `base.py carregar` a cada data. Reexecutar no
+  mesmo dia substitui aquele dia. Nada é apagado: produto que some do site mantém o histórico.
+- Mercados: `bramil` (API VipCommerce), `superpao` e `remercado` (Mercafacil, páginas públicas do sitemap,
+  `scripts/remercado_scraper/scraper.py`). `tiodongo` está cadastrado, mas o site devolve 403 para IPs fora
+  do Brasil; o coletor depende de rodar em uma rede onde o site abre. Não contornar o bloqueio.
+- Remercado ainda não tem de-para com a Bramil/Superpão; fazer no mesmo formato (CSV 1 para 1).
