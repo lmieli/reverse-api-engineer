@@ -1,6 +1,11 @@
 """Compara preços entre Bramil em Casa e Superpão com pareamento 1 para 1.
 
-Uso: python compare_prices.py bramil.xlsx superpao.json saida.xlsx
+Uso: python compare_prices.py bramil.xlsx superpao.json saida.xlsx [depara.csv]
+
+O de-para (depara_bramil_superpao.csv, ao lado deste script) é a fonte principal:
+pares conferidos (automáticos de alta confiança + revisados um a um) e produtos
+confirmados sem par. A heurística abaixo só é usada para produtos novos, que ainda
+não estão no de-para; revise-os e acrescente ao CSV.
 
 Regras do pareamento (de-para):
   * 1 para 1: cada produto de um mercado tem no máximo um par no outro, e
@@ -166,7 +171,46 @@ def parear(br, sp):
     return pares
 
 
-def main(bramil_xlsx, superpao_json, saida):
+def carregar_depara(caminho, br, sp):
+    """Aplica o de-para salvo. Retorna (pares, bramil_resolvidos, superpao_usados)."""
+    import csv, os
+    if not caminho or not os.path.exists(caminho):
+        return [], set(), set()
+    por_sku = {b["SKU"]: bi for bi, b in enumerate(br)}
+    por_id = {str(p["id"]): i for i, p in enumerate(sp)}
+    pares, resolvidos, usados = [], set(), set()
+    for r in csv.DictReader(open(caminho, encoding="utf-8")):
+        bi = por_sku.get(r["bramil_sku"])
+        if bi is None:
+            continue
+        if not r["superpao_id"]:
+            resolvidos.add(bi)  # confirmado sem par
+            continue
+        i = por_id.get(r["superpao_id"])
+        if i is None or i in usados or bi in resolvidos:
+            continue  # produto saiu do Superpão: volta para a heurística
+        nota = int(r["nota"] or 100)
+        pares.append((bi, i, nota, "De-para conferido" if r["origem"] == "revisado" else "De-para automático"))
+        resolvidos.add(bi); usados.add(i)
+    return pares, resolvidos, usados
+
+
+def precos_comparaveis(b, p):
+    """Põe os dois preços na mesma base. Se um lado vende por kg e o outro informa o
+    peso da embalagem, compara em R$/kg. Retorna (preço Bramil, preço Superpão, base)."""
+    pb, ps = float(b["Preço (R$)"]), float(p["preco_efetivo"])
+    # só é "por kg" quando a unidade é KG e o nome não traz o peso da embalagem
+    # (os sites marcam KG em alguns itens vendidos em pacote, ex.: salame 100 g)
+    kg_b = (b.get("Unidade") or "").upper() == "KG" and b["tam"] is None
+    kg_s = (p.get("unidade") or "").lower() == "kg" and p["tam"] is None
+    if kg_s and not kg_b and b["tam"]:
+        return round(pb / (b["tam"] / 1000), 2), ps, "R$/kg"
+    if kg_b and not kg_s and p["tam"]:
+        return pb, round(ps / (p["tam"] / 1000), 2), "R$/kg"
+    return pb, ps, "kg" if (kg_b and kg_s) else "unidade"
+
+
+def main(bramil_xlsx, superpao_json, saida, depara=None):
     ws = openpyxl.load_workbook(bramil_xlsx).active
     cab = [c.value for c in ws[1]]
     br = []
@@ -179,7 +223,16 @@ def main(bramil_xlsx, superpao_json, saida):
         p.update(prep(p["nome"] + " " + (p.get("descricao_quantidade") or "")))
         p["preco_efetivo"] = p["preco_promocional"] if p.get("preco_promocional") else p["preco"]
 
-    pares = parear(br, sp)
+    import os
+    depara = depara or os.path.join(os.path.dirname(os.path.abspath(__file__)), "depara_bramil_superpao.csv")
+    fixos, resolvidos, usados = carregar_depara(depara, br, sp)
+    resto_b = [bi for bi in range(len(br)) if bi not in resolvidos]
+    resto_s = [i for i in range(len(sp)) if i not in usados]
+    novos = [(resto_b[a], resto_s[b], n, "Novo (sugestão, revisar)")
+             for a, b, n in parear([br[x] for x in resto_b], [sp[x] for x in resto_s])]
+    pares = fixos + novos
+    origem = {(bi, i): o for bi, i, _, o in pares}
+    pares = [(bi, i, n) for bi, i, n, _ in pares]
     par_b = {bi: (i, n) for bi, i, n in pares}
     par_s = {i: (bi, n) for bi, i, n in pares}
     assert len(par_b) == len(par_s) == len(pares)  # garante 1 para 1
@@ -189,20 +242,20 @@ def main(bramil_xlsx, superpao_json, saida):
     w.append(["Produto Bramil", "Produto Superpão", "Preço Bramil (R$)", "Preço Superpão (R$)",
               "Diferença (R$) Bramil-Superpão", "Bramil é mais barato (%)", "Mais barato", "Confiança",
               "Depto Bramil", "Depto Superpão", "Link Superpão", "Conferir",
-              "Imagem Bramil (URL)", "Imagem Superpão (URL)"])
+              "Imagem Bramil (URL)", "Imagem Superpão (URL)", "Origem do par", "Base do preço"])
     for bi, i, nota in sorted(pares, key=lambda x: -x[2]):
         b, p = br[bi], sp[i]
-        pb, ps = float(b["Preço (R$)"]), float(p["preco_efetivo"])
+        pb, ps, base = precos_comparaveis(b, p)
         mais = "Bramil" if pb < ps else "Superpão" if ps < pb else "Empate"
         w.append([b["Produto"], p["nome"], pb, ps, round(pb - ps, 2),
                   round((ps - pb) / ps * 100, 1) if ps else None, mais, nota,
                   b["Departamento"], p["departamento"], p["url"],
                   "Conferir (diferença > 40%)" if ps and abs(pb - ps) / ps > 0.4 else "",
-                  b.get("Imagem (URL)"), p.get("imagem")])
+                  b.get("Imagem (URL)"), p.get("imagem"), origem[(bi, i)], base])
     for c in w[1]: c.font = Font(bold=True)
     for col in "CDE":
         for c in w[col][1:]: c.number_format = '"R$" #,##0.00'
-    for k, v in zip("ABCDEFGHIJKLMN", (48, 48, 14, 14, 18, 16, 12, 11, 24, 18, 60, 26, 60, 60)):
+    for k, v in zip("ABCDEFGHIJKLMNO", (48, 48, 14, 14, 18, 16, 12, 11, 24, 18, 60, 26, 60, 60, 24, 12)):
         w.column_dimensions[k].width = v
     w.freeze_panes = "A2"; w.auto_filter.ref = w.dimensions
     verde = PatternFill("solid", fgColor="E2F0D9")
@@ -224,9 +277,10 @@ def main(bramil_xlsx, superpao_json, saida):
         for c in s_[1]: c.font = Font(bold=True)
         s_.freeze_panes = "A2"; s_.auto_filter.ref = s_.dimensions
     wb.save(saida)
+    print(f"de-para: {len(fixos)} pares fixos | novos sugeridos: {len(novos)}")
     print(f"pares 1 para 1: {len(pares)} | Bramil sem par: {len(br)-len(pares)} de {len(br)} | "
           f"Superpão sem par: {len(sp)-len(pares)} de {len(sp)}")
 
 
 if __name__ == "__main__":
-    main(*sys.argv[1:4])
+    main(*sys.argv[1:5])
