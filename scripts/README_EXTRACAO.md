@@ -49,3 +49,11 @@ Vale para a Bramil, o Superpão e qualquer mercado novo que entrar na comparaç�
 - Pares com nota < 85 e candidatos com nota >= 62 entre os sem par foram revisados item a item; candidatos
   com nota 55-61 (cerca de 400) não foram revisados.
 - Vira a tabela `depara_remercado_superpao` na base histórica (`base.py carregar`).
+
+## Comparação entre todos os mercados (`scripts/comparar_mercados.py`)
+- `python3 scripts/comparar_mercados.py` junta os três de-paras em grupos (um produto = no máximo um item por
+  mercado) e gera `comparacao_precos_todos_mercados.xlsx` (abas Comparação e Resumo) e `scripts/produto_grupo.csv`.
+- Quando os de-paras se contradizem em um grupo, mantém o maior conjunto de pares sem contradição.
+- Itens vendidos por kg contra embalagem com peso: compara em R$/kg. Item sem peso (ex.: bandeja) fica de fora.
+- Linhas com diferença > 100% saem marcadas "conferir".
+- Novo mercado: criar o de-para 1:1 dele e acrescentar a aresta em `ler_arestas`.

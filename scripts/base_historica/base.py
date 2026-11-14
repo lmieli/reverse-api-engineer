@@ -26,6 +26,7 @@ CREATE TABLE IF NOT EXISTS coleta (mercado TEXT, data TEXT, itens INTEGER, PRIMA
 CREATE TABLE IF NOT EXISTS depara (bramil_sku TEXT, superpao_id TEXT, origem TEXT);
 CREATE TABLE IF NOT EXISTS depara_remercado (bramil_sku TEXT, remercado_id TEXT, origem TEXT);
 CREATE TABLE IF NOT EXISTS depara_remercado_superpao (remercado_id TEXT, superpao_id TEXT, origem TEXT);
+CREATE TABLE IF NOT EXISTS produto_grupo (grupo INTEGER, mercado TEXT, codigo TEXT);
 CREATE INDEX IF NOT EXISTS ix_preco_data ON preco(data);
 """
 MERCADOS = [("bramil", "Bramil em Casa (Nova Friburgo)", "https://www.bramilemcasa.com.br/"),
@@ -95,6 +96,12 @@ def carregar(data):
     if os.path.exists(arq2):
         for r in csv.DictReader(open(arq2, encoding="utf-8")):
             c.execute("INSERT INTO depara_remercado_superpao VALUES (?,?,?)", (r["remercado_id"], r["superpao_id"], r["origem"]))
+    c.execute("DELETE FROM produto_grupo")
+    arq3 = os.path.join(RAIZ, "scripts/produto_grupo.csv")
+    if os.path.exists(arq3):
+        ids = {"Bramil": "bramil", "Superpão": "superpao", "Remercado": "remercado"}
+        for r in csv.DictReader(open(arq3, encoding="utf-8")):
+            c.execute("INSERT INTO produto_grupo VALUES (?,?,?)", (int(r["grupo"]), ids[r["mercado"]], r["codigo"]))
     c.commit(); resumo(c)
 
 def resumo(c=None):
@@ -103,6 +110,7 @@ def resumo(c=None):
         print(f"{d}  {m:9s} {n} itens")
     print("pares Bramil x Superpao:", c.execute("SELECT COUNT(*) FROM depara WHERE superpao_id IS NOT NULL").fetchone()[0])
     print("pares Bramil x Remercado:", c.execute("SELECT COUNT(*) FROM depara_remercado").fetchone()[0])
+    print("produtos comparáveis (grupos):", c.execute("SELECT COUNT(DISTINCT grupo) FROM produto_grupo").fetchone()[0])
     print("pares Remercado x Superpao:", c.execute("SELECT COUNT(*) FROM depara_remercado_superpao").fetchone()[0])
 
 if __name__ == "__main__":
