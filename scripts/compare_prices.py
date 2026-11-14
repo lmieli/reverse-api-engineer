@@ -6,8 +6,9 @@ Regras do pareamento (de-para):
   * 1 para 1: cada produto de um mercado tem no máximo um par no outro, e
     nenhum produto é usado duas vezes. Quem não tem equivalente fica sem par.
   * Tamanho (g/ml) e embalagem (pack 6x, c/12) precisam ser iguais.
-  * Variações diferentes (ex.: vinagre de maçã x de álcool) não pareiam: se os
-    dois lados têm palavras que o outro não tem, o par só é aceito com nota alta.
+  * Variações diferentes (ex.: vinagre de maçã x de álcool) não pareiam: as palavras
+    mais distintivas (marca, sabor, tipo) precisam ter correspondente; só palavras
+    genéricas ("bala" x "pastilha", "licor" x "whisky") podem divergir.
   * A atribuição é global: os pares mais certos são fechados primeiro, e quem
     perdeu o seu candidato fica sem par em vez de herdar um parecido.
 Sem código de barras em comum, a nota (0-100) indica a confiança do par.
@@ -22,9 +23,11 @@ from openpyxl.styles import Font, PatternFill
 STOP = {"de", "da", "do", "das", "dos", "com", "sem", "e", "em", "para", "c", "un", "unid", "unidade",
         "und", "pct", "pacote", "cx", "caixa", "pote", "lata", "lt", "garrafa", "bandeja", "kg", "g",
         "ml", "l", "cong", "congelado", "resf", "tradicional", "trad", "tp", "vd", "pet", "lit", "litro",
-        "gr", "grt", "gratis"}
-NOTA_MIN = 75          # nota mínima de qualquer par
-NOTA_CONFLITO = 85     # nota mínima quando os dois lados têm palavras sem correspondente
+        "gr", "grt", "gratis", "grama", "gramas", "litro", "litros", "unidades", "uni", "no", "nr",
+        "aprox", "aproximadamente"}
+NOTA_MIN = 70          # nota mínima de qualquer par
+NOTA_SEM_NUCLEO = 85   # com nota alta, o núcleo não é exigido
+NUCLEO = 2             # as N palavras mais distintivas do produto menor precisam casar
 
 
 def norm(s):
@@ -44,19 +47,26 @@ def tamanho(s):
 
 
 def pack(s):
+    """Quantidade de unidades na embalagem (6x350ml, c/12, 2un, leve 3) ou 1."""
     s = norm(s)
-    m = re.search(r"\b(\d+)\s*x\s*\d", s) or re.search(r"\b(?:c|com)/?\s*(\d+)\s*(?:un|und|unid)?\b", s)
+    m = (re.search(r"\b(\d+)\s*x\s*\d", s) or re.search(r"\bc/\s*(\d+)", s)
+         or re.search(r"\bcom\s+(\d+)\s*(?:un|und|unid)", s) or re.search(r"\b(\d+)\s*(?:un|und|unid|unidades)\b", s))
     if m:
-        return int(m.group(1))
+        return max(1, int(m.group(1)))
     return 6 if re.search(r"\bpack\b", s) else 1
 
 
+def stem(t):
+    return t[:-1] if len(t) > 4 and t.endswith("s") and not t.endswith("ss") else t
+
+
 def tokens(s):
-    s = re.sub(r"\d+(?:[.,]\d+)?\s*(kg|gr|g|ml|lt|l)\b", " ", norm(s))
-    s = re.sub(r"\b\d+\s*x\b", " ", s)
+    s = re.sub(r"\d+(?:[.,]\d+)?\s*(kg|gr|g|ml|lt|l|un|und|unid|unidades)\b", " ", norm(s))
+    s = re.sub(r"\b\d+\s*x\b|\bc/\s*\d+", " ", s)
     out = []
     for t in re.findall(r"[a-z0-9]+", s):
-        if t not in STOP and len(t) > 1 and t not in out:
+        t = stem(t)
+        if t not in STOP and len(t) > 1 and not t.isdigit() and t not in out:
             out.append(t)
     return out
 
@@ -78,10 +88,10 @@ def prep(nome):
 
 
 def pontuar(a, b, peso):
-    """Retorna (nota 0-100, sobras_a, sobras_b)."""
+    """Retorna (nota 0-100, tokens casados de a, tokens casados de b)."""
     ta, tb = sorted(a["tok"], key=lambda t: -peso[t]), list(b["tok"])
     usados, casado = set(), 0.0
-    sobra_a = []
+    sobra_a, casados_a = [], set()
     for t in ta:
         melhor, mi = 0.0, None
         for j, u in enumerate(tb):
@@ -94,13 +104,22 @@ def pontuar(a, b, peso):
             sobra_a.append(t)
         else:
             usados.add(mi)
+            casados_a.add(t)
             casado += melhor * (peso[t] + peso[tb[mi]]) / 2
     sobra_b = [u for j, u in enumerate(tb) if j not in usados]
+    casados_b = {u for j, u in enumerate(tb) if j in usados}
     wa = sum(peso[t] for t in a["tok"])
     wb = sum(peso[t] for t in b["tok"])
     if wa + wb == 0:
-        return 0, sobra_a, sobra_b
-    return round(100 * 2 * casado / (wa + wb)), sobra_a, sobra_b
+        return 0, set(), set()
+    return round(100 * 2 * casado / (wa + wb)), casados_a, casados_b
+
+
+def mesmo_tamanho(a, b):
+    """Tamanhos iguais (tolerância de 2%); os dois ausentes também contam como iguais."""
+    if a is None or b is None:
+        return True  # um lado sem tamanho: decidido pela nota (exige 90+)
+    return abs(a - b) <= max(1, 0.02 * max(a, b))
 
 
 def parear(br, sp):
@@ -124,16 +143,22 @@ def parear(br, sp):
                 cont[i] += peso[t]
         for i, _ in cont.most_common(60):
             p = sp[i]
-            if b["pack"] != p["pack"] or b["tam"] != p["tam"]:
+            if b["pack"] != p["pack"] or not mesmo_tamanho(b["tam"], p["tam"]):
                 continue
-            nota, sa, sb = pontuar(b, p, peso)
-            minimo = NOTA_CONFLITO if (sa and sb) else NOTA_MIN
-            if nota >= minimo:
-                candidatos.append((nota, -len(sa) - len(sb), bi, i))
+            nota, ca, cb = pontuar(b, p, peso)
+            if nota < NOTA_MIN or (b["tam"] is None) != (p["tam"] is None) and nota < 90:
+                continue
+            # núcleo: as palavras mais distintivas do produto com menos palavras (marca,
+            # sabor, tipo) precisam ter correspondente; só palavras genéricas podem sobrar
+            menor, casados = (b, ca) if len(b["tok"]) <= len(p["tok"]) else (p, cb)
+            nucleo = sorted(menor["tok"], key=lambda t: -peso[t])[:NUCLEO]
+            if nota < NOTA_SEM_NUCLEO and any(t not in casados for t in nucleo):
+                continue
+            candidatos.append((nota, bi, i))
 
     candidatos.sort(reverse=True)
     pb, ps, pares = set(), set(), []
-    for nota, _, bi, i in candidatos:
+    for nota, bi, i in candidatos:
         if bi in pb or i in ps:
             continue
         pb.add(bi); ps.add(i)
