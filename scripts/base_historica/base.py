@@ -24,6 +24,7 @@ CREATE TABLE IF NOT EXISTS preco (
   PRIMARY KEY (mercado, codigo, data));
 CREATE TABLE IF NOT EXISTS coleta (mercado TEXT, data TEXT, itens INTEGER, PRIMARY KEY (mercado, data));
 CREATE TABLE IF NOT EXISTS depara (bramil_sku TEXT, superpao_id TEXT, origem TEXT);
+CREATE TABLE IF NOT EXISTS depara_remercado (bramil_sku TEXT, remercado_id TEXT, origem TEXT);
 CREATE INDEX IF NOT EXISTS ix_preco_data ON preco(data);
 """
 MERCADOS = [("bramil", "Bramil em Casa (Nova Friburgo)", "https://www.bramilemcasa.com.br/"),
@@ -83,13 +84,19 @@ def carregar(data):
     c.execute("DELETE FROM depara")
     for r in csv.DictReader(open(os.path.join(RAIZ, "scripts/depara_bramil_superpao.csv"), encoding="utf-8")):
         c.execute("INSERT INTO depara VALUES (?,?,?)", (r["bramil_sku"], r["superpao_id"] or None, r["origem"]))
+    c.execute("DELETE FROM depara_remercado")
+    arq = os.path.join(RAIZ, "scripts/depara_bramil_remercado.csv")
+    if os.path.exists(arq):
+        for r in csv.DictReader(open(arq, encoding="utf-8")):
+            c.execute("INSERT INTO depara_remercado VALUES (?,?,?)", (r["bramil_sku"], r["remercado_id"], r["origem"]))
     c.commit(); resumo(c)
 
 def resumo(c=None):
     c = c or conectar()
     for m, d, n in c.execute("SELECT mercado,data,itens FROM coleta ORDER BY data,mercado"):
         print(f"{d}  {m:9s} {n} itens")
-    print("pares no de-para:", c.execute("SELECT COUNT(*) FROM depara WHERE superpao_id IS NOT NULL").fetchone()[0])
+    print("pares Bramil x Superpao:", c.execute("SELECT COUNT(*) FROM depara WHERE superpao_id IS NOT NULL").fetchone()[0])
+    print("pares Bramil x Remercado:", c.execute("SELECT COUNT(*) FROM depara_remercado").fetchone()[0])
 
 if __name__ == "__main__":
     a = sys.argv[1:] or ["resumo"]

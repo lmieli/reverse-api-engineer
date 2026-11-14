@@ -34,3 +34,12 @@ Vale para a Bramil, o Superpão e qualquer mercado novo que entrar na comparaç�
   `scripts/remercado_scraper/scraper.py`). `tiodongo` está cadastrado, mas o site devolve 403 para IPs fora
   do Brasil; o coletor depende de rodar em uma rede onde o site abre. Não contornar o bloqueio.
 - Remercado ainda não tem de-para com a Bramil/Superpão; fazer no mesmo formato (CSV 1 para 1).
+
+## De-para do Remercado (`scripts/depara_bramil_remercado.csv`)
+- Mesmo formato do Bramil x Superpão (1 para 1; `bramil_sku`, `remercado_id`, `origem`, `nota`), com 2.219 pares.
+  `origem = auto` (nota alta, todas as palavras casam) ou `revisado` (conferido item a item).
+- Remercado sem par: pares com nota < 93 e candidatos com nota >= 50 foram revisados um a um; os candidatos
+  com nota 40-49 (cerca de 500) ainda não foram revisados item a item.
+- Hortifruti e carnes vendidos por kg entram quando o produto é o mesmo (ex.: banana ouro kg x bandeja 500 g);
+  o preço comparável por kg deve ser usado ao comparar.
+- Os dados também ficam na tabela `depara_remercado` da base histórica.
