@@ -92,6 +92,17 @@ def prep(nome):
     return {"tok": tokens(nome), "tam": tamanho(nome), "pack": pack(nome)}
 
 
+def prep_superpao(p):
+    """O campo descricao_quantidade do Superpão traz contagens ("10un" = 10 cápsulas)
+    e pesos aproximados ("aproximadamente 700g cada bandeja"). Ele só completa o
+    tamanho quando o nome não tem tamanho e o valor não é aproximado; nunca a embalagem."""
+    d = prep(p["nome"])
+    desc = p.get("descricao_quantidade") or ""
+    if d["tam"] is None and desc and not re.search(r"aprox|apx|cada|bandeja|por[cç]", desc, re.I):
+        d["tam"] = tamanho(desc)
+    return d
+
+
 def pontuar(a, b, peso):
     """Retorna (nota 0-100, tokens casados de a, tokens casados de b)."""
     ta, tb = sorted(a["tok"], key=lambda t: -peso[t]), list(b["tok"])
@@ -224,7 +235,7 @@ def main(bramil_xlsx, superpao_json, saida, depara=None):
         br.append(d)
     sp = [p for p in json.load(open(superpao_json)) if p.get("preco")]
     for p in sp:
-        p.update(prep(p["nome"] + " " + (p.get("descricao_quantidade") or "")))
+        p.update(prep_superpao(p))
         p["preco_efetivo"] = p["preco_promocional"] if p.get("preco_promocional") else p["preco"]
 
     import os

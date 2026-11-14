@@ -80,7 +80,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-033F3,Amaciante Downy Concentrado Lirios Do Campo 500ml,3029,AMACIANTE DOWNY CONCENTRADO LIRIOS CAMPO 500ML,auto,100
 35-0626E,Amaciante Downy Fresc Primavera 1l,10733,AMACIANTE DOWNY CONC FRESCOR PRIM. 1L,revisado,85
 35-00390,Amaciante Downy Lirios Do Campo 1l,10734,AMACIANTE DOWNY CONC LIRIOS CAMPO 1L,auto,89
-35-07229,Amaciante Downy Verão Tropical 1 Litro,,,revisado_sem_par,
+35-07229,Amaciante Downy Verão Tropical 1 Litro,52399,AMACIANTE DOWNY CONC VERAO TROPICAL 1L,revisado,90
 35-0236E,Amaciante Ype Aconchego 2l,293,AMACIANTE YPE 2L ACONCHEGO,auto,100
 35-01434,Amaciante Ype Concentrado Encanto Das Flores 500ml,52435,AMACIANTE YPE 500ML CONC ENCANTO,revisado,87
 35-02F9A,Amaciante Ype Intenso 2l,296,AMACIANTE YPE 2L INTENSO,auto,100
@@ -998,7 +998,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-046F7,Gin Bombay Sapphire 750ml,7985,GIN BOMBAY 750ML SAPPHIRE,auto,100
 35-041D7,Gin Gordon S London Dry 750ml,7598,GIN LONDON GORDONS 750ML,auto,88
 35-08412,Gnocchi Batata Spoleto Cg 400gr,55081,MASSA SPOLETO 400G GNOCCHI BATATA,revisado,77
-35-035D8,Goiaba Bandeja 600g (aproximadamente 3 Unids) ,,,revisado_sem_par,
 35-06A21,"Goma Mentos Pure Fresh Spearmint 8,5g",5865,"GOMA MENTOS 8,5G PURE SPEARMINT",auto,91
 35-00E26,Goma Tapioca Yoki 500gr,1084,TAPIOCA YOKI 500G,revisado,79
 35-05EA9,Granola Ws Naturais Acai 500g,5921,GRANOLA WS +ACAI 500G,revisado,85
@@ -1939,7 +1938,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-01EA1,Vodka Absolut 750ml,,,revisado_sem_par,
 35-04CF8,Whisky Johnnie Walker Black Label 750ml,,,revisado_sem_par,
 35-0578A,Whisky Johnne Walker Gold Label 750ml,,,revisado_sem_par,
-35-0036D,Bebida Soja Ades Morango 1l,,,revisado_sem_par,
 35-027E4,Suco Manga Bela Ischia 1l,,,revisado_sem_par,
 35-02800,Bebida Mista Guaraviton Ginseng Zero 500ml,,,revisado_sem_par,
 35-02C59,Nectar Mais Del Valle Sabor Pessego Sem Acucar 1l,,,revisado_sem_par,
@@ -2098,7 +2096,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-06134,Linguica Chester Nabrasa Perdigao P/kg,,,revisado_sem_par,
 35-0556C,Bacon Perdigao Fatiado 250g,,,revisado_sem_par,
 35-0820E,Jerked Beef Perdigao 400g,,,revisado_sem_par,
-35-082F6,Pasta De Alho Seara Churrasco 200g,,,revisado_sem_par,
 35-07957,Posta Bacalhau Riberalves 1kg,,,revisado_sem_par,
 35-01545,Arroz Tio Joao Integral 1kg,,,revisado_sem_par,
 35-023AC,Canjica Branca Mil 500gr,,,revisado_sem_par,
@@ -2345,7 +2342,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-01F55,Chocolate Arcor Ao Leite 80gr,,,revisado_sem_par,
 35-01F57,Chocolate Arcor Meio Amargo 80gr,,,revisado_sem_par,
 35-045CF,Chocolate M&m Ao Leite 80g,,,revisado_sem_par,
-35-08032,Chocolate M M 35gr Brownie,,,revisado_sem_par,
 35-08353,Bombom Garoto 10% Desconto Sortidos 220g,,,revisado_sem_par,
 35-042F3,Chocolate Hersheys Special Dark Menta 85g,,,revisado_sem_par,
 35-05881,Chocolate Hersheys Special Dark 73% 85g,,,revisado_sem_par,
@@ -2596,7 +2592,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-076E7,Lustra Moveis Poliflor Multi Sup 200ml,,,revisado_sem_par,
 35-000C6,Veja Vidrex Cristal 500ml,,,revisado_sem_par,
 35-00402,Limpa Vidro Cif Refil 450ml,,,revisado_sem_par,
-35-034C9,Limpador Cif Cremoso Branco 450ml,,,revisado_sem_par,
 35-0664C,"Lava Roupas Omo Sanitiza E Higieniza Lavagem Perfeita 1,6kg",,,revisado_sem_par,
 35-06525,Lava Roupas Omo Liquido Roupas Finas E Delicadas Bebe 450ml,,,revisado_sem_par,
 35-0742D,"Kit Lava Roupas Omo Lavagem Perfeita 1,6kg + Amaciante Comfort 500ml",,,revisado_sem_par,
@@ -2997,3 +2992,233 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-071B4,"Lava Roupas Tixan Ype Primavera 2,2kg",47364,"SABAO PO TIXAN YPE 2,2KG PRIMAVERA",revisado,64
 35-06D96,Lava Roupas Uau Liquido Active 800ml,27947,SABAO LIQ UAU 800ML ACTIVE SH,revisado,60
 35-04E77,"Lava Roupas Tixan Ype Maciez Sache 1,6kg",21891,"SABAO PO TIXAN YPE 1,6KG MACIEZ SACHE",revisado,63
+35-01E9C,Coxa Frango Sadia Com Osso Congelado Iqf 1kg,20934,COXA DE FRANGO SADIA ABRE FECHA 1KG,revisado,51
+35-04DDD,Frango Moido Lar Congelado 375g,52486,CARNE MOIDA FRANGO LAR 375G,revisado,52
+35-02D94,Sobrecoxas De Frango Sadia Congeladas 1kg,18927,SOBRECOXA SADIA BDJ 1KG,revisado,58
+35-085F6,Carne Bovina Contra Filé Grill Do Chef 1kg,8905,CONTRA FILE INT DO CHEF PECA KG,revisado,51
+35-07945,Carne Bovina Coxao Mole Reserva Resfriada Venda 1kg,15240,COXAO MOLE RESERVA PEDACO KG,revisado,53
+35-04F73,"Carne Bovina Contra File Maturatta Resfrida 1,5kg",2716,CONTRA FILE MATURATTA PECA KG,revisado,56
+35-058DB,Carne Bovina Cupim Maturatta Resfriada 1kg,48783,CUPIM MATURATTAA PECA KG,revisado,55
+35-00349,Linguica Frimesinha Termoformatada 500gr,19027,LINGUICA DEF FRIMESA 500G FRIMESINHA,revisado,56
+35-05DEF,Coracao Frango Molho Shoyu Nabrasa 500g,19706,CORACAO PERDIGAO NABRASA 500G,revisado,57
+35-000AE,Acucar Light Magro Refil 400g,1153,ACUCAR + ADOCANTE MAGRO FIT 400G,revisado,53
+35-021D6,Café Expresso Cápsulas L`or Estremo 52g,9140,CAPS LOR 52G ESTREMO 10,revisado,53
+35-0673A,Café Expresso Cápsulas 3 Corações Colômbia 56g,46860,CAPS 3 CORACOES ESP 56G COLOMBIA ALUM,revisado,59
+35-0618D,Cafe Soluvel 3 Coracoes Liofil 40g,46856,SOLUVEL 3 CORACOES 40G LIOFINILZADO REFI,revisado,41
+35-06737,Café Expresso Cápsulas 3 Corações Peru 56g,46859,CAPS 3 CORACOES ESP 56G PERU ALUM,revisado,57
+35-07967,Cafe Soluvel Nescafe Ice Sch 40gr Ice,52482,NESCAFE ICE 40G SACHE,revisado,51
+35-0651E,Café Expresso Cápsulas 3 Corações Descafeinado 56g,26775,CAPSULA 3COR EXPRESSO DESC ALUM 56G,revisado,58
+35-05866,Leite Ninho Nestle Longa Vida Fortificado 1l,575,LEITE UHT NINHO 1L INTEGRAL FORTI+,revisado,55
+35-07467,Frappuccino Starbucks Classico 280 Ml,50303,BEB LACTEA STARBUCKS 280ML CLASSICO,revisado,58
+35-0742E,Frappuccino Starbucks Caramelo 280 Ml,50305,BEB LACTEA STARBUCKS 280ML CARAMELO,revisado,57
+35-00B59,Cachaca Pirassununga 51 965ml,405,CACHACA 51 965ML TRADICIONAL,revisado,59
+35-0771C,Biter Campari 998ml,622,APERITIVO CAMPARI 998ML,revisado,50
+35-049AE,Viinho Casa Valduga Naturelle Branco 750ml,9905,VINHO NAC VALDUGA 750ML N BRANCO FRISANTE,revisado,54
+35-01FD9,Refrigerante Misto Schweppes Citrus Lata 350ml,26334,AGUA TONICA SCHWEPPES CITRUS LATA 350ML,revisado,54
+35-05379,Cerveja Itaipava Zero Alcool Long Neck 330ml,3059,CERV ITAIPAVA 330ML S/ALCOOL PILSEN LN,revisado,54
+35-039C7,"Cha Gelado Icetea Leao Limao 1,5l",2773,"ICE TEA LEAO 1,5L LIMAO FUZE",revisado,54
+35-06A19,Bebida Mista Schweppes Mixed Spiritz Vd 250ml,28262,SCHWEPPES SPRITZ VIDRO 250ML,revisado,53
+35-078A5,Bebida Mista Schweppes Maracuja 269ml,52244,SCHWEPPES MIXED 269ML LT MARACUJA,revisado,57
+35-034D4,Energetico Red Bull 473ml,4408,RED BULL 473ML ENERGY DRINK,revisado,55
+35-00A2D,Vodka Smirnoff Red Triple Distilled 998ml,1814,VODKA SMIRNOFF 998ML,revisado,55
+35-0036D,Bebida Soja Ades Morango 1l,301,SUCO ADES MORANGO 1L,revisado,59
+35-08295,Papel Higienico Sublime Folha Dupla Leve 12 Pague 11 12x30m,6664,PAPEL HIGIENICO SUBLIME L12P11 30M,revisado,45
+35-006A1,Shampoo Seda Cocriacoes Ceramidas 325ml,385,SH SEDA 325ML CERAMIDAS,revisado,56
+35-031D3,Absorvente Sempre Livre Adapt Suave C/abas Leve+pague- C/16un,4032,ABS S LIVRE ADAPT 16UN C/ABAS SV LMPM,revisado,57
+35-0166A,Locao Hidratante Nivea Milk Pele Extra Seca 200ml,11571,CREME HIDRATANTE NIVEA 200ML MILK,revisado,55
+35-00C2C,Absorvente Aalways Seco Noturno Com Abas C/8un,15970,ABS ALWAYS NOITES T 8UN C/ABAS SC,revisado,56
+35-076A0,Mirtilo Bandeja 125gr,8023,MIRTILO BLUEBERRY BDJ,revisado,53
+35-04972,Iogurte Liquido Danome Vitamina 1250g,51571,"IOG DANONE 1,250KG VITAMINA",revisado,51
+35-057D4,Leite Fermentado Activia Morango 800g,829,IOG ACTIVIA 800G MORANGO,revisado,58
+35-05586,Chamyto Morango Com Cereal Colorido 130g,7303,IOG CHAMYTO CONFEITO COLORIDO 130G,revisado,57
+35-03920,Queijo Fatiado Cheddar Polenghi 144g,1091,SANDWICH IN POLENGHI 144G CHEDDAR,revisado,50
+35-0837F,Desodorizador Sanitario Harpic Pastilha Adesiva Pinho L+p- 3un,7479,DESINF HARPIC PASTILHA L3P2 PINHO,revisado,52
+35-04557,Odorizador Bom Ar Lavanda Geranio Refil 16ml,46553,PURIFICADOR BOM AR AIR WICK ELETR 16ML LAV REFIL,revisado,49
+35-0185A,Lava Louças Limpol Cristal 500ml,429,DETERGENTE LIMPOL CRISTAL 500ML,revisado,59
+35-00B61,Lava Louças Liquido Limpol Coco 500ml,426,DETERGENTE LIMPOL COCO 500ML,revisado,50
+35-00D2F,Lava Louças Limpol Limão 500ml,427,DET LIMPOL 500ML LIMAO,revisado,57
+35-00D1E,Lava Louças Limpol Maçã 500ml,428,DET LIMPOL 500ML MACA,revisado,57
+35-01C8E,Esponja Tinindo Leve4 Pague3 C/4un,17962,ESPONJA MULTIUSO TININDO 4UN,revisado,57
+35-02B65,Lava Louças Ypê Clear 500ml,431,DETERGENTE YPE CLEAR  500ML,revisado,55
+35-02B62,Lava Louças Ypê Neutro 500ml,436,DET YPE 500ML NEUTRO,revisado,55
+35-0213A,Inseticida Raid Aerosol Aqua Protection L+p- 420ml,11700,INSET RAID 420ML MULT INSETOS AQUAPROTECTION,revisado,58
+35-04562,"Inseticida Sbp Eletrico 45 Noites+refil Cheiro Suave 32,9ml",24358,"REPELENTE SBP AP+REFIL 32,9ML CHEIRO SUAVE",revisado,59
+35-02C0C,Limpador Uau Multi Uso Neutraliza Odores 500ml,14083,MULTIUSO UAU 500ML ELIMINADOR DE ODORES,revisado,55
+35-034C9,Limpador Cif Cremoso Branco 450ml,20562,LIMP CIF CR 450ML ORIGINAL,revisado,51
+35-07675,Saponaceo Sapolio Cremoso 450ml,48026,SAPOLIO RADIUM 450ML CREM CLASSICO,revisado,54
+35-0738C,Desinfetante Cif Espuma Milagrosa Tira Limo Refil 450ml,52730,LIMP CIF 450ML EXTERMINA LIMO ESPUMA SACHE,revisado,48
+35-035FF,Desengordurante Veja De Cozinha Pulverizador + 30% Desconto 500ml,17144,LIMP VEJA DES COZ LIM SY 30%DESC 500ML,revisado,58
+35-05B35,Chocolate Nestle Recheio Amendoim Choco Trio 90g,20469,CHOCOTRIO NESTLE 90G PASTA AMENDOIM,revisado,56
+35-04BCA,"Biscoito Piraque Coberto Chocolate Branco 100,8g",12459,"CHOCOLATE PIRAQUE CHOCOWAFER CHOCOLATE BRANCO 100,8G",revisado,56
+35-01CD9,Biscoito Recheado Oreo Baunilha Economica 270g,13240,BISC OREO 270G BAUNILHA LP,revisado,59
+35-05DBA,Biscoito Bauducco Chocobiscuit Tube Chocolate 80g,21421,WAFER CHOCO BISCUIT TUBE CHOCOLATE 80G,revisado,59
+35-05BC6,Biiscoito Cracker Piraque Gergelim 215g,8685,BISC PIRAQUE AGUA GERGELIM 215G,revisado,51
+35-02918,Biscoito Piraque Queijo 100g,96,BISC PIRAQUE QUEIJINHO 100G,revisado,58
+35-05B50,Biiscoito Cracker Piraque 184g,99,BISC PIRAQUE CREAM CRACKER 184G,revisado,56
+35-068D9,Drops Mentos Garrafa Pure Fresh Mint 56g,202,GOMA MENTOS 56G GF P FRESH MINT (AZUL),revisado,53
+35-02B42,Wafer Amandita Lacta Recheio De Creme Com Cacau 200g,223,CHOC LACTA 200G AMANDITA,revisado,52
+35-035E0,Goma De Mascar Trident Morango Frutilla 5 Unids. 8g,878,CHICLE TRIDENT 8G MORANGO,revisado,41
+35-05742,Trident Adams Garrafa Melancia Mint 54g,14416,CHICLE TRIDENT GF 54G XSENSES MELANCIA MINT,revisado,51
+35-08032,Chocolate M M 35gr Brownie,52603,CONF M&M 35G BROWNIE,revisado,53
+35-08515,Chocolate Baton Choco Stick Caramelo Salgado 24g,53427,CHOCOSTICK NESTLE/GAR 24G CARAMELO SALGADO,revisado,53
+35-02036,Cha Preto Leao Cold Brew Frutas Vermelhas 25g,8823,CHA LEAO GELADO PRETO/FR VERMELHAS 25G,revisado,55
+35-017D1,Composto Lacteo Molico Zero Lactose 260g,11588,LEITE PO NESTLE MOLICO 260G ZERO LACTOSE,revisado,55
+35-06A87,Mucilon Meu Primeiro Lanchinho Milho/tomate 35g,15025,SNACK NESTLE MUCILON 35G TOMATE,revisado,38
+35-06A7E,Mucilon Meu Primeiro Lanchinho Arroz/morango/banana 35g,24137,SNACK NESTLE MUCILON MORANGO/BANANA 35G,revisado,46
+35-05374,Batata Ondulada Rufles Cebola E Salsa 40g,17113,BISCOITO ELMA CHIPS RUFFLES CEBOLA E SALSA 40G,revisado,57
+35-01319,Biscoito Eqlibri Panetini Tomate Temperado 40gramas,3193,SNACK EQLIBRI 40G TOMATE TEMPERADO,revisado,58
+35-0645F,Batata Ondulada Ruffles Churrasco 33g,6071,ELMA CHIPS RUFFLES 33G CHURRASCO,revisado,53
+35-04C1D,Batata Ondulada Ruffles Sal 115g,8076,ELMA CHIPS RUFFLES 115G SAL,revisado,52
+35-02D28,Confeito Granulado Macio Oetker 130gr,52178,GRANULADO DR OETKER 130G TRAD,revisado,54
+35-03068,Molho De Tomate Pomarola Tradicional 260g,889,POMAROLA 260G TRADICIONAL,revisado,58
+35-05A34,Molho De Tomate Pomarola Azeitona 300g,3938,POMAROLA SACHE CASEIRO AZEITONA 300G,revisado,53
+35-0311E,Azeitona Verde Pramesa Sem Caroco 160gr,23201,AZEITONAS PRAMESA VDE S/C 160G,revisado,54
+35-0395A,Pipoca Microondas Yoki Natural 100g,805,PIPOCA MICRI-ONDAS YOKI NATURAL 100G,revisado,58
+35-01031,Flocao Granfino 500gramas,14077,FAR DE MILHO GRANFINO 500G FLOCAO,revisado,56
+35-03215,Milho De Pipoca Yoki Para Microondas Com Cobertura De Chocolate 160gr,46781,POPCORN YOKI 160G COBERTURA CHOC,revisado,53
+35-02B8F,Pipoca Microondas Yoki Manteiga 100g,803,POPCORN YOKI 100G MANTEIGA,revisado,52
+35-0242B,Macarrao Instantaneo Nissin Espaguete 500g Pronto Em 5 Min.,273,MAC NISSIN ESPAGUETI T5 500G,revisado,54
+35-06ECB,Massa It La Molisana Parpadelle 200g,14182,MASSA ITALIANA PAPPARDELLE LA MOLISANA 200GR,revisado,52
+35-028A0,Fagottini Massaleve Massa Fresca Recheio 3 Queijos 350g,28256,MASSA MASSA LEVE FAGOTINI QUEIJO 350G,revisado,56
+35-02CFA,Condimento Colorifico Marca Do Sabor 500gr,10111,MSABOR FR 500G COLORIFICO,revisado,57
+35-02370,Condimento Oregano Marca Do Sabor 100gr,10110,MSABOR FR 100G OREGANO,revisado,56
+35-062BD,Catchup Quero 400gr,16824,KETCHUP QUERO 400G TRADICIONAL,revisado,50
+35-002C6,Condimento Colorifico Marca Do Sabor 200gr,10468,MSABOR FR 200G COLORIFICO,revisado,57
+35-010B6,Steak Carne Ave Perdigao Recheado 100g,23525,STEAK PERDIGAO 100G RECH QUEIJO E PRES,revisado,59
+35-06568,Hambúrguer Maturatta Carne Bovina Fralda 180g,20276,HAMBURGUER FRIBOI MATURATTA FRALDINHA 180G,revisado,45
+35-05B17,"Batata Mccain Fininha 1,05kg",22801,"BATATA CONG MCCAIN 1,05KG CORTE FINO",revisado,53
+35-07741,Erva Doce Turca Kg,18992,SPPG ERVA DOCE KG,revisado,56
+35-031C7,Ração Pedigree Adulto Carne 100g,51276,RACAO UMIDA PEDIGREE 100G AD PQ CARNE,revisado,52
+35-074D5,Racao Pedigree Racas Pequenas Mini 900g,51274,RACAO PEDIGREE 900G ADULTO RACAS PQ,revisado,58
+35-02C6C,Pao De Forma Wickbold Grao Sabor Castanha-do-para E Quinoa 450g,944,P FORMA WBOLD CAST/QUINOA 450G,revisado,55
+35-016B2,Pao Forma Wickbold Do Forno 500g,945,P FORMA WBOLD DO FORNO ORIGINAL 500G,revisado,50
+35-07614,Pao Australiano Integral Wickbold Du Forno 500g,11621,P FORMA WBOLD DO FORNO AUSTR INT 500G,revisado,53
+35-0593A,Bolinho Bauducco Laranja 40g,14257,MINI BOLO BAUDUCCO 40G LARANJA,revisado,55
+35-027A7,Pao De Forma Wickbold Light Iogurte Com Cenoura 370g,1072,P FORMA WBOLD ZERO IOG CENOURA 370G,revisado,53
+35-0616B,Torrada Magic Toast Multi Cereais 110 Gr,5555,TORRADA MARILAN LEV MAGICT MULT 110G,revisado,56
+35-054C3,Torrada Magic Toast Peito Peru 110g,7958,TORRADA MARILAN LEV MAGICT P PERU 110G,revisado,58
+35-01436,Saco Lixo Utilar Citronela 10x200 Litros,16350,SACO DE LIXO MAIS FORTE 200L CITRONELA C/10UN,revisado,57
+35-05331,Lava Roupas Uau Rosas E Seducao 3l,15641,SABAO LIQ UAU 3L PERF ROSAS SED,revisado,54
+35-02BD4,"Alvejante Vanish White Sem Cloro + Branqueador 1,5l",25740,"ALVEJ VANISH GEL 1,5L CRYSTAL WHITE",revisado,58
+35-02D8A,Vanish Alvejante Seguro + Branqueador White Refil Economico 500ml,3086,ALVEJ VANISH 500ML LIQ WHITE,revisado,50
+35-06CFE,"Lava Roupas Tixan Ype Ct Primavera 1,6 Kg",17339,"SABAO PO TIXAN YPE 1,6KG PRIMAVERA CX",revisado,50
+35-06D00,"Lava Roupas Tixan Ype Ct Maciez 1,6kg",17338,"SABAO PO TIXAN YPE 1,6KG MACIEZ CX",revisado,56
+35-059B5,"Lava Roupas Tixan Ype Primavera Pague1,52 1,6kg",25297,"SABAO PO TIXAN YPE 1,6KG PRIMAVERA SACHE",revisado,47
+35-078B4,"Lava Roupas Uau Premium Cha Branco 2,7l",52237,"SABAO LIQ UAU 2,7L CHA BRANCO",revisado,52
+35-06D97,Lava Roupas Uau Rosas Seducao 800ml,41695,SABAO LIQUIDO UAU 800ML PERFUMES ROSAS SED,revisado,57
+35-03FD4,"Carne Bovina Entrecote Maturatta Resfriada 1,150kg",25741,BIFE ANCHO ENTRECOT MATURATTA PECA KG,revisado,43
+35-07947,"Carne Bovina Picanha Reserva Resfriada Venda 1,400kg",41710,PICANHA RESERVA NOBRE PECA KG,revisado,38
+35-07944,Carne Bovina Musculo Reserva Resfriada Venda 1kg,15272,MUSCULO RESERVA CORTE KG,revisado,45
+35-07949,Carne Bovina Lagarto Reserva Resfriada Venda 1kg,15265,LAGARTO RESERVA CORTE KG,revisado,47
+35-055A6,Café L`or Gourmet Intenso 250g,15202,CAFE LOR DOY BAG 250G INTENSO,revisado,39
+35-07134,Cafe Lor Expresso 10 Caps Baunilha 52g,19292,CAPS LOR 52G SABORES VANILLE,revisado,42
+35-06736,Café Expresso Cápsulas 3 Corações Máximo 56g,46861,CAPS 3 CORACOES ESP 56G MAX INTENS ALUM,revisado,49
+35-044BA,"Cerveja Coronita, Pilsen, 210ml, Long Neck",8065,CERV CORONA 210ML EXTRA LN CORONITA,revisado,41
+35-0547D,Cerveja Spaten Puro Malte Latao 473ml,16705,CERV SPATEN 473ML MUNICH HELLES LT,revisado,41
+35-04CB5,Cerveja Spaten Puro Malte 600ml,26773,CERVEJA SPATEN MUNICH HELLES GARRAFA 600ML,revisado,47
+35-02DEA,Cerveja Heineken Barril 5l,2770,CHOPP HEINEKEN 5L,revisado,40
+35-0269B,"Keep Cooler Classic De Vinhos Branco, Suco De Uva E Aroma De Fruta Citricas 275ml",624,KEEP COOLER 275ML CLASSIC CITRUS,revisado,49
+35-013ED,Tomate Italiano Bandeja 600gr,17596,TOMATE ITALIANO BDJ SEAL COM.ANT. 600G,revisado,48
+35-00B37,Petit Suisse Danoninho Morango 320gr,6255,IOG DANONINHO DAN 320G MORANGO,revisado,44
+35-04973,Iogurte Liquido Danome Morango 1250g,51570,"IOG DANONE 1,250KG MORANGO",revisado,46
+35-012E6,Purificador Glade Aerosol Lavanda 20%desconto 360ml,11713,ODORIZANTE GLADE 360ML LAVANDA,revisado,47
+35-06359,Purificador Glade Aer Gt 20% 360ml Frutas Flores,11712,ODORIZANTE GLADE 360ML FRUTAS/FLORES VIBRANTES,revisado,48
+35-061C9,Esponja Bettanin Esfrebom Com 3un,50612,ESPONJA ESFREBOM N RISCA IONS PRATA C/3,revisado,45
+35-028CC,Vanish Alvejante Sem Cloro Embalagem Economica Refil 500ml,2436,ALVEJANTE VANISH SACHE 500ML,revisado,47
+35-01530,Tira Manchas Vanish Cristal White Refil 400g,7181,ALVEJANTE VANISH WHITE 400G,revisado,44
+35-034D5,Desengordurante Cif Ultra Rapido Gatilho 500ml,25421,LIMP CIF 500ML COZINHA DESESNG GATILHO,revisado,39
+35-04068,Kit Limpador Multiuso Gold+desinfetante Banheiro Cloro 2em1 X14+desengordurante Cozinha Limao 500ml,50767,KIT LIMP VEJA  500ML VEJA GOLD + X14,revisado,47
+35-04344,Biscoito Piraque Goiaba Roladinho 75g,9122,BISC PIRAQUE GOIABINHA 75G,revisado,43
+35-03302,Kinder Chocolate Recheio Ao Leite 50g,593,CHOC KINDER 50G T4,revisado,45
+35-02CAA,Adocante Em Po Linea Culinario Granular 70g,18940,ADOC LINEA 70G FORNO/FOGAO,revisado,40
+35-01455,Biscoito Kalassi Rice Crackers Original 100gr,7517,SNACK ARROZ KALASSI ORIGINAL 100G,revisado,47
+35-062F9,Molho Tomate Pomarola Tradicional 300g,2713,POMAROLA SACHE TRADICIONAL 300G,revisado,48
+35-03069,Molho De Tomate Pomarola Tradicional 520g,891,POMAROLA PENEIRADO/TRADICIONAL 520G,revisado,42
+35-0743D,Molho Tomate Pomarola 460gr,52198,POMAROLA SACHE TRADICIONAL 460G,revisado,48
+35-0074F,Azeitona Verde Pramesa Sem Caroco 120gr,17171,AZEITONAS PRAMESA VDE S/C SH 120G,revisado,47
+35-0311B,Azeitona Verde Pramesa Vidro190gr,23200,AZEITONAS PRAMESA VDE INT 190G,revisado,47
+35-07489,Azeitona Verde Sem Caroco Pramesa 350g,23208,AZEITONAS PRAMESA VDE GORDAL S/C 350G,revisado,45
+35-06A2C,Milho Pipoca Microondas Yoki Cheddar 95g,49784,POPCORN YOKI 95G CHEDDAR,revisado,47
+35-06A2D,Milho Pipoca Microondas Yoki Presunto Defumado 95g,49785,POPCORN YOKI 95G NETFLIX PRESUNTO DEF,revisado,49
+35-02AF4,Massa Instantanea Renata Galinha 85gr,18316,MAC LAMEN RENATA 85G GALINHA,revisado,49
+35-02AF6,Massa Instantanea Renata Carne 85gr,18315,MACARRAO LAMEN RENATA 85G CARNE,revisado,46
+35-01668,Massa Fidelinho Renata Com Ovos Numero 10 500gr,620,MACARRAO RENATA FIDELINHO N10 500G,revisado,48
+35-057E6,Nuggets Vegetal Sadia Veg E Tal 275g,9853,NUGGETS SADIA PLANT PLUS 275G,revisado,42
+35-05F8B,Polpa Caruaru Abacaxi Com Hortela 100gr (pedido Somente Com Multiplo De 10unds),52404,POLPA FRUTA POLPANORTE 100G ABACAXI C/HORTELA,revisado,42
+35-05ED9,Petit Gateu Mr Bey Chocolate240g,26976,PETIT GATEAU MRBEY 240G,revisado,48
+35-012DD,Bolinho Bauducco Roll Chocolate 34gr,17262,ROCAMBOLE BAUDUCCO 34G CHOCOLATE,revisado,45
+35-01194,Pao Arabe Arabinho Xexeu 200g,1149,ARABINHO 200G,revisado,45
+35-08296,Lava Roupas Omo Lavagem Perfeita 700gr,53190,LAVA ROUPAS PO OMO 700G TODO CICLO,revisado,48
+35-05526,Lava Roupas Surf 5em 1 Cuidado Do Coco 3l,15997,SABAO LIQ SURF 3L CUIDADO DO COCO GL,revisado,47
+35-0550E,"Lava Roupas Surf 5 Em 1 Flores 1,6kg",11023,"SABAO PO SURF 1,6KG ROSAS E FLOR",revisado,48
+35-04B59,Achocolatado Po Instantaneo 3 Coracoes Chocolate 560g,24443,ACHOC 3 CORACOES CHOCOLATTO  560G REFIL,revisado,45
+35-035D7,Banana Terra 900g,2912,BANANA DA TERRA KG,revisado,100
+35-03092,Laranja Seleta Bandeja 1kg,1206,LARANJA SELETA KG,revisado,100
+35-0306A,Pessego Nacional Bandeja 400g,1233,PESSEGO NACIONAL KG,revisado,100
+35-02219,Ameixa Nacional 450g,1171,AMEIXA NACIONAL KG,revisado,100
+35-02206,Laranja Bahia Bandeja 1kg,4293,LARANJA BAHIA KG,revisado,100
+35-02E08,Tomate Italiano 500g,1248,TOMATE ITALIANO KG,revisado,100
+35-039A7,Banana Dagua Bandeja 800g,1172,BANANA DAGUA KG,revisado,100
+35-035D9,Limao Siciliano 400g,2617,LIMAO SICILIANO KG,revisado,100
+35-030E8,Laranja Pera Bandeja 1kg,1205,LARANJA PERA KG,revisado,100
+35-030B5,Maca Argentina Bandeja 620g (aproximadamente 3 Unids),1211,MACA ARGENTINA KG,revisado,100
+35-03091,Laranja Lima Bandeja 1kg,1204,LARANJA LIMA KG,revisado,100
+35-03067,Melância Bandeja 2kg (aproximadamente 1 Unid),1221,MELANCIA KG,revisado,100
+35-02FA3,Maçã Fuji 600g,1213,MACA FUJI KG,revisado,100
+35-02EE5,Abacate Bandeja 700g (aproximadamente 1 Unid),1160,ABACATE KG,revisado,100
+35-02E75,Kiwi Bandeja 350g,1203,KIWI KG,revisado,100
+35-02CE0,Banana Prata Bandeja 800g,1173,BANANA PRATA KG,revisado,100
+35-023F0,Manga Palmer Bandeja 550g,1217,MANGA PALMER KG,revisado,100
+35-02237,Pera Portuguesa Bandeja 550g,1230,PERA PORTUGUESA KG,revisado,100
+35-039F9,Repolho Roxo Bandeja 850g (aproximadamente 1 Unid),1238,REPOLHO ROXO KG,revisado,100
+35-039EB,Berinjela Bandeja 550g (aproximadamente 2 Unids),1176,BERINJELA KG,revisado,100
+35-039D0,Batata Doce Bandeja 700g (aproximadamente 1 Unids),18118,BATATA DOCE KG,revisado,100
+35-039CD,Beterraba Bandeja 500g (aproximadamente 2 Unids),18119,BETERRABA KG,revisado,100
+35-039C2,Jilo Bandeja 450g,1202,JILO KG,revisado,100
+35-039BE,Abobora Baiana 650g (aproximadamente 1 Unid),3130,ABOBORA BAIANA KG,revisado,100
+35-039B2,Chuchu Bandeja 800g (aproximadamente 2 Unids),18123,CHUCHU KG,revisado,100
+35-0296F,Pepino Japones Bandeja 350g,1229,PEPINO JAPONES KG,revisado,100
+35-0292D,Cebola Roxa 500g,1196,CEBOLA ROXA KG,revisado,100
+35-01E80,Pimentao Vermelho Bandeja 500gr,18134,PIMENTAO VERMELHO KG,revisado,100
+35-01E77,Pimentao Amarelo Bandeja 500g,18133,PIMENTAO AMARELO KG,revisado,100
+35-04099,Bolo Formigueiro 450gr,1297,BOLO FORMIGUEIRO,revisado,100
+35-0408E,Bolo Limao 450gr,1294,BOLO DE LIMAO,revisado,100
+35-05AC3,Pão Francês 300g,1425,PAO FRANCES,revisado,100
+35-05FF8,Cha Camomila Cidreira Maracuja Leao 24g,4883,CHA LEAO CAM/CIDREIRA/MARACUJA 24G,revisado,98
+35-04162,Farinha De Rosca 200gr,13129,FAR DE ROSCA KG,revisado,95
+35-02207,Manga Tomy Bandeja 900g (aproximadamente 2 Unids),1218,MANGA TOMMY KG,revisado,93
+35-031EE,"Mamao Formoso 1,400kg (aproximadamente 1 Unid)",1215,MAMAO FORMOSA KG,revisado,92
+35-01121,Pêra Williams 600g,1231,PERA WILLIANS KG,revisado,92
+35-073E5,Café Expresso Cápsulas 3 Corações Supremo 80g,21249,CAPS 3 CORACOES 80G ESPRESSO SUPREMO,revisado,87
+35-0744B,Cha Hortela Oetker 10g,5945,CHA DR.OETKER 10G HORTELA,revisado,85
+35-05B18,Café Expresso Cápsulas 3 Corações Descafeinado 80g,21252,CAPS 3 CORACOES 80G ESPRESSO DESCAF,revisado,84
+35-0023F,Café Expresso Cápsulas 3 Corações Café Com Leite 90g,6075,CAPS 3 CORACOES 90G CAFE C/ LEITE,revisado,84
+35-045BC,Café Expresso Cápsulas 3 Corações Cappuccino Havana 110g,9298,CAPS 3 CORACOES CAPUCCINO 110G HAVANNA,revisado,78
+35-001F5,Café Expresso Cápsulas 3 Corações Chocolatto 110g,6076,CAPS 3 CORACOES 110G CHOCOLATTO,revisado,75
+35-05B37,Cafe Au Lait Nescafe Capsula 100g,7426,CAPS DOLCE  GUSTO 100G CAFE AU LAIT,revisado,73
+35-00416,Limpador Veja Banheiro X-14 Tira Limo Cloro Ativo Gratis 20% 500ml,,,revisado_sem_par,
+35-05732,Cafe Espresso Nescafe Dolce Gusto 60gr,7392,CAPS DOLCE GUSTO 60G ESPRESSO,revisado,71
+35-021C4,Drumet De Frango Congelado Bandeja 1kg,1883,DRUMET KG,revisado,79
+35-05022,"Carne Bovina Coracao Da Alcatra Maturatta Resfriada 1,5kg",2715,CORACAO ALCATRA INTEIRO  MATURATTA,revisado,64
+35-02C27,"Carne Bovina Picanha Maturatta Resfriada 1,600kg",3204,PICANHA MATURATTA PECA KG,revisado,53
+35-07508,Carne Suina Barriga Congelada 1kg,937,BARRIGA SUINA BDJ,revisado,61
+35-0714E,Carne Suina Copa Lombo Congelado 1kg,14130,COPA LOMBO BDJ KG,revisado,63
+35-02C23,Linguica Toscana Frimesa Bandeja 500g,14073,LINGUICA TOSCANA FRIMESA BDJ KG,revisado,86
+35-044F6,Cafe Lor Guatemala Utz 10 Capsulas 52gr,12191,CAPS LOR 52G ORIGENS GUATEMALA,revisado,64
+35-00001,"Melao Amarelo Rei Bandeja 1,500kg",1224,MELAO REI REDE KG,revisado,66
+35-039C3,Melao Amarelo Bandeja 2 Kg ( Aproximadamente 1und ),54747,MELAO KG,revisado,71
+35-035D8,Goiaba Bandeja 600g (aproximadamente 3 Unids) ,1199,GOIABA KG,revisado,100
+35-0003E,Alho Granel Bandeja 250g,1169,ALHO KG,revisado,58
+35-030CF,Abobrinha Verde Italiana Bandeja 500g (aproximadamente 2 Unids),1163,ABOBRINHA ITALIANA KG,revisado,86
+35-02F2B,Cebola Grauda Bandeja 500g,18122,CEBOLA KG,revisado,56
+35-054DD,Aipim Amarelo 1kg,2500,AIPIM KG,revisado,70
+35-039BF,Pimentao Bandeja 500g,18132,PIMENTAO VERDE KG,revisado,76
+35-039EA,Inhame Dedo Bandeja 500g (aproximadamente 2 Unids),18131,INHAME KG,revisado,67
+35-039D1,Cenoura Selecionada Bandeja 550g,18125,CENOURA KG,revisado,62
+35-028B6,Batata Lavada Grauda 1kg,18120,BATATA INGLESA LAVADA KG,revisado,60
+35-039EF,Gengibre Bandeja 350g,1198,GENGIBRE BDJ,revisado,69
+35-039F1,Rabanete Bandeja 300g,3806,RABANETE COMUM,revisado,71
+35-039B3,Repolho Bandeja 1kg (aproximadamente 1 Unid),18140,REPOLHO VERDE KG,revisado,77
+35-027B1,Queijo Minas Padrao Macuco 550g,54,QUEIJO MINAS PADRAO MACUCO METADE,revisado,83
+35-02C0B,Limpador Uau Banheiro Cloro Ativo 500ml,15640,LIMP UAU 500ML CLORO ATIVO TIRA LIMO C/,revisado,69
+35-082F6,Pasta De Alho Seara Churrasco 200g,,,revisado_sem_par,
