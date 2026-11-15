@@ -152,7 +152,6 @@ tiodongo_id,tiodongo_produto,superpao_id,superpao_produto,origem,nota
 75,Chocolate Arcor Tortuguita Baunilha 15g,12148,"CHOC TORTUGUITA 15,5G BAUNILHA",auto,81
 6257,Chocolate Lacta Tablete Laka 50g,51342,"CHOC LACTA 50,1G LAKA",auto,80
 4472,"Chocolate Ao Leite Lacta 50,1g",51339,"CHOC LACTA 50,1G AO LEITE",auto,98
-299,Chocolate Ao Leite Trento Bites Avelã 40g,15408,CHOCOLATE TRENTO 40G BITES AVELA AO LEITE,auto,100
 50,Chocolate Choco Trio Garoto 90g Serenata,55333,CHOC GAROTO 90G CHOCO TRIO SERENATA,auto,99
 7098,Tapioca Pereira 500g,2755,TAPIOCA PEREIRA 500G,auto,100
 7041,Feijão Pereira 500g Branco,2720,FEIJAO PEREIRA 500G BRANCO,auto,100
@@ -257,7 +256,6 @@ tiodongo_id,tiodongo_produto,superpao_id,superpao_produto,origem,nota
 3359,Queijo Cottage Zero Lactose Macuco 250g,49914,QUEIJO COTTAGE MACUCO 250G ZERO LACTOSE,auto,100
 3111,Petit Suisse Elegê Morango E Banana 320g,29437,IOG ELEGE/BATAVO 320G PETIT SUISSE MORANGO,revisado,76
 2570,Presunto Sadia Bandeja,2233,PRESUNTO SADIA S/CAPA,revisado,74
-2134,Mortadela Ouro Perdigão Kg,911,MORTADELA PERDIGAO       BOLOGNELLA OURO,auto,81
 694,Queijo Cottage Larisol 200gr,6759,QUEIJO COTTAGE LARISOL 200G,auto,100
 290,Iogurte Pense Zero Batavo 510g Ameixa,54249,IOG BATAVO PENSE ZERO 510G AMEIXA,auto,98
 7145,Laranja Lima (unidade Aprox 260g),1204,LARANJA LIMA KG,auto,100
@@ -282,7 +280,6 @@ tiodongo_id,tiodongo_produto,superpao_id,superpao_produto,origem,nota
 4832,Tomilho Fazenda Frutifique,54816,TOMILHO FAZENDA FRUTIFIQUE UND,auto,100
 4768,Milho Verde Bdj,1849,MILHO VERDE BDJ,auto,100
 4462,Alface Crespa,5485,ALFACE CRESPA UN,auto,100
-4440,Abacaxi (unidade Aprox 2.150kg),1161,ABACAXI UN,auto,100
 4394,Repolho Roxo,1238,REPOLHO ROXO KG,auto,100
 4382,Batata Calabresa Saco 1kg,1174,BATATA CALABRESA PCT 1KG,revisado,79
 4271,Pinha (unidade Aprox 200g),2768,PINHA KG,auto,100
@@ -337,11 +334,9 @@ tiodongo_id,tiodongo_produto,superpao_id,superpao_produto,origem,nota
 92,Rucula,1242,RUCULA UN,auto,100
 4653,Desinfetante Qually Clor 300ml,54914,DESINF HORTIFRUTI QUALLY CLOR 300ML,auto,82
 7120,Limpa Vidro Veja Vidrex Pulverizador Cristal 500ml,10680,LIMP VEJA 500ML VIDREX CRISTAL PULV,auto,88
-6373,Sabão Em Pó Primavera Tixan Ypê,17339,"SABAO PO TIXAN YPE 1,6KG PRIMAVERA CX",auto,100
 6219,Álcool Montenegro 500ml,7167,ALCOOL MONTENEGRO GEL 70 500ML,auto,84
 5458,Lava Roupas Coquel 3lt,55532,LAVA ROUPAS LIQ COQUEL 3L NATUREZA,revisado,72
 4885,Detergente Limpol Bom Bril Neutro 500ml,430,DET LIMPOL 500ML NEUTRO,revisado,72
-4799,Multiuso Uau Cloro Ativo 500ml,19569,KIT LIMP UAU MULTIUSO E CLORO ATIVO 500ML ,auto,82
 4604,Limpador Multi Uso Casa&perfume 500ml Misterio Jardim,55529,MULTIUSO CASA E PERFUME 500ML MISTERIO JARDIM,auto,82
 4494,Lava Roupas Mon Bijou Multiação Com Poder 02 3l,24486,LAVA ROUPAS MON BIJOU MULTIACAO 3L,auto,89
 4459,Limpa Pisos Uau Rosas E Seducao 750ml,15648,LIMPADOR PISOS UAU  ROSAS E SEDUCAO 750ML,auto,98
@@ -413,7 +408,6 @@ tiodongo_id,tiodongo_produto,superpao_id,superpao_produto,origem,nota
 1492,Coco Ralado Sococo Sweet Umido Adocado 100g,1108,COCO RALADO SOCOCO 100G SWEET,revisado,74
 1302,Chá Matte Leão Zero Limão,217,"CHA MATTE LEAO LIMAO ZERO 1,5L",auto,100
 1289,Doce De Leite Parmalat 350g,49734,DOCE DE LEITE PARMALAT 350G,auto,100
-1278,Doce De Leite Pastoso Macuco (300g),52682,DOCE DE LEITE PASTOSO 300G MACUCO,auto,100
 1165,Leite Po Batavo Desnatado Zero Lactose Pense Zero 300g,49228,LEITE EM PO PENSE ZERO LACTOSE 300G,auto,81
 1037,Suplemento Whey Protein 450g Parmalat Baunilha,51309,SUPLEMENTO PARMALAT 450G WHEYFIT BAUNILHA,auto,87
 990,Mistura Para Bolo Dr Oetker Para Air Fryer Brownie 230g,52199,MIST BOLO DR OETKER 230G CHOCOLATE AIR FRYER,auto,87
@@ -432,7 +426,6 @@ tiodongo_id,tiodongo_produto,superpao_id,superpao_produto,origem,nota
 4602,Bolo Ana Maria Gotas Chocolate 35g,897,BOLO ANA MARIA 35G GOTAS DE CHOC,auto,99
 3569,Pão Forma Schar Sem Gluten Tradicional 200g,47736,PAO FORMA SCHAR S/ GLUTEN 200G TRADICIONAL,auto,100
 1846,Bolo Brigadeiro Tio Dongo Un/kg,3137,BOLO BRIGADEIRO,revisado,71
-1914,Pudim Leite Condensado Mini Tio Dongo 100g,6125,PUDIM DE LEITE CONDENSADO UN 100G,revisado,71
 1293,Pão De Forma Visconti Integral 400g,10338,PAO VISCONTI 400G INTEGRAL,auto,86
 7146,Creme Dental Tandy Uvaventura 50g,24637,GEL DENTAL TANDY 50G UVA,revisado,78
 7059,Aparelho Para Barbear Gillete Prestobarba 3 Suave,41678,APARELHO GILLETTE SUAVE 3,revisado,71
@@ -548,8 +541,6 @@ tiodongo_id,tiodongo_produto,superpao_id,superpao_produto,origem,nota
 3055,Bombom Chokito Com Flocos E Chocolate 32g,597,CHOC NESTLE BOMBOM 32G CHOKITO,revisado,76
 2381,Goma De Mascar Trident Herbal Fresh 8g,874,CHICLE TRIDENT 8G FRESH HERBAL,revisado,69
 2019,Mentos Yogurte Morango 38g,201,"BALA MENTOS 37,5G STICK MOR IOGURTE",revisado,70
-4542,Waffer Trento Bites Torta De Limao 40g,20306,CHOCOLATE TRENTO BITES TORTA DE LIMAO 40G ,revisado,81
-407,Chocolate E Barra Trento Mini Dark 40g,24965,CHOCOLATE TRENTO BITES DARK 40G,revisado,66
 5505,Linhaça Dourada Luxo (porção Aprox 50g) ,18058,SPPG LINHACA DOURADA LUXO KG,revisado,82
 4581,Milho Torrado Com Mel E Mostarda Kg (porção Aprox 50g) ,18060,SPPG MILHO TORRADO KG MEL E MOSTARDA,revisado,83
 1786,Proteina Soja Escura (porção Aprox 50g) ,22876,SPPG PROTEINA DE SOJA ESCURA KG,revisado,79
@@ -608,7 +599,6 @@ tiodongo_id,tiodongo_produto,superpao_id,superpao_produto,origem,nota
 3907,Sal Marinho Integral (porção Aprox 50g) ,22875,SPPG SAL KG MARINHO INTEGRAL,revisado,78
 3753,Tempero Edu Guedes (porção Aprox 50g) ,18078,SPPG TEMPERO KG EDU GUEDES,revisado,82
 3646,Fumaça Em Pó (porção Aprox 50g) ,27851,SPPG FUMACA EM PO KG,revisado,72
-2602,Paprica Defumada Supra 20g,18065,SPPG PAPRICA KG DEFUMADA,revisado,71
 2457,Paprica Doce (porção Aprox 50g) ,19026,SPPG PAPRICA KG DOCE,revisado,69
 2386,Paprica Picante (porção Aprox 50g) ,18988,SPPG PAPRICA KG PICANTE,revisado,72
 916,Molho Alho Marca Sabor 150ml,46724,MSABOR 150ML MOLHO DE ALHO - INATIVAR,revisado,70

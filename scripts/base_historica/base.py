@@ -88,10 +88,12 @@ def le_tiodongo(caminho):
         promo = float(of["preco_oferta"]) if of.get("nome") == "Encarte" and of.get("preco_oferta") else 0
         # item por kg: `preco` = preço da porção estimada; preço por kg em `preco_original`
         kg = (p.get("unidade") or "").upper() == "KG" and p.get("preco_original")
+        if kg and promo and p.get("preco"):  # oferta vem pela porção: converte para R$/kg
+            promo = round(promo * float(p["preco_original"]) / float(p["preco"]), 2)
         yield dict(codigo=p["id"], nome=p["nome"], departamento=p.get("departamento"), unidade=p.get("unidade"),
                    barras=p.get("codigo_barras"), url=p.get("url"),
                    imagem=(IMG_VIP + p["imagem_arquivo"]) if p.get("imagem_arquivo") else None,
-                   preco=p["preco_original"] if kg else p["preco"], preco_promocional=promo, preco_original=p["preco"] if promo else None,
+                   preco=p["preco_original"] if kg else p["preco"], preco_promocional=promo, preco_original=(p["preco_original"] if kg else p["preco"]) if promo else None,
                    em_oferta=bool(promo), disponivel=1 if p.get("disponivel") else 0)
 
 def carregar(data, so=None):

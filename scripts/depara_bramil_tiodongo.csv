@@ -24,7 +24,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-01823,Pao Alho Zinho Tradicional 300g,747,Pão Alho Zinho Tradicional Queijo 300g,ean,7898337980248,88
 35-04A40,Linguica Pernil Seara Gourmet Cuiabana 500gr,395,Linguiça Seara 500g Cuiabana Gourmet,ean,7894904098293,87
 35-01663,Coxinha Asa Molho Mostarda Nabrasa 800g,7657,Coxinha Asa Frango Cg Nabrasa Molho Mostarda Perdigao 800g,ean,7891515486372,79
-35-016F6,Linguica Pernil Seara Goumert Com Alho 500g,7100,Linguica Pernil Seara Goumert Com Alho 500g,ean,7894904201808,100
 35-059AA,Carne Bovina Moida Friboi 500gr,6338,Carne Moida Friboi 500gr,ean,7899567209536,85
 35-04DB1,Jerked Beef Friboi Ponta Agulha 400g,5937,Jerked Beef Ponta Agulha Friboi,ean,7899567218101,100
 35-073CC,Peito Frango Rica Cozido Desfiado 400g,4568,File Peito Frango Rica Desfiado 400g,ean,7897331003458,78
@@ -60,7 +59,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-07473,Assadeira Tramontina Ref: 20099681,3823,Assadeira Tramontina De Aluminio Grafite,ean,7891112326170,54
 35-075EF,Pano Limppano Furatto Rosa 5un,3801,Pano Multiuso Furatto Limppano Rosa Com 5 Unidades,ean,7896021621446,90
 35-0762B,Taca Nadir Figueredo Vinho Windsor 250ml,3720,Taça Vinho Tinto Windsor Nadir 250ml,ean,7891155008200,80
-35-08453,Colher Cristal Strawplast Refeicao C/ 50 Csc-603,3616,Faca Descartável Strawplast Cristal 50 Unidades,ean,7898202617033,42
 35-04AED,Garrafa Termica Mor Use Preta 1l,3524,Garrafa Termica Mor Usel Preta,ean,7896020696247,97
 35-05D30,Frigideira Tramontina Turim 24cm 27815839 Un,3275,Frigideira Tramontina Alumínio Turim Vermelha 24cm,ean,7891112326415,81
 35-03A89,Sandalia Havaianas Top Branca Nº39/40,3169,Sandália Havaianas Top Branca Nº 39/40,ean,7891109714492,85
@@ -281,7 +279,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-023D5,Aguardente Old Cesar Composta Com Carvalho 965ml,3843,Aguardente Old Cesar 88 Tradicional 965ml,ean,7896072901405,71
 35-064E7,Agua De Coco Puri 300ml,3790,Água De Coco Pure Natural 300ml,ean,7898960761016,51
 35-02CC3,Vinho Tinto Pergola Seco 1l,3771,Vinho Pérgola Tinto Seco 1l,ean,7896855901400,100
-35-07864,Bebida Energetica Baly Tadala 2l,3744,Bebida Energetica Cafeina Taurina Baly Pet 2lt Tadala,ean,7898080666161,75
 35-0639E,Suco Nectar Tial Kids Pera E Laranja 200ml,3714,Néctar Tial Kids Misto Laranja/pera 200ml,ean,7896005311783,83
 35-02EFA,Isotonico Powerade Uva 500ml,3702,Isotônico Powerade Uva 500ml,ean,7894900501001,100
 35-05914,Refresco Tang Laranja Docinha 18g,3683,Po Para Refresco Tang Laranja Docinha 25g,ean,7622210571571,92
@@ -471,7 +468,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-03DBA,Refrigerante Coca Cola Menos Acucar Pet 3l,48,Refrigerante Menos Açúcar Coca-cola Garrafa 3l Embalagem Econômica,ean,7894900027037,82
 35-04361,Cerveja Heineken Latao 473ml,16,Cerveja Premium Lager Puro Malte Heineken Lata 473ml,ean,7896045506248,42
 35-0713B,Bebida Energetica Monster Dragon Ul Violeta 473ml,6758,Energetico Monster Energy Ultra Violet 473ml,ean,70847033929,51
-35-0735F,Bebida Energetica Baly Tropical Muscle Zero 250ml,6725,Energético Baly Muscle Protein Sabor Tropical 250ml,ean,7898080665782,70
 35-01B62,Refrigerante Coca Cola Café 220ml,6582,Refrigerante Coca Cola Plus Café Expresso 220ml,ean,7894900025019,78
 35-05602,Whisky Old Eight 900ml,6501,Whisky Old Eight 900ml,ean,7896010006346,100
 35-06E86,Bebida Energetica Red Bull Zero 250ml,6451,Energético Red Bull S/ Açúcar 250ml,ean,9002490283063,71
@@ -1099,7 +1095,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-00554,Lasanha Seara Bolonhesa 350gr,6440,Lasanha Seara Bolonhesa 350gr,ean,7894904578658,100
 35-06BFF,Empadao Veronica Palmito 500gr,5685,Empadao Pronto Cg Veronica Pct 500g Frango Palmito,ean,7896379100457,70
 35-0572D,"Acai Sloop Leite Condensado Mesclado 1,8l",5081,Açaí Sloop Pt 1,ean,7898279710903,52
-35-06BA8,Bolinho De Carne Seara 270gr,4530,Bolinho De Carne C/ Barbecue Seara Netflix 270 G,ean,7894904603756,69
 35-06EB3,Lasanha Seara Airfryer Frango 300g,4260,Lasanha Seara Air Fryer Sabor Frango Congelada 300g,ean,7894904605019,68
 35-06112,Mini Churros Ideal Pan 800gr,3805,Mini Churros Ideal Doce De Leite 800g,ean,618341689299,71
 35-03F68,Lasanha Quatro Queijos Sadia Familiar Congelada 1kg,3746,Lasanha Quatro Queijos Sadia Familiar Congelada 1kg,ean,7893000073166,100
@@ -1293,7 +1288,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-001C1,Margarina Qualy Light Sadia C/ Sal 250g,610,Margarina Qualy Light Zero Lactose Com Sal 250g,ean,7893000514973,77
 35-02979,Leite Fermentado Elege Bob Esponja 80g,562,Leite Fermentado Batavo Bob Esponja 80g,ean,7891097087448,78
 35-085EB,Requeijao Batavo Light Zero Lactose 400g,503,Requeijão Light Batavo 400g,ean,7891097104794,79
-35-06B79,Queijo Tipo Gouda Cruzilia 140g,340,Queijo Gouda Cruzília Fracionado,ean,7898964736232,74
 35-003C6,Iogurte Grego Itambe Morango Bicam 90g,305,Iogurte Itambé Grego Morango 90g,ean,7896051168607,81
 35-0611A,Mandiokita Pif Paf 300 Gr,2678,Mandiokita Congelada Pif Paf Tradicional 300g,ean,7896581304575,87
 35-05F6E,Pimenta Biquinho Vermelho Supra 180g,2020,Pimenta Biquinho Vermelho Supra 180g,ean,7898496687422,100
@@ -1308,7 +1302,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-01BCD,Limpador Uau Pisos Laminado 750ml,6932,Limpador Uau! Ingleza P/ Pisos Laminados 750ml,ean,7891242000117,87
 35-08106,Desinfetante Minuano Lavanda 500ml,6888,Desinfetante Minuano Lavanda 500ml,ean,7897664140196,100
 35-0701A,Limpador Sanitário Pato Tablete Com 6 Unidades,6854,Tablete Sanitario Pato 36g,ean,7894650015803,88
-35-08610,Inseticida Baygon Defense Squeze Baratas E Formigas 475ml,6846,Inseticida Baygon Ação Total Líquido 475ml,ean,7894650005651,33
 35-0185A,Lava Louças Limpol Cristal 500ml,6826,Detergente Líquido Limpol Cristal Bom Bril 500ml,ean,7891022100372,43
 35-01C8E,Esponja Tinindo Leve4 Pague3 C/4un,6805,Esponja Tinindo Limpeza Pesada Leve 4 Pague 3,ean,7891040198726,78
 35-01F4C,Desodorizante Sanitária Q-odor Floral 40g,6763,Pedra Sanitaria Q-odor Floral 40g,ean,7897434400833,73
@@ -1600,9 +1593,7 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-055C2,Amaciante Downy Brisa Intenso 1l,6072,Amaciante Concentrado Downy Brisa Intenso 1l,ean,7500435201285,90
 35-06F91,Inseticida Baygon Multiplus 285 Ml,6005,Baygon Multi Insetos Aerosol 300ml,ean,7894650079171,60
 35-0626D,Amaciante Urca Brisa Azul 130 5l,5916,Amaciante Urca Brisa Da Primavera 5l,ean,7896056402751,72
-35-072BC,Purificador Glade Aerosol Edição Limitada Brinde A Noronha 360ml,5783,Desodorizador Glade Aero Brinde A Noronha 360ml,ean,7894650015537,67
 35-04E77,"Lava Roupas Tixan Ype Maciez Sache 1,6kg",5632,"Sabão Em Pó Tixan Ypê Maciez Sache 1,6kg",ean,7896098909843,71
-35-072BD,Purificador Glade Aerosol Edição Limitada Voo Em Bonito 360ml,5448,Aromatizante Aerosol Glade Voo Em Bonito 360ml,ean,7894650015544,65
 35-054AD,"Lava Roupas Surf 5 Em 1 Coco 1,7kg",5442,Lava Roupas 5 Em 1 Nova Formula Surf 1600g Delicadeza De Coco,ean,7891150106840,63
 35-02E00,Limpador Casa & Perfume Amable 500ml,5426,Limpador Casa & Perfume Amable 500ml,ean,7896040704656,100
 35-02CFC,Desinfetante Limpadua Ultralar Pinho 5l,5305,Desinfetante Limpadua Ultralar Pinho 5l,ean,7898344030615,100
@@ -1921,7 +1912,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-07047,Acucar Cristal Coagro 2kg,5665,Acucar Cristal Coagro 2kg,ean,7898903106027,100
 35-01DCE,Creme Nutella Ferrero 650g,4964,Creme Chocolate Nutella 650g,ean,7898024396529,69
 35-05320,Chocolate Granulado Dori 120g,4590,Chocolate Dori Granulado 120g,ean,7896058599473,100
-35-08032,Chocolate M M 35gr Brownie,4137,Confeitos De Chocolate Ao Leite M&m 35g Browne,ean,7896423438901,58
 35-05A0D,Cafe Nescafe Descafeinado Sache 40g,4024,Café Nescafé Descafeinado Sachê 40g,ean,7891000184004,100
 35-02E23,Coco Ralado Sococo 100g,3752,Coco Ralado Sococo 100g,ean,7896004400013,100
 35-05389,Acucar Cristal Coagro 5kg,3550,Acucar Cristal Coagro Pct 5kg,ean,7898903106010,100
@@ -2135,7 +2125,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-0322F,Shampoo Elseve Reparacao Total 5 Especial Quimica 200ml,4235,Shampoo Elseve Reparação Total 5 200ml,ean,7899026459960,74
 35-06A3D,Sabao Barra Azul Amaciante Flow Pack 180gr,4225,Sabão Em Barra Glicerinado Barra Azul Com Amaciante 180g,ean,7897510300644,68
 35-02A36,Desodorante Rexona Roll-on Cotton Dry 50g,4220,Desodorante Roll-on Rexona Cotton Women 50ml,ean,78924352,81
-35-06C44,Desodorante Rexona Woman Tropical Citrus Stick 45gr,4214,Desodorante Rexona Feminino 72h Tropical Citrus Dry 45g,ean,75082840,57
 35-00E1B,Desodorante Dove Aerosol Original 150ml,4171,Desodorante Aerosol Dove Original 150ml,ean,7506306241183,100
 35-05C6D,Creme Dental Colgate Sensitive Extreme Temperatures 90g,4132,Cr.dental Colg.sens.pro.al.imed.xtreme 90g,ean,7509546687858,52
 35-00044,Escova Dental Colgate Slim Soft Black Leve 2 Pague 1,4128,Escova Dental Colgate Slim Soft Black Leve 2 Pague 1,ean,7509546061689,100
@@ -2190,7 +2179,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-06F27,Shampoo Dove Nutrição + Tri - Óleos 370 Ml,2967,Shampoo Dove Nutrição + Tri-óleos 370ml,ean,7891150102613,100
 35-05E68,Oleo Composto Felicita 500ml,2931,Oleo Composto Nac Blend Felicita Vidro 500ml,ean,7898965505400,62
 35-05C3D,Creme Dental Colgate Sensitive Extreme Temperatures 140g,2914,Cr.dental Colg.sens.pro Al.imed.ext.140g,ean,7509546688022,51
-35-059A0,Escova Dental Colgate Macia Carvao Zigzag Com 2un,2867,Escova Dental Colgate Zig Zag Carvão C/2 Un,ean,7509546673042,77
 35-01ADF,Absorvente Always Basico Com Abas Leve + Pague - Com 16un,2845,Absorventess Always Super Proteção C/abas 16un,ean,7500435127233,54
 35-00CAF,Desodorante Rexona Aerosol Sem Perfume 150ml,2843,Desodorante Aerosol Rexona Women Sem Perfume 150ml,ean,7791293032368,85
 35-057DA,Anti Bucal Colgate Plax Leve+ Pague- Odor Control 750ml,2826,Enxaguante Bucal Antisséptico Odor Control Colgate Plax Leve 750ml Pague 500ml,ean,7509546685939,92
@@ -2376,7 +2364,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-021DA,Aparelho De Barbear Probak Ii Com 2 Unidades,3548,Aparelho De Barbear Probak Ii Duas Lâminas 2un,ean,7702018118823,76
 35-00004,Cotonetes Johnsons & Johnsons 75 Unids.,3090,Cotonetes Johnson & Johnson 75un,ean,7891010560737,100
 35-06527,Desodorante Dove Stick Feminino Invisible Dry 45gr,3046,Desodorante Dove Stick Invisible Dry 45g,ean,75062842,89
-35-06C43,Desodorante Rexona Woman Powder Stick 45gr,2993,Desodorante Rexona Feminino 72h Powder Dry 45g,ean,75082833,50
 35-03611,Desodorante Dove Aero Men Invisible Dry 150ml,2949,Desodorante Aerosol Dove Invisible 150ml,ean,7791293022819,77
 35-064D2,Shampo + Condicionador Seda Cachos Definidos 490ml,2888,Kit Shampoo 300ml + Condicionador 190ml Seda Cachos Definidos,ean,7891150097353,89
 35-0203B,Shampoo Palmolive Natureza Detox 350ml,2742,Shampoo Palmolive Detox Energizante 350ml,ean,7891024042908,67
@@ -2712,7 +2699,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-06C8B,Coxinha Asa Frango Lar Temperado 700g,3397,Coxinhas Das Asas Lar Temperada Congeladas 700g,nome_auto,,80
 35-03242,Linguica Mista Sadia Fininha 215g,559,LInguiça Mista Fininha Defumada Sadia 215g,nome_auto,,88
 35-07738,Coracao Frango Lar Temperado 700g,5214,Coração Frango Lar Congelado 700g,nome_auto,,84
-35-02659,Copo Nadir Figueiredo Frevo Un,7027,Copo Nadir Figueiredo,nome_auto,,80
 35-03FEE,Pilha Duracell Duralock Aa-4,5623,Pilha Duracell Duralock Aa-4,nome_auto,,100
 35-0243E,Jogo De Copos Nadir Maracatu Com 6 Unids.,5095,Jogo De Copos Nadir Maracatu Com 6 Unids.,nome_auto,,100
 35-00A6A,Sandalia Havaianas Top Azul Naval 41/42 Unidade,3793,Sand Hav Top Azul Naval 35/36,nome_auto,,96
@@ -2791,8 +2777,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-004A7,Refrigerante Guaraná Antárctica 2l,44,Refrigerante Guaraná Antarctica 2l,nome_auto,,100
 35-05569,Vinho Portugues Porta 6 Tinto 750ml,6576,Vinho Português Porta 6 Tinto 750ml,nome_auto,,100
 35-022BD,Whisky White Horse 1l,1410,Whisky Escocês White Horse 8 Anos 1l,nome,,71
-35-06872,Cerveja Brahma Chopp Pack Com 12 473ml,514,Multi Pack Cerveja Pilsen Brahma Chopp Latao 473ml,nome,,72
-35-06DA3,Bombom Lacta Oreo 540gr,7029,Bombom Lacta Oreo 540g,nome_auto,,100
 35-0814D,Bala Marsh Fini 200gr Recheado Torçao Azul Recheado,6078,Marshmallow Fini Torcao Rechado 200g,nome_auto,,82
 35-05BCE,Chocolate Hersheys Ao Leite 82g,5788,Chocolate Hershey`s Ao Leite 82g,nome_auto,,100
 35-02FA9,Biscoito Champagne Bauducco Com Acucar Cristal 150g,5780,Biscoito Champagne Bauducco Com Acucar Cristal 150g,nome_auto,,100
@@ -2844,7 +2828,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-01598,Salame Hamburgues Fatiado Seara 100g,2873,Salame Hamburgues Fatiado Seara 100g,nome_auto,,100
 35-0381B,Bebida Láctea Pirakids Chocolate 200ml,2443,Bebida Lactea Pirakids Chocolate Uht 200ml,nome_auto,,86
 35-0248C,Gordura Vegetal Primor 500g,1593,Gordura Vegetal Primor 500g,nome_auto,,100
-35-01178,Biscoito Cookies Nestle Gotas De Chocolate 60g,244,Cookies Nestlé Gotas De Chocolate 60g,nome_auto,,91
 35-059FB,Leite Fermentado Yakult 80gr,177,Leite Fermentado Yakult Pêssego 80g,nome_auto,,87
 35-02B00,Leite Piracanjuba Integral 1l,5834,Leite Piracanjuba Integral,nome_auto,,100
 35-076C0,Presunto Sadia 180g,2570,Presunto Sadia Bandeja,nome_auto,,100
@@ -2882,11 +2865,8 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-0563E,Cloro Vim Gel Original Gratis 30% 700ml,7181,Desinfetante Vim Cloro Gel Original 700ml,nome_auto,,81
 35-000C8,Veja Limpa Vidro Vidrex Cristal 500ml,7120,Limpa Vidro Veja Vidrex Pulverizador Cristal 500ml,nome_auto,,89
 35-00430,Pa Para Lixo Rossi Com Cabo 264,5941,Pa Lixo Com Cabo Rossi,nome_auto,,100
-35-03A28,Escova Roupa Rossi 1050 105,5920,Escova Rossi 1040,nome_auto,,84
 35-003DD,Alcool Pring Cereais 1l,5397,Álcool Pring 1l,nome_auto,,82
 35-03A27,Desentupidor Para Pia Rossi 182,4890,Desentupidor Pia Pvc Rossi,nome_auto,,86
-35-05D2D,Sabao Ype Neutro 10% Glicerinado 180g,4086,Sabao Ype Glicerinado Neutro,nome_auto,,100
-35-054C7,Sabao Ype Fresh 180gr,3974,Sabao Ype Freshx,nome_auto,,96
 35-023CD,Sabao De Coco Ruth Pasta Care 500g,3584,Sabao De Coco Ruth Pasta Care 500g,nome_auto,,100
 35-027FB,Desinfetante Urca Eucalipto Fresh 2l,1899,Desinfetante Urca Eucalipto Fresh 2l,nome_auto,,100
 35-03A5D,Purificador Bom Ar 2 Click Spray Lavanda Refil 50% No 2° De 12ml,1767,Bom Ar Click Spray 12ml Lavanda,nome_auto,,84
@@ -2894,11 +2874,9 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-04B27,Sabao Barra Azul Com Amaciante Flow 200g,431,Sabao Barra 200g Azul Com Amaciante,nome_auto,,86
 35-05A43,"Lava Roupas Brilhante Limpeza Total 1,6kg",411,Lava Roupas Limpeza Total Brilhante Sache 1600g,nome_auto,,92
 35-02DFF,Limpador Casa & Perfume Amable 1l,6769,Limpador Perfumado Casa E Perfume Amable Leve 1l Pague 900ml,nome,,75
-35-08438,Lava Roupas Omo Puro Cuidado 800gr,6665,Lava Roupas Omo Ativo Concentrado Puro Cuidado 800g,nome_auto,,82
 35-001DE,Agua Sanitaria Super Globo 1l,4087,Agua Sanitaria Super Globo 1l,nome_auto,,100
 35-02827,Cafe Pimpinela Golden 250gr,6210,Cafe Pimpinela Golden 250gr,nome_auto,,100
 35-028E8,Café Pilão Tradicional 500g,5814,Café Pilão Tradicional 500g,nome_auto,,100
-35-0835A,Cafe Soluvel Nescafe Sch 10% Original 100g,5789,Café Solúvel Nescafe Original 100g,nome_auto,,86
 35-06779,Mist Bolo Fleischmann Extra Choco Up 390gr,5413,Mistura Para Bolo Extracremoso Chocomousse Fleischmann Sachê 390g,nome_auto,,80
 35-03A0B,Cha Mate Leao Natural 300ml,4863,Chá Leão Matte 300ml Pet Natural,nome_auto,,96
 35-07354,Extrato Propolis Teresopolis 20ml,4457,Extrato De Própolis 20ml,nome,,78
@@ -2907,7 +2885,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-05B83,Cha Leao Capim Cidreira 10g,4191,Chá Leão Fuze Capim Cidreira 10g,nome_auto,,87
 35-0283B,Fermento Po Royal 100g,3834,Fermento Em Pó Royal Pote 100g,nome_auto,,100
 35-0736F,Leite Condensado Moca Seidesnatado 340g,2997,Leite Condensado Semidesnatado Nestlé Moça Caixa 340g,nome_auto,,90
-35-0835B,Cafe Soluvel Nescafe Sch 10% Matinal 100g,2835,Café Solúvel Matinal Nescafé Vd 100g,nome_auto,,87
 35-02837,Fermento Po Royal 250gr,2720,Fermento Em Pó Royal Pote 250g,nome_auto,,100
 35-02165,Adocante Assugrin 100ml,2280,Adoçante Assugrin 100ml,nome_auto,,100
 35-03367,Cafe Melitta Extra Forte 500g,2222,Café Melitta Extra Forte Pouch 500g,nome_auto,,88
@@ -2930,11 +2907,9 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-000CD,Desodorante Avanco Original Spray 85ml,1331,Desodorante Spray Avanço Original 85ml,nome_auto,,100
 35-0598E,Creme Facial Nivea Nutritivo 100g,665,Creme Facial Nivea Nutritivo 100gr,nome_auto,,100
 35-031B3,Shampo Clear Anticaspa Ice Cool Menthol 400ml,279,Shampoo Anticaspa Clear Men Ice Cool Mentho 400ml,nome_auto,,90
-35-04B91,Mollho De Pimenta Goumert Marca Do Sabor 150ml,6972,Molho Pimenta Marca Sabor 150ml,nome_auto,,82
 35-0287B,Sopao De Galinha Caipira Com Legumes Maggi 200gr,6252,Maggi Sopão Galinha Caipira Sachê 200g,nome_auto,,83
 35-03736,Talharim Nissin Miojo Bolonhesa 99g,5274,Talharim Nissin Miojo Bolonhesa 99g,nome_auto,,100
 35-02CDA,Azeite De Oliva Gallo Extra Virgem 250ml,4619,Azeite De Oliva Gallo Extra Virgem 250ml,nome_auto,,100
-35-0704C,Bicarbonato Sodio 100gr,4244,Bicarbonato De Sódio Supra Alimentos 100g,nome,,72
 35-03747,Talharim Nissin Miojo Sabor Carne Com Tomate 90g,4133,Talharim Nissin Miojo Sabor Carne Com Tomate 90g,nome_auto,,100
 35-00C29,Maionese Hellmann`s Tradicional 335g,4012,Maionese Hellmann`s 335g,nome_auto,,100
 35-03140,Palmito De Pupunha Golden Palm Picado 300g,3668,Palmito Pupunha Picado Nobre Palm 300g,nome_auto,,80
@@ -2952,7 +2927,6 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-05D50,File Peito Frango Lar 700g,712,File Peito Lar Congelado,nome,,89
 35-01E0D,Gin Tanqueray 750mi,3192,Gin Tanqueray 750ml,nome,,75
 35-059BA,Bebida Kapo Del Valle Frutas Citricas 200ml,2068,Refresco Del Valle Frut 200 Ml Pet Frutas Citricas,nome,,68
-35-06A51,Cerveja Pilsen Antárctica 473ml Pack Com 12 Latas,2088,Cerveja Antarctica 473ml Pack C12,nome,,68
 35-02587,Biscoito Rosquinha Panco Coco 500g,6833,Rosquinha Panco 500g Tica Coco,nome,,70
 35-0640D,Batata Ondulada Ruffles Salsa E Cebola 33g,6269,Batata Ruffles (ps) 2 Elma Chips 32g Cebola E Salsa,nome,,64
 35-085D9,Biscoito Cream Cracker Renata Manteiga 360gr,5408,Biscoito Renata Cream Cracker Gerg.360g,nome,,73
@@ -2962,22 +2936,18 @@ bramil_sku,bramil_produto,tiodongo_id,tiodongo_produto,origem,ean,nota
 35-033E3,Bebida Láctea Elegê Morango & Coco 510g,3221,Bebida Láctea Fermentada Elege Morango E Coco,nome,,85
 35-06A1F,"Goma Mentos Pure Fresh Mint 8,5g",480,Goma De Mascar Pure Fresh Ment Mentos 8.5g,nome,,70
 35-03158,Bala Halls Cereja 28g,412,Drops Halls Cereja 28g,nome,,70
-35-00E11,Cerveja Eisenbahn Pilsen Sleek 350ml,2540,Cerveja Eisenbahn Pilsen Puro Malte 350ml,nome,,66
 35-05F95,Petit Suisse Vigor Morango 320g,6327,Petit Suisse Trevinho Morango 320g,nome,,72
 35-01A15,Iogurte Batavo Pedaco Morango 100g,4695,Iogurte Grego Batavo Morango 100g,nome,,70
 35-069DC,Iogurte Polpa Itambe Fit Morango 510gr,4648,Iogurte Desnatado Zero Fit Itambe 510g Morango,nome,,71
 35-05A92,Bebida Lactea Brasil Coco Morango 540g,3842,Bebida Láctea Fruttbom Morango Com Coco 540g,nome,,71
 35-02A48,Refrigerante Sukita Uva Garrafa 2l,6224,Sukita Uva Com Suco Natural 2l,nome,,65
 35-02894,Refrigerante Coca Cola Sem Acucar 600ml,4091,Coca-cola Zero Pet 600ml,nome,,63
-35-05E52,Mortadela Perdigao Ouro Com Azeitona 200g,2134,Mortadela Ouro Perdigão Kg,nome,,87
 35-031DC,Abacaxi Unidade,5987,Abacaxi,nome,,100
 35-0846D,Uva Italia 500gr,5086,Uva Italia Bdj Un,nome,,79
 35-039CB,Vagem Manteiga Bandeja 200g,5064,Vagem Manteiga Molho Un,nome,,85
 35-030E5,Milho Verde Bandeja 600g,4768,Milho Verde Bdj,nome,,74
 35-08471,Uva Rosada 500gr,1845,Uva Rosada Bdj Un,nome,,80
 35-01F50,Desodorizante Sanitária Q-odor Pinho 40g,2139,Pedra Sanitaria Q-odor Pinho 40g,nome,,74
-35-055E0,Sabao Ype Glicerin Aloe Vera 180gr,1559,Sabão Em Barra Ype Aloe Vera,nome,,77
-35-054D4,Sabao Ype Multiativo 160gr,1198,Sabão Em Barra Ype Multiativo,nome,,88
 35-025E4,Lava Louças Ypê Clear Care 500ml,4321,Detergente Ypê Clear Care 500ml,nome,,67
 35-071F1,Cafe Soluvel Nescafe Sch Original 40gr,2989,Café Soluvel Nescafe Original Extra Forte 40g,nome,,70
 35-002CC,Cha Gelado Leao Fuze Icetea Pessego Pet 300ml,203,Cha Leao Ice Tea Pessego 300ml,nome,,66

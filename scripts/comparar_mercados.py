@@ -96,16 +96,20 @@ def tiodongo():
         kg = (x.get("unidade") or "").upper() == "KG" and x.get("preco_original")
         # item por kg: `preco` é o preço da porção estimada; o preço por kg está em `preco_original`
         base_preco = x["preco_original"] if kg else x["preco"]
-        if (x.get("unidade") or "").upper() == "KG" and not kg:  # sem preço por kg: usa o peso da porção do nome
-            m = re.search(r"aprox\.?\s*([\d.,]+)\s*(kg|g)\b", C.norm(x["nome"]))
+        porcao = False
+        if not kg:  # sem preço por kg: se o nome traz "porção/unidade aprox N g", estima o R$/kg pela porção
+            m = re.search(r"(porcao|porcaop|unidade)\s*aprox\.?\s*([\d.,]+)\s*(kg|g)\b", C.norm(x["nome"]))
             if m:
-                g = float(m.group(1).replace(",", ".")) * (1000 if m.group(2) == "kg" else 1)
-                if g > 0: base_preco = x["preco"] / (g / 1000)
+                g = float(m.group(2).replace(".", "").replace(",", ".") if m.group(3) == "g" else m.group(2).replace(",", ".")) * (1000 if m.group(3) == "kg" else 1)
+                if g > 0: base_preco = x["preco"] / (g / 1000); porcao = True
+        if kg and promo and x.get("preco"):  # oferta vem pela porção: leva para R$/kg na mesma proporção
+            promo = promo * float(x["preco_original"]) / float(x["preco"])
         d = dict(nome=x["nome"], preco_promocional=promo, preco_efetivo=promo or base_preco, unidade=x.get("unidade"),
                  departamento=x.get("departamento"), url=x.get("url"),
                  imagem=("https://produto-assets-vipcommerce-com-br.br-se1.magaluobjects.com/250x250/" + x["imagem_arquivo"]) if x.get("imagem_arquivo") else None)
         d.update(C.prep_superpao(d))
-        if (x.get("unidade") or "").upper() == "KG": d["tam"] = None  # preço já é por kg; o peso no nome é só a porção
+        if (x.get("unidade") or "").upper() == "KG" or porcao:
+            d["tam"] = None; d["unidade"] = "KG"  # preço por kg; o peso no nome é só a porção
         out[str(x["id"])] = d
     return out
 

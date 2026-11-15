@@ -53,7 +53,6 @@ tiodongo_id,tiodongo_produto,remercado_id,remercado_produto,origem,nota
 4805,Bebida Láctea Macuco Chocolate 1l,41711,BEB.LACTEA MACUCO CHOCOLATE TP 1L,auto,97
 4745,Cerveja Brahma Chopp 473ml,64173,CERVEJA BRAHMA CHOPP 473ML,auto,100
 4703,Água Mineral Com Gás Passa Quatro 2l,39947,AGUA MINERAL PASSA QUATRO C/GAS 2L,auto,100
-4680,"Cerveja Itaipava 0,0% Álcool 350ml",43955,CERVEJA ITAIPAVA PILSEN 0% ALCOOL 350ML LATA,auto,85
 4662,Cerveja Puro Malte Origem Petra Latao 473ml,50532,CERVEJA PETRA PURO MALTE 473ML,revisado,78
 4597,Sidra Branca Nacional Cereser Frutas Vermelhas 660Ml,48965,SIDRA CERESER FRUTAS VERMELHAS 660ML,auto,80
 4545,Gatorade Tangerina 500ml,39963,GATORADE TANGERINA 500ML,auto,100
@@ -273,7 +272,6 @@ tiodongo_id,tiodongo_produto,remercado_id,remercado_produto,origem,nota
 973,Sobremesa Batavo Creamy Chantilly/chocolate 90g,54678,SOBREMESA BATAVO CREAMY CHOCOLATE 90G,auto,87
 528,Bebida Lactea Larisol 900ml Salada De Frutas,54978,BEB.LACTEA LARISOL SALADA DE FRUTAS 900G,auto,98
 483,Queijo Cremoso Cheese Philadelphia Original 150g,43428,CREAM CHEESE PHILADELPHIA ORIGNAL 150G,revisado,72
-244,Cookies Nestlé Gotas De Chocolate 60g,53677,BISC.NESTLE COOKIE GOTAS CHOC 60G,auto,90
 3359,Queijo Cottage Zero Lactose Macuco 250g,49253,QUEIJO TP COTTAGE MACUCO 250G POTE,revisado,78
 2841,Creme De Queijo Ricota Light Président Pote 200g,53659,CREME DE RICOTA PRESIDENT LIGHT 200G POTE,auto,91
 2570,Presunto Sadia Bandeja,42874,PRESUNTO SADIA KG,auto,100
@@ -291,7 +289,6 @@ tiodongo_id,tiodongo_produto,remercado_id,remercado_produto,origem,nota
 5102,Manga Tommy Kg ( Unidade Aprox Xxx G) ,47856,MANGA TOMMY KG,revisado,79
 5086,Uva Italia Bdj Un,48357,UVA ITALIA BANDEJA,auto,80
 4929,Ameixa Importada (unidade Aprox 150g),39350,AMEIXA IMPORTADA KG,auto,100
-4440,Abacaxi (unidade Aprox 2.150kg),39257,ABACAXI UND,auto,100
 4096,Melancia Baby (unidade Aprox 2.700g),44614,MELANCIA BABY UND,auto,100
 3788,Pepino Japonés (unidade Aprox 900g),58338,PEPINO JAPONES KG,auto,100
 3662,Cebola Roxa Kg ( Unidade Aprox 150g) ,58268,CEBOLA ROXA  KG,auto,100
@@ -331,7 +328,6 @@ tiodongo_id,tiodongo_produto,remercado_id,remercado_produto,origem,nota
 6219,Álcool Montenegro 500ml,40354,ALCOOL MONTENEGRO 500ML,auto,100
 6186,Limpeza Perfumada Uau! Ingleza Lavanda E Conforto 500ml,46855,LIMP UAU PERF LAVANDA 500ML,revisado,70
 5941,Pa Lixo Com Cabo Rossi,59917,PA ROSSI LIXO C/CABO N§264,auto,85
-5920,Escova Rossi 1040,59328,ESCOVA ROSSI 3030,auto,100
 5734,Óleo De Peroba 100ml,40228,OLEO KING PEROBA 100ML,revisado,78
 5655,Desinfetante Liquido Pinho Sol Lavanda 1l,50428,DESINF.PINHO SOL LAVANDA 1L,auto,86
 5571,Cloro Montelagos 1l,64249,CLORO MONTE LAGOS 1L,revisado,74
@@ -349,7 +345,6 @@ tiodongo_id,tiodongo_produto,remercado_id,remercado_produto,origem,nota
 4324,Amaciante Roupas Ypê Ternura 500ml,41377,AMAC.YPE TERNURA ROSA 500ML,revisado,76
 4240,Desinfetante Pinho Bril Brisa Do Mar 500ml,40316,DESINF.PINHO BRIL BRISA DO MAR 500ML,auto,98
 4122,Amaciante Uau 500ml Perf. Flores/sonho,49520,AMAC.UAU PERFUMES FLORES E SONHOS 500ML,auto,96
-4086,Sabao Ype Glicerinado Neutro,44720,SABAO YPE GLICERINADO NEUTRO 160G,auto,100
 3584,Sabao De Coco Ruth Pasta Care 500g,41184,SABAO COCO RUTH PASTA 500G,auto,87
 3426,Lustra Moveis Peroba/carnauba 200ml,48088,LUSTRA MOVEIS PEROBA CARNAUBA 200ML,auto,100
 3336,Amaciante Amacitel Luxo Diversão 2l,49584,AMAC.AMACITEL DIVERSAO 2L,auto,83
@@ -373,7 +368,6 @@ tiodongo_id,tiodongo_produto,remercado_id,remercado_produto,origem,nota
 411,Lava Roupas Limpeza Total Brilhante Sache 1600g,50229,"SABAO PO BRILHANTE 1,6KG LIMPEZA TOTAL SACHE",revisado,70
 363,Essência Ubon 140ml Concentrada Para O Lar Eucalipto,43075,ESSENCIA UBON EUCALIPTO 140ML,revisado,73
 236,Limpador Casa & Perfume Estação Em Flor Speciale 500ml,41229,LIMP CASA&PERFUME SPECIALE 500ML,revisado,75
-211,Inseticida Baygon Espiral Com 10 Unidades,42789,INSET.BAYGON ESPIRAL C/10,auto,97
 196,Limpeza Perfumada Uau! Ingleza Flores Vermelha E Sedução 500ml,46858,LIMP UAU PERF FLORES VERMELHAS 500ML,revisado,76
 141,Limpador Multi Uso Casa&perfume 500ml Misterio Floral,56721,LIMP CASA&LIMPEZA PERFUMES MISTERIO FLORAL 500ML,revisado,75
 87,Amac C Uau 1l Lav Frescor,44115,AMAC.UAU LAVANDA E FRESCOR 1L,auto,97

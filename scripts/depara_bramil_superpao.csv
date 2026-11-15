@@ -38,7 +38,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-04147,"Agua Mineral Petropolis Sem Gas Pet 1,5l",2631,"AGUA MIN PETROPOLIS 1,5L S/GAS",auto,97
 35-00CAC,Agua Mineral Petropolis Sem Gas Pet 510ml,17326,AGUA MIN PETROPOLIS 510ML S/GAS,auto,97
 35-057C3,Agua Mineral Prata Com Gas Pet 510ml,46442,AGUA MIN PRATA 510ML C/GAS,revisado,97
-35-059E4,"Agua Mineral Prata Sem Gas Pet 1,5l",46445,"AGUA MIN PRATA LEVE 1,5L S/GAS",auto,88
 35-0552C,Agua Mineral Prata Sem Gas Pet 510ml,46443,AGUA MIN PRATA 510ML S/GAS,revisado,97
 35-04E36,Agua Mineral Sao Lourenco Com Gas 300ml,26374,AGUA SAO LOURENCO COM GAS 300ML,auto,89
 35-0304A,Agua Sanitaria Ype 1l,4516,AGUA SANITARIA YPE CLORO ATIVO 1L,revisado,72
@@ -555,7 +554,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-04331,Cerveja Heineken Zero Long Neck 330ml,3,CERVEJA HEINEKEN ZERO ALCOOL LONG NECK 330ML,revisado,90
 35-02184,Cerveja Hocus Pocus Magic Trap 500ml,46545,CERVEJA HOCUS POCUS 500ML MAGIC TRAP GARRAFA,auto,100
 35-03FC5,Cerveja Imperio Gold 210ml,7786,CERV IMPERIO GOLD 210ML LN,revisado,82
-35-04855,Cerveja Imperio Lager 473ml,19713,CERV IMPERIO 473ML LAGER GARRAFA,auto,97
 35-013E4,Cerveja Imperio Puro Malte Lata 473ml,20965,CERVEJA IMPERIO PURO MALTE PILSEN LATAO 473ML,revisado,78
 35-026C7,Cerveja Itaipava Malzbier Lata 350ml,6418,CERVEJA ITAIPAVA MALZBIER LATA 350ML,auto,100
 35-0017C,Cerveja Itaipava Pilsen Lata 350ml,21169,CERV ITAIPAVA 350ML PILSEN LT,auto,97
@@ -879,7 +877,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-068AA,Esc Dental Condor Inf 3+ Mac Un Led Hotwheels,51260,ESCOVA DENTAL CONDOR LED HOTWEELS,revisado,79
 35-03ABB,Escova Dental Colgate 360 Limpeza Completa Macia 2un,51035,ESC DENTAL COLGATE C/2UND 360º MACIA,revisado,76
 35-080C7,Escova Dental Colgate Harry Potter 2un,53138,ESC DENTAL COLGATE C/2UND  INF ULTIMAC HARRY POTTER,revisado,77
-35-059A0,Escova Dental Colgate Macia Carvao Zigzag Com 2un,51034,ESC DENTAL COLGATE C/2UND 360º CARVAO MACIA,revisado,85
 35-0790E,Escova Dental Colgate Slim Gold 2un,53139,ESC DENTAL COLGATE C/2UND SLIM SOFT GOLD,auto,88
 35-068B1,Escova Dental Condor Infantil 3+ Macia Barbie,51257,ESCOVA DENTAL CONDOR INFANTIL BARBIE C/ES,revisado,81
 35-056A8,Escova Dental Oral B 3d White 5 Acoes C/2,51649,ESCOVA DENTAL ORAL B 5X ACOES LIMP C/2,revisado,72
@@ -1723,7 +1720,7 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-027DE,Sardinha Gomes Da Costa Molho De Tomate 125g,3373,SARDINHA G COSTA 125G TOMATE,revisado,76
 35-037EF,Sardinha Gomes Da Costa Sabor Limao 125g,16065,SARDINHA G COSTA 125G LIMAO,revisado,75
 35-059B7,Seleta Legumes Quero Lata 170gr,14243,SELETA LEGUMES QUERO 170G LATA,auto,100
-35-06AA4,Semente Abobora Sem Casca Torrada Com Sal Kg,18073,SPPG SEMENTE DE ABOBORA KG TORRADA C/SAL,revisado,79
+35-06AA4,Semente Abobora Sem Casca Torrada Com Sal Kg,,,revisado_sem_par,
 35-058D2,Shampo Elseve Glycolic Gloss 200ml,25464,SH ELSEVE 200ML GLYCOLIC GLOSS,revisado,78
 35-05FF0,Shampo Head&shoulders Limpeza Eficaz 200ml,47962,SH ANTICASPA HEAD & SHOULDERS 200ML LIMPEZA EFICAZ,revisado,75
 35-065AC,Shampo Seda Luminous Uv 300ml,46998,SHAMPOO SEDA LUMINOUS UV 300ML,auto,98
@@ -2749,7 +2746,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-053FE,Purificador Glade Lembranca De Infancia Aparelho T F 12ml,17541,ODORIZANTE GLADE 12G LEMBRANCAS DE INFANCIA REFIL,revisado,64
 35-00FCC,Desodorizaodr Pato Adesiva Lavanda 20% C/3un,9212,DESINF PATO 3UN PASTILHA ADESIVA LAVANDA,revisado,62
 35-00D28,Lava Louças Limpol Neutro 500ml,430,DET LIMPOL 500ML NEUTRO,revisado,60
-35-00273,Esponja Bettanin Esfrebom Multiuso,50607,ESPONJA ESFREBOM MULTIUSO L4P3,revisado,72
 35-025E4,Lava Louças Ypê Clear Care 500ml,433,DET YPE 500ML CLEAR CARE,revisado,66
 35-016EC,Lava Louças Ypê Capim Limão 500ml,7107,DETERGENTE YPE CAPIM LIMAO 500ML,revisado,64
 35-0627B,Inset Sbp Mult Citronela 380ml,3112,INSETICIDA SBP REFIL OLEO CITRONELA 380ML,revisado,68
@@ -2943,7 +2939,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-04544,Canela Em Po 100gr,18017,SPPG CANELA EM PO KG,revisado,78
 35-06A9A,Amendoim Sem Pele C Sal 100g,3015,SPP AMENDOIM SALG S/PELE,revisado,84
 35-07118,Acafrao Em Po Extra 50gr,18004,SPPG ACAFRAO EM PO KG,revisado,70
-35-00D29,Ovos Brancos Jumbo Setimo Ceu Filme Com 20 Unidades,54856,OVOS BRANCOS C/20 JUMBO,revisado,60
 35-06A53,Salame Seara Fat C/alho Negro 80gr,52753,SALAME SEARA GOURMET 80G ALHO NEGRO,revisado,78
 35-0163E,Pepperoni Fatiado Seara 100g,20754,SALAME SEARA 100G PEPPERONI,revisado,67
 35-033B4,Protetor Diario Carefree Todo Dia Sem Perfume Com 40 Un,53557,PROTETOR CAREFREE 40UN ORIGINAL S/PER,revisado,60
@@ -2974,7 +2969,6 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-08453,Colher Cristal Strawplast Refeicao C/ 50 Csc-603,3947,COLHER DESC STRAWPLAST C/50 REFEICAO,revisado,66
 35-08606,Garfo Cristal Strawplast Refeicao C/50 Gsc 503-e,17207,GARFO DESC STRAWPLAST REFEICAO C/50UN,revisado,67
 35-08601,Colher Cristal Strawplast Sobremesa C/50 Csc-621,25468,COLHER DESC STRAWPLAST C/50 SOBREMESA,revisado,64
-35-00FB3,Vela Aniversario Romana Glitter Branca N.1 Un,1258,VELA DE ANIVERSARIO N1 BRANCA,revisado,62
 35-05A43,"Lava Roupas Brilhante Limpeza Total 1,6kg",15992,"SABAO PO BRILHANTE 1,6KG LIMPEZA TOTAL SACHE",revisado,60
 35-071B4,"Lava Roupas Tixan Ype Primavera 2,2kg",47364,"SABAO PO TIXAN YPE 2,2KG PRIMAVERA",revisado,64
 35-06D96,Lava Roupas Uau Liquido Active 800ml,27947,SABAO LIQ UAU 800ML ACTIVE SH,revisado,60
@@ -3291,3 +3285,9 @@ bramil_sku,bramil_produto,superpao_id,superpao_produto,origem,nota
 35-046A3,Bolo Ana Maria De Baunilha 70gr,896,BOLO ANA MARIA 80G BAUNILHA,revisado_peso,
 35-01C14,Torrada Bauducco Multigraos 142g,3646,TORRADA BAUDUCCO 160G MULTIGRAOS,revisado_peso,
 35-066B9,Amaciante Concentrado Comfort Brisa Elegante 900ml,54477,AMACIANTE COMFORT CONC 1L BRISA ELEGANTE,revisado_peso,
+35-059E4,"Agua Mineral Prata Sem Gas Pet 1,5l",,,revisado_sem_par,
+35-04855,Cerveja Imperio Lager 473ml,,,revisado_sem_par,
+35-059A0,Escova Dental Colgate Macia Carvao Zigzag Com 2un,,,revisado_sem_par,
+35-00273,Esponja Bettanin Esfrebom Multiuso,,,revisado_sem_par,
+35-00D29,Ovos Brancos Jumbo Setimo Ceu Filme Com 20 Unidades,,,revisado_sem_par,
+35-00FB3,Vela Aniversario Romana Glitter Branca N.1 Un,,,revisado_sem_par,

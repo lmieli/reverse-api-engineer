@@ -204,7 +204,6 @@ bramil_sku,bramil_produto,remercado_id,remercado_produto,origem,nota
 35-019C6,Bebida Del Valle Fresh Laranja 200ml,47965,SUCO DEL VALLE FRESH LARANJA 200ML,revisado,83
 35-01DBC,"Bebida Del Valle Fresh Limao 1,5l",47967,"SUCO DELL VALLE FRESH LIMAO 1,5L",revisado,81
 35-0269E,Suco De Uva Maguary 500ml,42544,SUCO MAGUARY UVA 500ML,auto,100
-35-02B47,Suco Goiaba Bela Ischia 1l,42502,SUCO BELA ISCHIA GOIABA 1L,auto,100
 35-04489,Nectar Del Valle Maracuja Lata 290ml,47333,SUCO DEL VALLE NECTAR MARACUJA 290ML,revisado,91
 35-05506,Bebida Vegana A Tal Castanha Aveia 1l,54450,BEB AVEIA A TAL DA CASTANHA 1L,revisado,81
 35-0553B,"Bebida Del Valle Fresh Laranja 1,5l",47968,"SUCO DELL VALLE FRESH LARANJA 1,5L",revisado,81
@@ -246,7 +245,6 @@ bramil_sku,bramil_produto,remercado_id,remercado_produto,origem,nota
 35-01996,Refrigerante Sprite Sem Açúcar 350ml,49793,REF.SPRITE SEM ACUCAR 350ML LT,auto,97
 35-02894,Refrigerante Coca Cola Sem Acucar 600ml,39866,REF.COCA COLA ZERO 600ML,revisado,76
 35-029D8,"Refrigerante Cola Coca Cola Zero Pet 2,5l",43957,"REF.COCA COLA ZERO 2,5L",auto,98
-35-048C1,Refrigerante Cola Coca Cola Garrafa 250ml,39857,REF.COCA COLA 250ML LT,auto,97
 35-06C2C,Refrigerante Fys Limao Siciliano Lata 350 Ml,56437,REF.FYS LIMAO 350ML,revisado,81
 35-074DA,Refrigerante Fanta Pet Maracuja 2l,62543,REF.FANTA MARACUJA 2L,auto,97
 35-081D0,Refrigerante Sprite Pet 200ml,48434,REF.SPRITE CACULINHA 200ML,revisado,71
@@ -576,7 +574,6 @@ bramil_sku,bramil_produto,remercado_id,remercado_produto,origem,nota
 35-0613E,Batata Palha Elma Chips 215 Gr,53297,BATATA ELMA CHIPS PALHA TRADICIONAL 215G,auto,100
 35-06B5D,Batata Palha Yoki Extra Fina Tradicional 100g,52278,BATATA PALHA YOKI EXTRA FINA 100G,auto,100
 35-0164F,Mostarda Amarela Hemmer Tradicional 1kg,53298,MOSTARDA HEMMER AMARELA 1KG,auto,100
-35-04B91,Mollho De Pimenta Goumert Marca Do Sabor 150ml,43204,MOLHO PIMENTA MARCA SABOR 150ML,revisado,82
 35-068F5,Tempero Sazon Na Medida Vegetais 30g,55008,TEMP.SAZON NA MEDIDA 10 VEGETAIS 30G,auto,98
 35-06D7D,Colorifico Sinha 100gr,59797,COLORIFICO SINHA 100G,auto,100
 35-058B6,Tempero Frango Assado Limao Oregano Knorr 25g,42731,TEMP.KNORR MEU FRANGO ASSADO LIMAO OREGANO 25GR,revisado,90
@@ -1836,7 +1833,6 @@ bramil_sku,bramil_produto,remercado_id,remercado_produto,origem,nota
 35-04A62,Desodorante Monange Aerosol Anti Detox 150ml,51350,DES.MONANGE AEROSOL DETOX FRESH 150ML,revisado,78
 35-03006,Desodorante Nivea Invisible For Black E White Men 50ml,61757,DES.NIVEA ROLL ON MEN INVISIBLE BLACK E WHITE 50ML,revisado,77
 35-02811,Desodorante Nivea Dry Comfort Aerosol 150ml,63271,DES.NIVEA AEROSOL DRY REG COMFT 150ML/91GR,revisado,63
-35-0166A,Locao Hidratante Nivea Milk Pele Extra Seca 200ml,39672,HIDRATANTE NIVEA BODY 200ML PELE EXTRA SECA,revisado,74
 35-02C69,Leite Hidratante Paixao Inspiradora 200ml,39676,HIDRATANTE PAIXAO ONLY YOU INSPIRADORA 200ML,revisado,64
 35-01031,Flocao Granfino 500gramas,46707,FLOCAO DE MILHO GRANFINO 500G,revisado,65
 35-0275A,Condicionador Palmolive Antiarmado 350ml,39519,COND.PALMOLIVE NATURALS ANTI ARMADO 350ML,revisado,68
@@ -2022,7 +2018,6 @@ bramil_sku,bramil_produto,remercado_id,remercado_produto,origem,nota
 35-05FA0,Matte Leão Limão Com Gás Ice Tea 290ml,52590,CHA LEAO MATTE C/GAS PRETO C/LIMAO 290ML,revisado,67
 35-0356B,Cha De Maracuja E Camomila Kodilar 15g,52888,CHA NATURAL LIFE MARACUJA C/CAMOMILA 15G,revisado,69
 35-039C1,"Cha Mate Matte Leao Com Limao 1,5l",47589,"CHA MATTE LEAO LIMAO PET 1,5L",revisado,86
-35-0307A,"Cerveja Itaipava 0,0% Alcool 350ml",43955,CERVEJA ITAIPAVA PILSEN 0% ALCOOL 350ML LATA,revisado,85
 35-00AF1,Cerveja Heineken Long Neck 330ml,46527,CERVEJA HEINEKEN 330ML,revisado,66
 35-04331,Cerveja Heineken Zero Long Neck 330ml,52077,"CERVEJA HEINEKEN 0,0% 330ML",revisado,59
 35-01C12,Cerveja Budweiser American Lager 330ml,48668,CERVEJA BUDWEISER 330ML,revisado,63

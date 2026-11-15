@@ -74,9 +74,14 @@ Vale para a Bramil, o Superpão e qualquer mercado novo que entrar na comparaç�
   1 para 1, só para os produtos do Tio Dongo sem par por EAN na Bramil. Revisados item a item; também ficam na
   tabela `depara_tiodongo_mercado` da base.
 - Produtos da padaria própria do Tio Dongo (marcados "Tio Dongo" no nome) não são pareados com os de outros mercados.
-- Itens por kg do Tio Dongo: `preco` é o preço da porção estimada; o preço por kg está em `preco_original`. O
-  comparador e a base usam o preço por kg. Sem `preco_original`, estima pelo peso da porção no nome.
+- Itens por kg do Tio Dongo: `preco` é o preço da porção estimada; o preço por kg está em `preco_original`. A oferta
+  "Encarte" também vem pela porção e é convertida para R$/kg na mesma proporção. O comparador e a base usam R$/kg.
+  Sem `preco_original`, estima pelo peso da porção no nome.
 
 ### Bramil x Tio Dongo por nome
 - Além do EAN, `depara_bramil_tiodongo.csv` tem pares por nome (`origem` = `nome` ou `nome_auto`), revisados item a item,
   para produtos do Tio Dongo sem EAN em comum com a Bramil. Total: 2.990 pares (2.709 por EAN, 281 por nome).
+
+### Revisão das linhas "conferir" (diferença > 100%)
+- Revisadas uma a uma. Pares errados (pack x unidade, sabor/modelo diferente, sachê x vidro, cadastro errado do site)
+  foram desfeitos nos de-paras. As que restam são o mesmo produto com preço de fato diferente (promoção, bandeja x kg).
