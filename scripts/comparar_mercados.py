@@ -1,4 +1,4 @@
-"""Comparação de um produto entre todos os mercados (Bramil, Superpão, Remercado).
+"""Comparação de um produto entre todos os mercados (Bramil, Superpão, Remercado, Tio Dongo).
 
 Junta os três de-paras 1:1 (Bramil x Superpão, Bramil x Remercado, Remercado x Superpão) em grupos de
 produto. Um grupo = um produto em no máximo um item por mercado. Quando os de-paras se contradizem
@@ -15,7 +15,7 @@ import compare_prices as C
 
 RAIZ = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 S = os.path.join(RAIZ, "scripts")
-NOMES = {"B": "Bramil", "S": "Superpão", "R": "Remercado"}
+NOMES = {"B": "Bramil", "S": "Superpão", "R": "Remercado", "T": "Tio Dongo"}
 
 
 def ler_arestas():
@@ -26,6 +26,10 @@ def ler_arestas():
         e.append((("B", r["bramil_sku"]), ("R", r["remercado_id"])))
     for r in csv.DictReader(open(f"{S}/depara_remercado_superpao.csv", encoding="utf-8")):
         e.append((("R", r["remercado_id"]), ("S", r["superpao_id"])))
+    p = f"{S}/depara_bramil_tiodongo.csv"
+    if os.path.exists(p):
+        for r in csv.DictReader(open(p, encoding="utf-8")):
+            e.append((("B", r["bramil_sku"]), ("T", r["tiodongo_id"])))
     return e
 
 
@@ -76,7 +80,21 @@ def carregar():
             p.update(C.prep_superpao(p)); p["preco_efetivo"] = p["preco_promocional"] or p["preco"]
             out[str(p["id"])] = p
         return out
-    return {"B": b, "S": mf(f"{S}/superpao_scraper/superpao_produtos.json"), "R": mf(f"{S}/remercado_scraper/remercado_produtos.json")}
+    return {"B": b, "S": mf(f"{S}/superpao_scraper/superpao_produtos.json"), "R": mf(f"{S}/remercado_scraper/remercado_produtos.json"), "T": tiodongo()}
+
+
+def tiodongo():
+    p = f"{S}/tiodongo/tiodongo_produtos.json"
+    out = {}
+    if not os.path.exists(p): return out
+    for x in json.load(open(p)):
+        of = x.get("oferta") or {}
+        promo = float(of["preco_oferta"]) if of.get("nome") == "Encarte" and of.get("preco_oferta") else 0
+        d = dict(nome=x["nome"], preco_promocional=promo, preco_efetivo=promo or x["preco"], unidade=x.get("unidade"),
+                 departamento=x.get("departamento"), url=x.get("url"),
+                 imagem=("https://produto-assets-vipcommerce-com-br.br-se1.magaluobjects.com/250x250/" + x["imagem_arquivo"]) if x.get("imagem_arquivo") else None)
+        d.update(C.prep_superpao(d)); out[str(x["id"])] = d
+    return out
 
 
 def info(m, d):
@@ -124,24 +142,23 @@ def main(saida):
         for l in linhas:
             for m, cod in sorted(l["g"]): w.writerow([l["gid"], NOMES[m], cod])
     wb = openpyxl.Workbook(); w = wb.active; w.title = "Comparação"
-    cab = ["Produto", "Mercados", "Preço Bramil (R$)", "Preço Superpão (R$)", "Preço Remercado (R$)", "Mais barato", "Mais caro",
-           "Diferença mais caro x mais barato (%)", "Base do preço", "Conferir (>100%)", "Nome Bramil", "Nome Superpão", "Nome Remercado",
-           "Imagem Bramil", "Imagem Superpão", "Imagem Remercado", "Link Superpão", "Link Remercado"]
+    cab = ["Produto", "Mercados", "Preço Bramil (R$)", "Preço Superpão (R$)", "Preço Remercado (R$)", "Preço Tio Dongo (R$)", "Mais barato", "Mais caro",
+           "Diferença mais caro x mais barato (%)", "Base do preço", "Conferir (>100%)", "Nome Bramil", "Nome Superpão", "Nome Remercado", "Nome Tio Dongo",
+           "Imagem Bramil", "Imagem Superpão", "Imagem Remercado", "Imagem Tio Dongo", "Link Superpão", "Link Remercado", "Link Tio Dongo"]
     w.append(cab)
     for l in sorted(linhas, key=lambda x: (-x["n"], x["nome"])):
         it = l["its"]; g = lambda m, k: it[m][k] if m in it else None
-        w.append([l["nome"], l["n"], l["preco"].get("B"), l["preco"].get("S"), l["preco"].get("R"), NOMES[l["barato"]], NOMES[l["caro"]],
-                  l["dif"], l["base"], "conferir" if l["dif"] and l["dif"] > 100 else "", g("B", "nome"), g("S", "nome"), g("R", "nome"), g("B", "img"), g("S", "img"), g("R", "img"),
-                  g("S", "url"), g("R", "url")])
+        w.append([l["nome"], l["n"], l["preco"].get("B"), l["preco"].get("S"), l["preco"].get("R"), l["preco"].get("T"), NOMES[l["barato"]], NOMES[l["caro"]],
+                  l["dif"], l["base"], "conferir" if l["dif"] and l["dif"] > 100 else "", g("B", "nome"), g("S", "nome"), g("R", "nome"), g("T", "nome"), g("B", "img"), g("S", "img"), g("R", "img"), g("T", "img"),
+                  g("S", "url"), g("R", "url"), g("T", "url")])
     for c in w[1]: c.font = Font(bold=True)
     w.freeze_panes = "B2"; w.auto_filter.ref = w.dimensions
     r = wb.create_sheet("Resumo"); r.append(["Indicador", "Valor"])
     r.append(["Produtos comparáveis (2+ mercados)", len(linhas)])
-    r.append(["Em 3 mercados", sum(1 for l in linhas if l["n"] == 3)])
-    r.append(["Em 2 mercados", sum(1 for l in linhas if l["n"] == 2)])
-    for m in "BSR":
+    for k in (4, 3, 2): r.append([f"Em {k} mercados", sum(1 for l in linhas if l["n"] == k)])
+    for m in "BSRT":
         r.append([f"Vezes que {NOMES[m]} é o mais barato", sum(1 for l in linhas if l["barato"] == m)])
-    for m in "BSR":
+    for m in "BSRT":
         com = [l for l in linhas if m in l["preco"] and l["n"] >= 2]
         dif = [(l["preco"][m] - min(l["preco"].values())) / min(l["preco"].values()) * 100 for l in com if min(l["preco"].values())]
         r.append([f"{NOMES[m]}: diferença média para o mais barato (%)", round(sum(dif) / len(dif), 1) if dif else None])

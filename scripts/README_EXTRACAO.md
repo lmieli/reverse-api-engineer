@@ -57,3 +57,14 @@ Vale para a Bramil, o Superpão e qualquer mercado novo que entrar na comparaç�
 - Itens vendidos por kg contra embalagem com peso: compara em R$/kg. Item sem peso (ex.: bandeja) fica de fora.
 - Linhas com diferença > 100% saem marcadas "conferir".
 - Novo mercado: criar o de-para 1:1 dele e acrescentar a aresta em `ler_arestas`.
+
+## Tio Dongo (`scripts/tiodongo/`)
+- Plataforma VipCommerce (a API vive em services.vipcommerce.com.br, não no domínio do site, e responde de fora
+  do Brasil). `node scraper.mjs tiodongo_produtos.json` coleta tudo em ~4 min. API.md documenta as chamadas.
+- Preço: `preco` é o preço normal. Só a oferta "Encarte" entra como promoção; "Preco Fidelidade" é preço só do
+  clube e não é usado como preço de comparação.
+- De-para Bramil x Tio Dongo por código de barras (`scripts/depara_bramil_tiodongo.csv`, origem `ean`). O EAN
+  do catálogo nem sempre bate com o produto: pares com nomes muito distantes ou tamanho diferente foram removidos.
+- Tio Dongo x Superpão/Remercado: entram no comparador por transitividade, via Bramil. Os 2.9 mil produtos do
+  Tio Dongo sem EAN em comum com a Bramil ainda não têm de-para com Superpão/Remercado.
+- Carregar só o Tio Dongo na base: `python3 scripts/base_historica/base.py carregar AAAA-MM-DD tiodongo`.

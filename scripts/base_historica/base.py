@@ -1,7 +1,7 @@
 """Base histórica de preços (SQLite). Um registro de preço por produto por data de coleta.
 
 Uso:
-  python3 scripts/base_historica/base.py carregar [AAAA-MM-DD]   # lê os arquivos atuais e grava o snapshot
+  python3 scripts/base_historica/base.py carregar [AAAA-MM-DD] [mercado ...]   # grava o snapshot (só os mercados citados, se houver)
   python3 scripts/base_historica/base.py resumo
 Mercado novo: escrever um coletor que devolva dicts no formato de `Registro` e chamar `gravar`.
 Reexecutar no mesmo dia substitui o snapshot daquele dia (idempotente).
@@ -26,6 +26,7 @@ CREATE TABLE IF NOT EXISTS coleta (mercado TEXT, data TEXT, itens INTEGER, PRIMA
 CREATE TABLE IF NOT EXISTS depara (bramil_sku TEXT, superpao_id TEXT, origem TEXT);
 CREATE TABLE IF NOT EXISTS depara_remercado (bramil_sku TEXT, remercado_id TEXT, origem TEXT);
 CREATE TABLE IF NOT EXISTS depara_remercado_superpao (remercado_id TEXT, superpao_id TEXT, origem TEXT);
+CREATE TABLE IF NOT EXISTS depara_tiodongo (bramil_sku TEXT, tiodongo_id TEXT, origem TEXT);
 CREATE TABLE IF NOT EXISTS produto_grupo (grupo INTEGER, mercado TEXT, codigo TEXT);
 CREATE INDEX IF NOT EXISTS ix_preco_data ON preco(data);
 """
@@ -76,13 +77,32 @@ def le_mercafacil(caminho):
                    preco_original=p["preco"] if promo else None, em_oferta=bool(promo),
                    disponivel=1 if (p.get("estoque") or 0) > 0 else 0)
 
-def carregar(data):
+IMG_VIP = "https://produto-assets-vipcommerce-com-br.br-se1.magaluobjects.com/250x250/"
+
+def le_tiodongo(caminho):
+    """Tio Dongo (VipCommerce). preco = preço normal. Só oferta 'Encarte' entra como promoção;
+    'Preco Fidelidade' é preço só do clube e fica de fora do preço promocional."""
+    for p in json.load(open(caminho)):
+        of = p.get("oferta") or {}
+        promo = float(of["preco_oferta"]) if of.get("nome") == "Encarte" and of.get("preco_oferta") else 0
+        yield dict(codigo=p["id"], nome=p["nome"], departamento=p.get("departamento"), unidade=p.get("unidade"),
+                   barras=p.get("codigo_barras"), url=p.get("url"),
+                   imagem=(IMG_VIP + p["imagem_arquivo"]) if p.get("imagem_arquivo") else None,
+                   preco=p["preco"], preco_promocional=promo, preco_original=p["preco"] if promo else None,
+                   em_oferta=bool(promo), disponivel=1 if p.get("disponivel") else 0)
+
+def carregar(data, so=None):
+    """so: lista de mercados a gravar (padrão: todos)."""
     c = conectar()
-    gravar(c, "bramil", data, list(le_bramil(os.path.join(RAIZ, "bramilemcasa_produtos.xlsx"))))
-    gravar(c, "superpao", data, list(le_mercafacil(os.path.join(RAIZ, "scripts/superpao_scraper/superpao_produtos.json"))))
+    q = lambda m: so is None or m in so
+    if q("bramil"): gravar(c, "bramil", data, list(le_bramil(os.path.join(RAIZ, "bramilemcasa_produtos.xlsx"))))
+    if q("superpao"): gravar(c, "superpao", data, list(le_mercafacil(os.path.join(RAIZ, "scripts/superpao_scraper/superpao_produtos.json"))))
     rem = os.path.join(RAIZ, "scripts/remercado_scraper/remercado_produtos.json")
-    if os.path.exists(rem):
+    if os.path.exists(rem) and q("remercado"):
         gravar(c, "remercado", data, list(le_mercafacil(rem)))
+    td = os.path.join(RAIZ, "scripts/tiodongo/tiodongo_produtos.json")
+    if os.path.exists(td) and q("tiodongo"):
+        gravar(c, "tiodongo", data, list(le_tiodongo(td)))
     c.execute("DELETE FROM depara")
     for r in csv.DictReader(open(os.path.join(RAIZ, "scripts/depara_bramil_superpao.csv"), encoding="utf-8")):
         c.execute("INSERT INTO depara VALUES (?,?,?)", (r["bramil_sku"], r["superpao_id"] or None, r["origem"]))
@@ -96,10 +116,15 @@ def carregar(data):
     if os.path.exists(arq2):
         for r in csv.DictReader(open(arq2, encoding="utf-8")):
             c.execute("INSERT INTO depara_remercado_superpao VALUES (?,?,?)", (r["remercado_id"], r["superpao_id"], r["origem"]))
+    c.execute("DELETE FROM depara_tiodongo")
+    arqt = os.path.join(RAIZ, "scripts/depara_bramil_tiodongo.csv")
+    if os.path.exists(arqt):
+        for r in csv.DictReader(open(arqt, encoding="utf-8")):
+            c.execute("INSERT INTO depara_tiodongo VALUES (?,?,?)", (r["bramil_sku"], r["tiodongo_id"], r["origem"]))
     c.execute("DELETE FROM produto_grupo")
     arq3 = os.path.join(RAIZ, "scripts/produto_grupo.csv")
     if os.path.exists(arq3):
-        ids = {"Bramil": "bramil", "Superpão": "superpao", "Remercado": "remercado"}
+        ids = {"Bramil": "bramil", "Superpão": "superpao", "Remercado": "remercado", "Tio Dongo": "tiodongo"}
         for r in csv.DictReader(open(arq3, encoding="utf-8")):
             c.execute("INSERT INTO produto_grupo VALUES (?,?,?)", (int(r["grupo"]), ids[r["mercado"]], r["codigo"]))
     c.commit(); resumo(c)
@@ -115,5 +140,5 @@ def resumo(c=None):
 
 if __name__ == "__main__":
     a = sys.argv[1:] or ["resumo"]
-    if a[0] == "carregar": carregar(a[1] if len(a) > 1 else datetime.date.today().isoformat())
+    if a[0] == "carregar": carregar(a[1] if len(a) > 1 else datetime.date.today().isoformat(), a[2:] or None)
     else: resumo()
