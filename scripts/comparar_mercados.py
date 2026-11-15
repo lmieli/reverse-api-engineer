@@ -1,13 +1,13 @@
 """Comparação de um produto entre todos os mercados (Bramil, Superpão, Remercado, Tio Dongo).
 
-Junta os três de-paras 1:1 (Bramil x Superpão, Bramil x Remercado, Remercado x Superpão) em grupos de
+Junta os de-paras 1:1 (Bramil x Superpão, Bramil x Remercado, Remercado x Superpão e os do Tio Dongo) em grupos de
 produto. Um grupo = um produto em no máximo um item por mercado. Quando os de-paras se contradizem
 (dois itens do mesmo mercado no mesmo grupo), mantém o maior conjunto de pares sem contradição.
 
 Uso: python3 scripts/comparar_mercados.py [saida.xlsx]
 Saídas: xlsx (Comparação, Resumo), scripts/produto_grupo.csv (grupo -> item de cada mercado).
 """
-import csv, collections, itertools, json, os, sys
+import csv, collections, itertools, json, os, re, sys
 import openpyxl
 from openpyxl.styles import Font
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -26,10 +26,13 @@ def ler_arestas():
         e.append((("B", r["bramil_sku"]), ("R", r["remercado_id"])))
     for r in csv.DictReader(open(f"{S}/depara_remercado_superpao.csv", encoding="utf-8")):
         e.append((("R", r["remercado_id"]), ("S", r["superpao_id"])))
-    p = f"{S}/depara_bramil_tiodongo.csv"
-    if os.path.exists(p):
-        for r in csv.DictReader(open(p, encoding="utf-8")):
-            e.append((("B", r["bramil_sku"]), ("T", r["tiodongo_id"])))
+    for arq, a, b, ca, cb in (("depara_bramil_tiodongo.csv", "B", "T", "bramil_sku", "tiodongo_id"),
+                              ("depara_tiodongo_superpao.csv", "T", "S", "tiodongo_id", "superpao_id"),
+                              ("depara_tiodongo_remercado.csv", "T", "R", "tiodongo_id", "remercado_id")):
+        p = f"{S}/{arq}"
+        if os.path.exists(p):
+            for r in csv.DictReader(open(p, encoding="utf-8")):
+                e.append(((a, r[ca]), (b, r[cb])))
     return e
 
 
@@ -90,10 +93,20 @@ def tiodongo():
     for x in json.load(open(p)):
         of = x.get("oferta") or {}
         promo = float(of["preco_oferta"]) if of.get("nome") == "Encarte" and of.get("preco_oferta") else 0
-        d = dict(nome=x["nome"], preco_promocional=promo, preco_efetivo=promo or x["preco"], unidade=x.get("unidade"),
+        kg = (x.get("unidade") or "").upper() == "KG" and x.get("preco_original")
+        # item por kg: `preco` é o preço da porção estimada; o preço por kg está em `preco_original`
+        base_preco = x["preco_original"] if kg else x["preco"]
+        if (x.get("unidade") or "").upper() == "KG" and not kg:  # sem preço por kg: usa o peso da porção do nome
+            m = re.search(r"aprox\.?\s*([\d.,]+)\s*(kg|g)\b", C.norm(x["nome"]))
+            if m:
+                g = float(m.group(1).replace(",", ".")) * (1000 if m.group(2) == "kg" else 1)
+                if g > 0: base_preco = x["preco"] / (g / 1000)
+        d = dict(nome=x["nome"], preco_promocional=promo, preco_efetivo=promo or base_preco, unidade=x.get("unidade"),
                  departamento=x.get("departamento"), url=x.get("url"),
                  imagem=("https://produto-assets-vipcommerce-com-br.br-se1.magaluobjects.com/250x250/" + x["imagem_arquivo"]) if x.get("imagem_arquivo") else None)
-        d.update(C.prep_superpao(d)); out[str(x["id"])] = d
+        d.update(C.prep_superpao(d))
+        if (x.get("unidade") or "").upper() == "KG": d["tam"] = None  # preço já é por kg; o peso no nome é só a porção
+        out[str(x["id"])] = d
     return out
 
 

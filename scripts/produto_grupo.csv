@@ -2,6 +2,7 @@ grupo,mercado,codigo
 1,Bramil,35-00001
 1,Remercado,50728
 1,Superpão,1224
+1,Tio Dongo,2338
 2,Bramil,35-00003
 2,Remercado,59183
 3,Bramil,35-00004
@@ -45,9 +46,11 @@ grupo,mercado,codigo
 17,Remercado,42294
 18,Bramil,35-0006B
 18,Remercado,39012
+18,Tio Dongo,5473
 19,Bramil,35-0006D
 19,Remercado,64291
 19,Superpão,4879
+19,Tio Dongo,3506
 20,Bramil,35-0007E
 20,Tio Dongo,2145
 21,Bramil,35-0007F
@@ -67,8 +70,10 @@ grupo,mercado,codigo
 27,Bramil,35-000C8
 27,Remercado,47293
 27,Superpão,10680
+27,Tio Dongo,7120
 28,Bramil,35-000CD
 28,Remercado,42213
+28,Tio Dongo,1331
 29,Bramil,35-000CE
 29,Superpão,18694
 29,Tio Dongo,3233
@@ -97,6 +102,7 @@ grupo,mercado,codigo
 40,Bramil,35-000F9
 40,Remercado,39011
 40,Superpão,24733
+40,Tio Dongo,4643
 41,Bramil,35-0010B
 41,Remercado,51510
 41,Tio Dongo,5198
@@ -116,6 +122,7 @@ grupo,mercado,codigo
 47,Tio Dongo,6511
 48,Bramil,35-00170
 48,Remercado,49124
+48,Tio Dongo,3701
 49,Bramil,35-00178
 49,Remercado,40179
 49,Superpão,460
@@ -124,6 +131,7 @@ grupo,mercado,codigo
 50,Superpão,21169
 51,Bramil,35-001A3
 51,Remercado,49125
+51,Tio Dongo,2251
 52,Bramil,35-001A4
 52,Remercado,49126
 53,Bramil,35-001A9
@@ -173,6 +181,7 @@ grupo,mercado,codigo
 68,Bramil,35-00272
 68,Remercado,56514
 68,Superpão,6535
+68,Tio Dongo,2873
 69,Bramil,35-00273
 69,Remercado,61771
 69,Superpão,50607
@@ -204,6 +213,7 @@ grupo,mercado,codigo
 78,Bramil,35-002BC
 78,Remercado,60670
 78,Superpão,7372
+78,Tio Dongo,5767
 79,Bramil,35-002C6
 79,Remercado,43301
 79,Superpão,10468
@@ -211,6 +221,7 @@ grupo,mercado,codigo
 80,Bramil,35-002CC
 80,Remercado,57846
 80,Superpão,27706
+80,Tio Dongo,203
 81,Bramil,35-002E8
 81,Remercado,49113
 81,Superpão,5665
@@ -221,9 +232,11 @@ grupo,mercado,codigo
 83,Superpão,6599
 84,Bramil,35-00301
 84,Superpão,193
+84,Tio Dongo,1659
 85,Bramil,35-00305
 85,Remercado,47195
 85,Superpão,841
+85,Tio Dongo,6981
 86,Bramil,35-00307
 86,Remercado,47196
 86,Superpão,842
@@ -274,6 +287,7 @@ grupo,mercado,codigo
 104,Bramil,35-003AE
 104,Remercado,39861
 104,Superpão,26345
+104,Tio Dongo,6418
 105,Bramil,35-003B0
 105,Remercado,65833
 105,Tio Dongo,168
@@ -294,6 +308,7 @@ grupo,mercado,codigo
 111,Tio Dongo,2158
 112,Bramil,35-003DD
 112,Remercado,40355
+112,Tio Dongo,5397
 113,Bramil,35-003FB
 113,Remercado,40830
 113,Superpão,790
@@ -333,6 +348,7 @@ grupo,mercado,codigo
 123,Tio Dongo,2224
 124,Bramil,35-00430
 124,Remercado,59917
+124,Tio Dongo,5941
 125,Bramil,35-00431
 125,Remercado,43674
 126,Bramil,35-00434
@@ -357,6 +373,7 @@ grupo,mercado,codigo
 132,Bramil,35-004A7
 132,Remercado,39842
 132,Superpão,26493
+132,Tio Dongo,44
 133,Bramil,35-004AC
 133,Superpão,55148
 133,Tio Dongo,6015
@@ -390,6 +407,7 @@ grupo,mercado,codigo
 145,Remercado,55212
 146,Bramil,35-0053B
 146,Remercado,43941
+146,Tio Dongo,6657
 147,Bramil,35-00554
 147,Tio Dongo,6440
 148,Bramil,35-00557
@@ -406,6 +424,7 @@ grupo,mercado,codigo
 151,Tio Dongo,6482
 152,Bramil,35-00589
 152,Remercado,39389
+152,Tio Dongo,3712
 153,Bramil,35-00597
 153,Remercado,46972
 153,Superpão,25791
@@ -626,6 +645,7 @@ grupo,mercado,codigo
 235,Superpão,1135
 236,Bramil,35-0096F
 236,Superpão,809
+236,Tio Dongo,5951
 237,Bramil,35-0097E
 237,Remercado,38831
 237,Superpão,361
@@ -665,6 +685,7 @@ grupo,mercado,codigo
 250,Bramil,35-00A2D
 250,Remercado,66217
 250,Superpão,1814
+250,Tio Dongo,4163
 251,Bramil,35-00A4B
 251,Superpão,23942
 252,Bramil,35-00A52
@@ -705,12 +726,14 @@ grupo,mercado,codigo
 266,Superpão,781
 267,Bramil,35-00ADF
 267,Superpão,775
+267,Tio Dongo,2987
 268,Bramil,35-00AEB
 268,Superpão,13238
 268,Tio Dongo,2657
 269,Bramil,35-00AF1
 269,Remercado,46527
 269,Superpão,26260
+269,Tio Dongo,4776
 270,Bramil,35-00AFE
 270,Tio Dongo,6149
 271,Bramil,35-00AFF
@@ -720,6 +743,7 @@ grupo,mercado,codigo
 272,Tio Dongo,2886
 273,Bramil,35-00B0B
 273,Superpão,638
+273,Tio Dongo,869
 274,Bramil,35-00B0E
 274,Superpão,8878
 274,Tio Dongo,2690
@@ -746,6 +770,7 @@ grupo,mercado,codigo
 282,Tio Dongo,4615
 283,Bramil,35-00B5B
 283,Superpão,54794
+283,Tio Dongo,5902
 284,Bramil,35-00B5E
 284,Remercado,39872
 284,Superpão,133
@@ -754,6 +779,7 @@ grupo,mercado,codigo
 285,Superpão,1219
 286,Bramil,35-00B60
 286,Superpão,1242
+286,Tio Dongo,92
 287,Bramil,35-00B61
 287,Remercado,40196
 287,Superpão,426
@@ -764,6 +790,7 @@ grupo,mercado,codigo
 288,Tio Dongo,94
 289,Bramil,35-00B63
 289,Superpão,1187
+289,Tio Dongo,1353
 290,Bramil,35-00B65
 290,Remercado,41227
 290,Superpão,2827
@@ -813,12 +840,14 @@ grupo,mercado,codigo
 306,Bramil,35-00BA6
 306,Remercado,39918
 306,Superpão,154
+306,Tio Dongo,2874
 307,Bramil,35-00BA8
 307,Superpão,3168
 307,Tio Dongo,3311
 308,Bramil,35-00BB5
 308,Remercado,54519
 308,Superpão,1214
+308,Tio Dongo,5235
 309,Bramil,35-00BC5
 309,Remercado,45692
 309,Superpão,544
@@ -829,6 +858,7 @@ grupo,mercado,codigo
 311,Superpão,24643
 312,Bramil,35-00BCC
 312,Superpão,91
+312,Tio Dongo,789
 313,Bramil,35-00BD3
 313,Remercado,46579
 313,Superpão,8477
@@ -877,6 +907,7 @@ grupo,mercado,codigo
 329,Superpão,24205
 330,Bramil,35-00C29
 330,Superpão,4703
+330,Tio Dongo,4012
 331,Bramil,35-00C2A
 331,Remercado,46187
 331,Superpão,6250
@@ -894,6 +925,7 @@ grupo,mercado,codigo
 336,Remercado,44248
 337,Bramil,35-00C85
 337,Remercado,49303
+337,Tio Dongo,567
 338,Bramil,35-00C88
 338,Tio Dongo,2371
 339,Bramil,35-00CA4
@@ -919,6 +951,7 @@ grupo,mercado,codigo
 346,Bramil,35-00CCE
 346,Remercado,39844
 346,Superpão,26357
+346,Tio Dongo,1645
 347,Bramil,35-00CD2
 347,Tio Dongo,5828
 348,Bramil,35-00CD7
@@ -966,6 +999,7 @@ grupo,mercado,codigo
 364,Bramil,35-00D28
 364,Remercado,40201
 364,Superpão,430
+364,Tio Dongo,4885
 365,Bramil,35-00D29
 365,Superpão,54856
 366,Bramil,35-00D2F
@@ -998,6 +1032,7 @@ grupo,mercado,codigo
 375,Bramil,35-00D52
 375,Remercado,39894
 375,Superpão,2454
+375,Tio Dongo,1049
 376,Bramil,35-00D5B
 376,Remercado,45466
 376,Superpão,7709
@@ -1053,6 +1088,7 @@ grupo,mercado,codigo
 395,Bramil,35-00E26
 395,Remercado,53917
 395,Superpão,1084
+395,Tio Dongo,621
 396,Bramil,35-00E3F
 396,Remercado,47715
 396,Superpão,7955
@@ -1111,6 +1147,7 @@ grupo,mercado,codigo
 417,Bramil,35-00F4D
 417,Remercado,39893
 417,Superpão,148
+417,Tio Dongo,5608
 418,Bramil,35-00F50
 418,Tio Dongo,5208
 419,Bramil,35-00F59
@@ -1130,6 +1167,7 @@ grupo,mercado,codigo
 423,Tio Dongo,4957
 424,Bramil,35-00FB3
 424,Superpão,1258
+424,Tio Dongo,6810
 425,Bramil,35-00FCC
 425,Remercado,59700
 425,Superpão,9212
@@ -1171,6 +1209,7 @@ grupo,mercado,codigo
 440,Bramil,35-0103D
 440,Remercado,46752
 440,Superpão,26405
+440,Tio Dongo,291
 441,Bramil,35-0103E
 441,Remercado,46933
 441,Superpão,27407
@@ -1225,10 +1264,13 @@ grupo,mercado,codigo
 460,Superpão,27008
 461,Bramil,35-010D7
 461,Superpão,21320
+461,Tio Dongo,1784
 462,Bramil,35-010DB
 462,Superpão,5217
+462,Tio Dongo,4080
 463,Bramil,35-010DF
 463,Superpão,1245
+463,Tio Dongo,2963
 464,Bramil,35-010E0
 464,Remercado,47782
 465,Bramil,35-010ED
@@ -1250,6 +1292,7 @@ grupo,mercado,codigo
 470,Tio Dongo,4999
 471,Bramil,35-01121
 471,Superpão,1231
+471,Tio Dongo,140
 472,Bramil,35-01123
 472,Superpão,16001
 473,Bramil,35-01125
@@ -1273,14 +1316,17 @@ grupo,mercado,codigo
 480,Bramil,35-01178
 480,Remercado,53677
 480,Superpão,8648
+480,Tio Dongo,244
 481,Bramil,35-0117C
 481,Remercado,60684
 481,Superpão,6849
 481,Tio Dongo,5023
 482,Bramil,35-01182
 482,Superpão,5485
+482,Tio Dongo,4462
 483,Bramil,35-01184
 483,Superpão,54804
+483,Tio Dongo,5490
 484,Bramil,35-0118E
 484,Superpão,2294
 484,Tio Dongo,7053
@@ -1345,6 +1391,7 @@ grupo,mercado,codigo
 502,Tio Dongo,5395
 503,Bramil,35-01227
 503,Superpão,8771
+503,Tio Dongo,2460
 504,Bramil,35-01239
 504,Remercado,47612
 504,Superpão,610
@@ -1364,6 +1411,7 @@ grupo,mercado,codigo
 510,Bramil,35-0128B
 510,Remercado,62993
 510,Superpão,24174
+510,Tio Dongo,223
 511,Bramil,35-01292
 511,Superpão,7051
 512,Bramil,35-01293
@@ -1477,6 +1525,7 @@ grupo,mercado,codigo
 546,Superpão,14081
 547,Bramil,35-013D8
 547,Superpão,9433
+547,Tio Dongo,723
 548,Bramil,35-013DA
 548,Remercado,48091
 548,Superpão,8112
@@ -1485,6 +1534,7 @@ grupo,mercado,codigo
 549,Tio Dongo,2975
 550,Bramil,35-013E4
 550,Superpão,20965
+550,Tio Dongo,381
 551,Bramil,35-013ED
 551,Superpão,17596
 552,Bramil,35-013F6
@@ -1697,6 +1747,7 @@ grupo,mercado,codigo
 633,Tio Dongo,7138
 634,Bramil,35-0173C
 634,Remercado,50533
+634,Tio Dongo,3763
 635,Bramil,35-0173D
 635,Tio Dongo,4490
 636,Bramil,35-0174A
@@ -1927,6 +1978,7 @@ grupo,mercado,codigo
 718,Bramil,35-019C6
 718,Remercado,47965
 718,Superpão,49049
+718,Tio Dongo,5663
 719,Bramil,35-019CF
 719,Remercado,39909
 719,Superpão,150
@@ -1940,6 +1992,7 @@ grupo,mercado,codigo
 722,Remercado,50429
 723,Bramil,35-019F2
 723,Remercado,59921
+723,Tio Dongo,752
 724,Bramil,35-019FE
 724,Remercado,49027
 724,Superpão,7427
@@ -1973,6 +2026,7 @@ grupo,mercado,codigo
 735,Bramil,35-01A60
 735,Remercado,59922
 735,Superpão,401
+735,Tio Dongo,2346
 736,Bramil,35-01A64
 736,Superpão,48589
 737,Bramil,35-01AA8
@@ -2009,6 +2063,7 @@ grupo,mercado,codigo
 748,Bramil,35-01B2E
 748,Remercado,48429
 748,Superpão,10338
+748,Tio Dongo,1293
 749,Bramil,35-01B3B
 749,Tio Dongo,4771
 750,Bramil,35-01B44
@@ -2076,6 +2131,7 @@ grupo,mercado,codigo
 772,Bramil,35-01BDC
 772,Remercado,51497
 772,Superpão,7385
+772,Tio Dongo,4639
 773,Bramil,35-01BEC
 773,Tio Dongo,5119
 774,Bramil,35-01BF4
@@ -2132,6 +2188,7 @@ grupo,mercado,codigo
 794,Bramil,35-01CBB
 794,Remercado,39840
 794,Superpão,19429
+794,Tio Dongo,1972
 795,Bramil,35-01CC5
 795,Superpão,5617
 796,Bramil,35-01CC7
@@ -2201,6 +2258,7 @@ grupo,mercado,codigo
 822,Tio Dongo,7185
 823,Bramil,35-01DB5
 823,Superpão,7292
+823,Tio Dongo,3853
 824,Bramil,35-01DBA
 824,Superpão,7819
 825,Bramil,35-01DBC
@@ -2239,6 +2297,7 @@ grupo,mercado,codigo
 838,Superpão,3376
 839,Bramil,35-01E0D
 839,Superpão,8057
+839,Tio Dongo,3192
 840,Bramil,35-01E12
 840,Superpão,628
 841,Bramil,35-01E16
@@ -2282,6 +2341,7 @@ grupo,mercado,codigo
 852,Superpão,52176
 853,Bramil,35-01E66
 853,Superpão,3628
+853,Tio Dongo,5284
 854,Bramil,35-01E67
 854,Superpão,20010
 855,Bramil,35-01E69
@@ -2293,6 +2353,7 @@ grupo,mercado,codigo
 856,Tio Dongo,5848
 857,Bramil,35-01E77
 857,Superpão,18133
+857,Tio Dongo,1546
 858,Bramil,35-01E79
 858,Remercado,49282
 858,Superpão,15689
@@ -2303,6 +2364,7 @@ grupo,mercado,codigo
 860,Tio Dongo,3882
 861,Bramil,35-01E80
 861,Superpão,18134
+861,Tio Dongo,1633
 862,Bramil,35-01E8A
 862,Remercado,45371
 862,Superpão,27356
@@ -2357,6 +2419,7 @@ grupo,mercado,codigo
 883,Bramil,35-01F3E
 883,Remercado,38577
 883,Superpão,2647
+883,Tio Dongo,5671
 884,Bramil,35-01F42
 884,Remercado,59457
 884,Superpão,2798
@@ -2381,6 +2444,7 @@ grupo,mercado,codigo
 890,Bramil,35-01F50
 890,Remercado,42959
 890,Superpão,26913
+890,Tio Dongo,2139
 891,Bramil,35-01F58
 891,Superpão,662
 892,Bramil,35-01F5F
@@ -2409,6 +2473,7 @@ grupo,mercado,codigo
 902,Bramil,35-01FD9
 902,Remercado,63527
 902,Superpão,26334
+902,Tio Dongo,3219
 903,Bramil,35-01FE2
 903,Superpão,3028
 904,Bramil,35-01FEE
@@ -2425,6 +2490,7 @@ grupo,mercado,codigo
 908,Bramil,35-0202C
 908,Remercado,39865
 908,Superpão,26346
+908,Tio Dongo,3638
 909,Bramil,35-0202D
 909,Remercado,39912
 909,Superpão,153
@@ -2471,6 +2537,7 @@ grupo,mercado,codigo
 926,Tio Dongo,6772
 927,Bramil,35-020AD
 927,Remercado,40014
+927,Tio Dongo,463
 928,Bramil,35-020AF
 928,Remercado,40013
 928,Tio Dongo,5091
@@ -2536,6 +2603,7 @@ grupo,mercado,codigo
 949,Remercado,50021
 950,Bramil,35-02165
 950,Remercado,40796
+950,Tio Dongo,2280
 951,Bramil,35-0216B
 951,Remercado,43594
 951,Superpão,208
@@ -2613,9 +2681,11 @@ grupo,mercado,codigo
 978,Bramil,35-02206
 978,Remercado,39332
 978,Superpão,4293
+978,Tio Dongo,2080
 979,Bramil,35-02207
 979,Remercado,47856
 979,Superpão,1218
+979,Tio Dongo,5102
 980,Bramil,35-02208
 980,Tio Dongo,5905
 981,Bramil,35-0220A
@@ -2638,13 +2708,16 @@ grupo,mercado,codigo
 987,Remercado,49679
 988,Bramil,35-02230
 988,Remercado,65101
+988,Tio Dongo,1957
 989,Bramil,35-02233
 989,Remercado,39350
+989,Tio Dongo,4929
 990,Bramil,35-02236
 990,Superpão,2314
 991,Bramil,35-02237
 991,Remercado,39361
 991,Superpão,1230
+991,Tio Dongo,1863
 992,Bramil,35-02259
 992,Tio Dongo,3905
 993,Bramil,35-02268
@@ -2668,12 +2741,14 @@ grupo,mercado,codigo
 1000,Bramil,35-02285
 1000,Remercado,39874
 1000,Superpão,1817
+1000,Tio Dongo,6523
 1001,Bramil,35-0228A
 1001,Remercado,39786
 1001,Tio Dongo,2247
 1002,Bramil,35-0228E
 1002,Remercado,39871
 1002,Superpão,135
+1002,Tio Dongo,7012
 1003,Bramil,35-02293
 1003,Superpão,49808
 1003,Tio Dongo,6802
@@ -2727,6 +2802,7 @@ grupo,mercado,codigo
 1023,Bramil,35-0232D
 1023,Remercado,48633
 1023,Superpão,21310
+1023,Tio Dongo,5723
 1024,Bramil,35-0232E
 1024,Remercado,59622
 1024,Tio Dongo,3971
@@ -2856,6 +2932,10 @@ grupo,mercado,codigo
 1065,Tio Dongo,2384
 1066,Bramil,35-023CD
 1066,Remercado,41184
+1066,Tio Dongo,3584
+1067,Bramil,35-023D1
+1067,Remercado,39273
+1067,Tio Dongo,6872
 1068,Bramil,35-023D4
 1068,Remercado,59582
 1068,Superpão,21307
@@ -2878,6 +2958,7 @@ grupo,mercado,codigo
 1074,Bramil,35-023F0
 1074,Remercado,39356
 1074,Superpão,1217
+1074,Tio Dongo,5564
 1075,Bramil,35-023F8
 1075,Remercado,58947
 1075,Tio Dongo,708
@@ -2930,12 +3011,16 @@ grupo,mercado,codigo
 1093,Tio Dongo,2298
 1094,Bramil,35-0244D
 1094,Remercado,39404
+1094,Superpão,911
+1094,Tio Dongo,2134
 1095,Bramil,35-02459
 1095,Remercado,43296
 1095,Superpão,670
+1095,Tio Dongo,3463
 1096,Bramil,35-0245C
 1096,Remercado,43298
 1096,Superpão,695
+1096,Tio Dongo,5024
 1097,Bramil,35-02464
 1097,Tio Dongo,3852
 1098,Bramil,35-02465
@@ -2945,12 +3030,14 @@ grupo,mercado,codigo
 1100,Bramil,35-02470
 1100,Remercado,46162
 1100,Superpão,7293
+1100,Tio Dongo,3147
 1101,Bramil,35-0247B
 1101,Remercado,39131
 1101,Tio Dongo,1078
 1102,Bramil,35-0247D
 1102,Remercado,43269
 1102,Superpão,686
+1102,Tio Dongo,7010
 1103,Bramil,35-0247F
 1103,Remercado,38585
 1103,Superpão,959
@@ -2968,8 +3055,10 @@ grupo,mercado,codigo
 1108,Bramil,35-02485
 1108,Remercado,43246
 1108,Superpão,689
+1108,Tio Dongo,5270
 1109,Bramil,35-0248C
 1109,Remercado,60948
+1109,Tio Dongo,1593
 1110,Bramil,35-02491
 1110,Remercado,43612
 1110,Superpão,212
@@ -3036,6 +3125,7 @@ grupo,mercado,codigo
 1133,Bramil,35-02535
 1133,Remercado,64727
 1133,Superpão,7454
+1133,Tio Dongo,4702
 1134,Bramil,35-0253F
 1134,Tio Dongo,3836
 1135,Bramil,35-02540
@@ -3095,6 +3185,7 @@ grupo,mercado,codigo
 1156,Tio Dongo,1511
 1157,Bramil,35-02587
 1157,Superpão,49806
+1157,Tio Dongo,6833
 1158,Bramil,35-02588
 1158,Remercado,38579
 1158,Superpão,17853
@@ -3160,6 +3251,7 @@ grupo,mercado,codigo
 1181,Tio Dongo,5200
 1182,Bramil,35-025E4
 1182,Superpão,433
+1182,Tio Dongo,4321
 1183,Bramil,35-025EA
 1183,Remercado,52065
 1183,Tio Dongo,6145
@@ -3239,9 +3331,11 @@ grupo,mercado,codigo
 1208,Tio Dongo,4786
 1209,Bramil,35-0265B
 1209,Superpão,799
+1209,Tio Dongo,3164
 1210,Bramil,35-0265D
 1210,Remercado,39963
 1210,Superpão,798
+1210,Tio Dongo,4545
 1211,Bramil,35-0265E
 1211,Superpão,794
 1212,Bramil,35-0265F
@@ -3250,6 +3344,7 @@ grupo,mercado,codigo
 1213,Bramil,35-02660
 1213,Remercado,39962
 1213,Superpão,797
+1213,Tio Dongo,1595
 1214,Bramil,35-02661
 1214,Remercado,39961
 1215,Bramil,35-02668
@@ -3335,6 +3430,7 @@ grupo,mercado,codigo
 1246,Bramil,35-026C7
 1246,Remercado,49718
 1246,Superpão,6418
+1246,Tio Dongo,5900
 1247,Bramil,35-026D5
 1247,Remercado,49385
 1248,Bramil,35-026DD
@@ -3355,6 +3451,7 @@ grupo,mercado,codigo
 1253,Bramil,35-026EC
 1253,Remercado,40918
 1253,Superpão,918
+1253,Tio Dongo,4425
 1254,Bramil,35-026F5
 1254,Remercado,39518
 1254,Tio Dongo,4940
@@ -3408,6 +3505,7 @@ grupo,mercado,codigo
 1273,Bramil,35-0278C
 1273,Remercado,42856
 1273,Superpão,48
+1273,Tio Dongo,5595
 1274,Bramil,35-02791
 1274,Remercado,46007
 1274,Superpão,8148
@@ -3431,6 +3529,7 @@ grupo,mercado,codigo
 1281,Bramil,35-027B1
 1281,Remercado,52522
 1281,Superpão,54
+1281,Tio Dongo,3306
 1282,Bramil,35-027B6
 1282,Remercado,40701
 1282,Superpão,4769
@@ -3513,6 +3612,7 @@ grupo,mercado,codigo
 1305,Tio Dongo,4939
 1306,Bramil,35-027FB
 1306,Remercado,62414
+1306,Tio Dongo,1899
 1307,Bramil,35-027FC
 1307,Tio Dongo,4210
 1308,Bramil,35-027FD
@@ -3524,6 +3624,7 @@ grupo,mercado,codigo
 1310,Bramil,35-02801
 1310,Remercado,59237
 1310,Superpão,26771
+1310,Tio Dongo,5017
 1311,Bramil,35-02802
 1311,Tio Dongo,5603
 1312,Bramil,35-02803
@@ -3551,6 +3652,7 @@ grupo,mercado,codigo
 1318,Tio Dongo,6699
 1319,Bramil,35-0281F
 1319,Remercado,42742
+1319,Tio Dongo,702
 1320,Bramil,35-02820
 1320,Tio Dongo,4709
 1321,Bramil,35-02824
@@ -3558,9 +3660,11 @@ grupo,mercado,codigo
 1322,Bramil,35-02826
 1322,Remercado,38553
 1322,Superpão,49530
+1322,Tio Dongo,4213
 1323,Bramil,35-02827
 1323,Remercado,38552
 1323,Superpão,171
+1323,Tio Dongo,6210
 1324,Bramil,35-02830
 1324,Remercado,61903
 1325,Bramil,35-02834
@@ -3568,14 +3672,17 @@ grupo,mercado,codigo
 1325,Superpão,21061
 1326,Bramil,35-02837
 1326,Remercado,59094
+1326,Tio Dongo,2720
 1327,Bramil,35-0283B
 1327,Remercado,59093
 1327,Superpão,999
+1327,Tio Dongo,3834
 1328,Bramil,35-02843
 1328,Tio Dongo,1308
 1329,Bramil,35-02845
 1329,Remercado,45642
 1329,Superpão,2666
+1329,Tio Dongo,3291
 1330,Bramil,35-02847
 1330,Remercado,41715
 1330,Superpão,389
@@ -3598,6 +3705,7 @@ grupo,mercado,codigo
 1337,Superpão,26353
 1338,Bramil,35-02864
 1338,Superpão,2033
+1338,Tio Dongo,5029
 1339,Bramil,35-02865
 1339,Remercado,39862
 1339,Superpão,23171
@@ -3614,10 +3722,10 @@ grupo,mercado,codigo
 1342,Tio Dongo,1296
 1343,Bramil,35-0287B
 1343,Remercado,58979
+1343,Tio Dongo,6252
 1344,Bramil,35-02886
 1344,Superpão,188
 1345,Bramil,35-02894
-1345,Remercado,39866
 1345,Superpão,26365
 1346,Bramil,35-0289C
 1346,Remercado,43611
@@ -3667,6 +3775,7 @@ grupo,mercado,codigo
 1362,Bramil,35-028E8
 1362,Remercado,38544
 1362,Superpão,491
+1362,Tio Dongo,5814
 1363,Bramil,35-028EA
 1363,Superpão,5407
 1363,Tio Dongo,3767
@@ -3689,6 +3798,7 @@ grupo,mercado,codigo
 1370,Bramil,35-0292D
 1370,Remercado,58268
 1370,Superpão,1196
+1370,Tio Dongo,3662
 1371,Bramil,35-0292E
 1371,Remercado,59092
 1371,Superpão,998
@@ -3719,6 +3829,7 @@ grupo,mercado,codigo
 1381,Tio Dongo,4468
 1382,Bramil,35-02965
 1382,Remercado,39341
+1382,Tio Dongo,2592
 1383,Bramil,35-0296A
 1383,Remercado,42444
 1383,Superpão,5061
@@ -3730,6 +3841,7 @@ grupo,mercado,codigo
 1386,Bramil,35-0296F
 1386,Remercado,58338
 1386,Superpão,1229
+1386,Tio Dongo,3788
 1387,Bramil,35-02973
 1387,Tio Dongo,5833
 1388,Bramil,35-02974
@@ -3770,6 +3882,7 @@ grupo,mercado,codigo
 1401,Bramil,35-029C4
 1401,Remercado,43293
 1401,Superpão,15137
+1401,Tio Dongo,6247
 1402,Bramil,35-029CA
 1402,Remercado,39890
 1402,Superpão,144
@@ -3809,6 +3922,7 @@ grupo,mercado,codigo
 1415,Remercado,59478
 1416,Bramil,35-02A1D
 1416,Remercado,43284
+1416,Tio Dongo,7175
 1417,Bramil,35-02A29
 1417,Superpão,831
 1417,Tio Dongo,3784
@@ -3871,6 +3985,7 @@ grupo,mercado,codigo
 1438,Bramil,35-02A64
 1438,Remercado,43268
 1438,Superpão,685
+1438,Tio Dongo,7048
 1439,Bramil,35-02A66
 1439,Remercado,40242
 1439,Tio Dongo,6675
@@ -3882,6 +3997,7 @@ grupo,mercado,codigo
 1441,Tio Dongo,201
 1442,Bramil,35-02A6C
 1442,Remercado,51454
+1442,Tio Dongo,1059
 1443,Bramil,35-02A72
 1443,Remercado,58913
 1444,Bramil,35-02A7D
@@ -3891,6 +4007,7 @@ grupo,mercado,codigo
 1446,Bramil,35-02A8B
 1446,Remercado,45685
 1446,Superpão,2665
+1446,Tio Dongo,2802
 1447,Bramil,35-02A92
 1447,Superpão,5208
 1447,Tio Dongo,1499
@@ -3906,6 +4023,7 @@ grupo,mercado,codigo
 1451,Bramil,35-02AB9
 1451,Remercado,39849
 1451,Superpão,26983
+1451,Tio Dongo,6705
 1452,Bramil,35-02ABB
 1452,Tio Dongo,5105
 1453,Bramil,35-02AC8
@@ -3938,6 +4056,7 @@ grupo,mercado,codigo
 1461,Bramil,35-02AEA
 1461,Remercado,49508
 1461,Superpão,766
+1461,Tio Dongo,2277
 1462,Bramil,35-02AF3
 1462,Remercado,38721
 1462,Superpão,18314
@@ -3962,6 +4081,7 @@ grupo,mercado,codigo
 1471,Bramil,35-02B16
 1471,Remercado,39304
 1471,Superpão,2352
+1471,Tio Dongo,2611
 1472,Bramil,35-02B1C
 1472,Remercado,45885
 1472,Superpão,2821
@@ -3986,6 +4106,7 @@ grupo,mercado,codigo
 1478,Superpão,1014
 1479,Bramil,35-02B2A
 1479,Superpão,11570
+1479,Tio Dongo,4084
 1480,Bramil,35-02B2B
 1480,Tio Dongo,1576
 1481,Bramil,35-02B42
@@ -4004,6 +4125,7 @@ grupo,mercado,codigo
 1486,Bramil,35-02B63
 1486,Remercado,67232
 1486,Superpão,16798
+1486,Tio Dongo,6714
 1487,Bramil,35-02B64
 1487,Remercado,40219
 1487,Tio Dongo,273
@@ -4014,6 +4136,7 @@ grupo,mercado,codigo
 1489,Bramil,35-02B6C
 1489,Remercado,39014
 1489,Superpão,376
+1489,Tio Dongo,1438
 1490,Bramil,35-02B6F
 1490,Remercado,38935
 1490,Superpão,41185
@@ -4181,6 +4304,7 @@ grupo,mercado,codigo
 1552,Bramil,35-02CC4
 1552,Remercado,39848
 1552,Superpão,26523
+1552,Tio Dongo,4875
 1553,Bramil,35-02CC9
 1553,Superpão,41729
 1553,Tio Dongo,5016
@@ -4193,10 +4317,13 @@ grupo,mercado,codigo
 1556,Bramil,35-02CDA
 1556,Remercado,41539
 1556,Superpão,46672
+1556,Tio Dongo,4619
 1557,Bramil,35-02CE0
 1557,Superpão,1173
+1557,Tio Dongo,5263
 1558,Bramil,35-02CE3
 1558,Remercado,39309
+1558,Tio Dongo,6762
 1559,Bramil,35-02CEE
 1559,Remercado,64087
 1560,Bramil,35-02CF0
@@ -4241,11 +4368,15 @@ grupo,mercado,codigo
 1576,Bramil,35-02D49
 1576,Remercado,62778
 1576,Superpão,14585
+1576,Tio Dongo,3200
 1577,Bramil,35-02D54
+1577,Remercado,41734
 1577,Superpão,396
+1577,Tio Dongo,4258
 1578,Bramil,35-02D57
 1578,Remercado,57688
 1578,Superpão,476
+1578,Tio Dongo,4212
 1579,Bramil,35-02D6B
 1579,Remercado,43429
 1580,Bramil,35-02D6C
@@ -4318,8 +4449,10 @@ grupo,mercado,codigo
 1602,Bramil,35-02DFB
 1602,Remercado,45137
 1602,Superpão,2945
+1602,Tio Dongo,113
 1603,Bramil,35-02DFF
 1603,Remercado,41217
+1603,Tio Dongo,6769
 1604,Bramil,35-02E00
 1604,Remercado,41218
 1604,Superpão,446
@@ -4329,6 +4462,7 @@ grupo,mercado,codigo
 1605,Tio Dongo,3611
 1606,Bramil,35-02E08
 1606,Superpão,1248
+1606,Tio Dongo,292
 1607,Bramil,35-02E0C
 1607,Superpão,216
 1607,Tio Dongo,2160
@@ -4393,10 +4527,12 @@ grupo,mercado,codigo
 1628,Bramil,35-02E75
 1628,Remercado,51051
 1628,Superpão,1203
+1628,Tio Dongo,6114
 1629,Bramil,35-02E7D
 1629,Tio Dongo,2498
 1630,Bramil,35-02E81
 1630,Remercado,59750
+1630,Tio Dongo,2558
 1631,Bramil,35-02E84
 1631,Tio Dongo,3718
 1632,Bramil,35-02E86
@@ -4434,11 +4570,9 @@ grupo,mercado,codigo
 1644,Bramil,35-02EBB
 1644,Superpão,508
 1645,Bramil,35-02EBD
-1645,Remercado,64173
 1645,Superpão,3207
 1646,Bramil,35-02EBE
 1646,Remercado,41712
-1646,Superpão,27550
 1646,Tio Dongo,2491
 1647,Bramil,35-02EBF
 1647,Remercado,41713
@@ -4457,9 +4591,11 @@ grupo,mercado,codigo
 1652,Bramil,35-02ED2
 1652,Remercado,53992
 1652,Superpão,1721
+1652,Tio Dongo,5244
 1653,Bramil,35-02EE5
 1653,Remercado,58218
 1653,Superpão,1160
+1653,Tio Dongo,1664
 1654,Bramil,35-02EF9
 1654,Superpão,3098
 1654,Tio Dongo,1819
@@ -4478,10 +4614,12 @@ grupo,mercado,codigo
 1659,Bramil,35-02F17
 1659,Remercado,56806
 1659,Superpão,4851
+1659,Tio Dongo,2060
 1660,Bramil,35-02F28
 1660,Superpão,17674
 1661,Bramil,35-02F29
 1661,Remercado,39283
+1661,Tio Dongo,1621
 1662,Bramil,35-02F2B
 1662,Remercado,39299
 1662,Superpão,18122
@@ -4515,6 +4653,7 @@ grupo,mercado,codigo
 1673,Bramil,35-02F61
 1673,Remercado,41717
 1673,Superpão,388
+1673,Tio Dongo,5132
 1674,Bramil,35-02F65
 1674,Remercado,39934
 1674,Superpão,28307
@@ -4535,9 +4674,9 @@ grupo,mercado,codigo
 1681,Tio Dongo,331
 1682,Bramil,35-02F91
 1682,Remercado,40998
+1682,Tio Dongo,3906
 1683,Bramil,35-02F99
 1683,Remercado,41714
-1683,Superpão,27549
 1683,Tio Dongo,5506
 1684,Bramil,35-02F9A
 1684,Remercado,41375
@@ -4552,9 +4691,11 @@ grupo,mercado,codigo
 1688,Bramil,35-02FA3
 1688,Remercado,39296
 1688,Superpão,1213
+1688,Tio Dongo,2458
 1689,Bramil,35-02FA9
 1689,Remercado,60538
 1689,Superpão,3002
+1689,Tio Dongo,5780
 1690,Bramil,35-02FAF
 1690,Remercado,40059
 1691,Bramil,35-02FB8
@@ -4598,7 +4739,7 @@ grupo,mercado,codigo
 1705,Bramil,35-03043
 1705,Remercado,43075
 1705,Superpão,8150
-1705,Tio Dongo,3262
+1705,Tio Dongo,363
 1706,Bramil,35-03046
 1706,Superpão,46780
 1706,Tio Dongo,6024
@@ -4613,6 +4754,7 @@ grupo,mercado,codigo
 1710,Bramil,35-03067
 1710,Remercado,39339
 1710,Superpão,1221
+1710,Tio Dongo,5855
 1711,Bramil,35-03068
 1711,Remercado,42479
 1711,Superpão,889
@@ -4622,29 +4764,36 @@ grupo,mercado,codigo
 1712,Tio Dongo,809
 1713,Bramil,35-0306A
 1713,Superpão,1233
+1713,Tio Dongo,5736
 1714,Bramil,35-0306B
 1714,Remercado,42404
 1715,Bramil,35-0306D
 1715,Remercado,39310
 1715,Superpão,6736
+1715,Tio Dongo,3009
 1716,Bramil,35-0307A
 1716,Remercado,43955
+1716,Tio Dongo,4680
 1717,Bramil,35-03083
 1717,Remercado,44276
 1717,Superpão,462
 1718,Bramil,35-03091
 1718,Superpão,1204
+1718,Tio Dongo,7145
 1719,Bramil,35-03092
 1719,Superpão,1206
+1719,Tio Dongo,1361
 1720,Bramil,35-03098
 1720,Remercado,40517
 1720,Superpão,5193
 1721,Bramil,35-030B5
 1721,Remercado,39294
 1721,Superpão,1211
+1721,Tio Dongo,1911
 1722,Bramil,35-030B8
 1722,Remercado,39316
 1722,Superpão,22009
+1722,Tio Dongo,3786
 1723,Bramil,35-030C0
 1723,Remercado,67211
 1723,Superpão,607
@@ -4657,6 +4806,7 @@ grupo,mercado,codigo
 1727,Bramil,35-030E8
 1727,Remercado,39330
 1727,Superpão,1205
+1727,Tio Dongo,939
 1728,Bramil,35-030EA
 1728,Remercado,59324
 1729,Bramil,35-030F0
@@ -4711,6 +4861,7 @@ grupo,mercado,codigo
 1747,Tio Dongo,4421
 1748,Bramil,35-03155
 1748,Superpão,7603
+1748,Tio Dongo,5002
 1749,Bramil,35-03156
 1749,Superpão,7393
 1750,Bramil,35-03158
@@ -4764,13 +4915,16 @@ grupo,mercado,codigo
 1769,Bramil,35-031DC
 1769,Remercado,39257
 1769,Superpão,1161
+1769,Tio Dongo,4440
 1770,Bramil,35-031EE
 1770,Remercado,39333
 1770,Superpão,1215
+1770,Tio Dongo,432
 1771,Bramil,35-031F2
 1771,Tio Dongo,6531
 1772,Bramil,35-03201
 1772,Remercado,57610
+1772,Tio Dongo,5057
 1773,Bramil,35-03206
 1773,Remercado,59685
 1773,Tio Dongo,1669
@@ -4797,6 +4951,7 @@ grupo,mercado,codigo
 1782,Bramil,35-03242
 1782,Remercado,53774
 1782,Superpão,551
+1782,Tio Dongo,559
 1783,Bramil,35-03247
 1783,Superpão,3245
 1784,Bramil,35-0324A
@@ -4811,6 +4966,7 @@ grupo,mercado,codigo
 1787,Tio Dongo,781
 1788,Bramil,35-03286
 1788,Superpão,8078
+1788,Tio Dongo,3947
 1789,Bramil,35-03287
 1789,Superpão,8077
 1789,Tio Dongo,1167
@@ -4826,6 +4982,7 @@ grupo,mercado,codigo
 1793,Bramil,35-032AD
 1793,Remercado,46635
 1793,Superpão,21485
+1793,Tio Dongo,839
 1794,Bramil,35-032B2
 1794,Tio Dongo,5992
 1795,Bramil,35-032B3
@@ -4867,6 +5024,7 @@ grupo,mercado,codigo
 1808,Tio Dongo,2349
 1809,Bramil,35-032FA
 1809,Remercado,60512
+1809,Tio Dongo,6344
 1810,Bramil,35-032FB
 1810,Remercado,60513
 1810,Tio Dongo,4009
@@ -4878,6 +5036,7 @@ grupo,mercado,codigo
 1813,Bramil,35-0330E
 1813,Remercado,62610
 1813,Superpão,16510
+1813,Tio Dongo,1956
 1814,Bramil,35-03322
 1814,Remercado,62951
 1814,Superpão,25272
@@ -4907,6 +5066,7 @@ grupo,mercado,codigo
 1823,Bramil,35-03367
 1823,Remercado,46971
 1823,Superpão,6540
+1823,Tio Dongo,2222
 1824,Bramil,35-0336A
 1824,Remercado,63496
 1824,Tio Dongo,5298
@@ -4957,6 +5117,7 @@ grupo,mercado,codigo
 1843,Tio Dongo,6316
 1844,Bramil,35-033E5
 1844,Remercado,63361
+1844,Tio Dongo,2950
 1845,Bramil,35-033F0
 1845,Tio Dongo,1437
 1846,Bramil,35-033F3
@@ -5086,6 +5247,7 @@ grupo,mercado,codigo
 1897,Tio Dongo,5038
 1898,Bramil,35-035A7
 1898,Superpão,3378
+1898,Tio Dongo,6685
 1899,Bramil,35-035A8
 1899,Superpão,28036
 1899,Tio Dongo,4757
@@ -5109,11 +5271,14 @@ grupo,mercado,codigo
 1905,Tio Dongo,3152
 1906,Bramil,35-035D7
 1906,Superpão,2912
+1906,Tio Dongo,929
 1907,Bramil,35-035D8
 1907,Superpão,1199
+1907,Tio Dongo,5640
 1908,Bramil,35-035D9
 1908,Remercado,46403
 1908,Superpão,2617
+1908,Tio Dongo,2174
 1909,Bramil,35-035E0
 1909,Remercado,65052
 1909,Superpão,878
@@ -5172,8 +5337,8 @@ grupo,mercado,codigo
 1928,Remercado,55333
 1928,Superpão,26862
 1929,Bramil,35-0362C
-1929,Remercado,43216
-1929,Superpão,893
+1929,Remercado,54663
+1929,Superpão,892
 1929,Tio Dongo,2310
 1930,Bramil,35-0364E
 1930,Remercado,58364
@@ -5183,6 +5348,7 @@ grupo,mercado,codigo
 1931,Remercado,64400
 1932,Bramil,35-03666
 1932,Superpão,4685
+1932,Tio Dongo,5718
 1933,Bramil,35-03667
 1933,Superpão,37005
 1933,Tio Dongo,1007
@@ -5194,6 +5360,7 @@ grupo,mercado,codigo
 1936,Bramil,35-0367B
 1936,Remercado,62560
 1936,Superpão,27115
+1936,Tio Dongo,2373
 1937,Bramil,35-0367F
 1937,Remercado,41223
 1938,Bramil,35-03693
@@ -5226,8 +5393,10 @@ grupo,mercado,codigo
 1945,Tio Dongo,6877
 1946,Bramil,35-036D6
 1946,Superpão,4023
+1946,Tio Dongo,6647
 1947,Bramil,35-036E2
 1947,Superpão,478
+1947,Tio Dongo,2170
 1948,Bramil,35-036F4
 1948,Tio Dongo,1555
 1949,Bramil,35-036F5
@@ -5254,8 +5423,10 @@ grupo,mercado,codigo
 1955,Tio Dongo,4997
 1956,Bramil,35-03736
 1956,Superpão,3183
+1956,Tio Dongo,5274
 1957,Bramil,35-0374A
 1957,Remercado,64017
+1957,Tio Dongo,435
 1958,Bramil,35-0374B
 1958,Remercado,63667
 1958,Superpão,4662
@@ -5322,6 +5493,7 @@ grupo,mercado,codigo
 1981,Bramil,35-037EF
 1981,Remercado,38798
 1981,Superpão,16065
+1981,Tio Dongo,5581
 1982,Bramil,35-037F4
 1982,Remercado,58433
 1982,Superpão,5474
@@ -5483,6 +5655,7 @@ grupo,mercado,codigo
 2040,Tio Dongo,2757
 2041,Bramil,35-03944
 2041,Remercado,42865
+2041,Tio Dongo,4810
 2042,Bramil,35-03945
 2042,Remercado,63428
 2043,Bramil,35-0394B
@@ -5509,6 +5682,7 @@ grupo,mercado,codigo
 2050,Tio Dongo,4173
 2051,Bramil,35-03961
 2051,Remercado,51694
+2051,Tio Dongo,2815
 2052,Bramil,35-03963
 2052,Remercado,43763
 2052,Superpão,15834
@@ -5530,25 +5704,32 @@ grupo,mercado,codigo
 2059,Tio Dongo,1136
 2060,Bramil,35-039A7
 2060,Superpão,1172
+2060,Tio Dongo,1015
 2061,Bramil,35-039A9
 2061,Remercado,52855
 2061,Superpão,9721
+2061,Tio Dongo,6988
 2062,Bramil,35-039AB
 2062,Remercado,39217
 2063,Bramil,35-039B0
 2063,Remercado,61060
 2064,Bramil,35-039B2
 2064,Superpão,18123
+2064,Tio Dongo,3132
 2065,Bramil,35-039B3
 2065,Superpão,18140
+2065,Tio Dongo,7033
 2066,Bramil,35-039B5
 2066,Remercado,64371
 2067,Bramil,35-039BB
 2067,Remercado,40217
+2067,Tio Dongo,2725
 2068,Bramil,35-039BE
 2068,Superpão,3130
+2068,Tio Dongo,2336
 2069,Bramil,35-039BF
 2069,Superpão,18132
+2069,Tio Dongo,2518
 2070,Bramil,35-039C0
 2070,Superpão,218
 2070,Tio Dongo,1139
@@ -5558,9 +5739,11 @@ grupo,mercado,codigo
 2071,Tio Dongo,1466
 2072,Bramil,35-039C2
 2072,Superpão,1202
+2072,Tio Dongo,1461
 2073,Bramil,35-039C3
 2073,Remercado,54217
 2073,Superpão,54747
+2073,Tio Dongo,5750
 2074,Bramil,35-039C4
 2074,Remercado,47588
 2074,Superpão,219
@@ -5577,19 +5760,24 @@ grupo,mercado,codigo
 2078,Bramil,35-039CA
 2078,Remercado,50727
 2078,Superpão,19807
+2078,Tio Dongo,542
 2079,Bramil,35-039CC
 2079,Remercado,39278
 2080,Bramil,35-039CD
 2080,Remercado,39286
 2080,Superpão,18119
+2080,Tio Dongo,334
 2081,Bramil,35-039D0
 2081,Remercado,39317
 2081,Superpão,18118
+2081,Tio Dongo,7118
 2082,Bramil,35-039D1
 2082,Remercado,39301
 2082,Superpão,18125
+2082,Tio Dongo,3491
 2083,Bramil,35-039D3
 2083,Superpão,1200
+2083,Tio Dongo,2440
 2084,Bramil,35-039D6
 2084,Superpão,20237
 2085,Bramil,35-039E9
@@ -5598,34 +5786,45 @@ grupo,mercado,codigo
 2085,Tio Dongo,6741
 2086,Bramil,35-039EA
 2086,Superpão,18131
+2086,Tio Dongo,1156
 2087,Bramil,35-039EB
 2087,Superpão,1176
+2087,Tio Dongo,3854
 2088,Bramil,35-039ED
 2088,Superpão,5243
+2088,Tio Dongo,3663
 2089,Bramil,35-039EE
 2089,Superpão,18128
 2090,Bramil,35-039EF
 2090,Remercado,39319
 2090,Superpão,1198
+2090,Tio Dongo,5673
 2092,Bramil,35-039F2
 2092,Superpão,1164
+2092,Tio Dongo,5809
 2093,Bramil,35-039F3
 2093,Remercado,39264
+2093,Tio Dongo,6618
 2094,Bramil,35-039F4
 2094,Superpão,1170
+2094,Tio Dongo,4079
 2095,Bramil,35-039F5
 2095,Superpão,6449
 2096,Bramil,35-039F6
 2096,Superpão,5507
+2096,Tio Dongo,531
 2097,Bramil,35-039F9
 2097,Superpão,1238
+2097,Tio Dongo,4394
 2098,Bramil,35-039FA
 2098,Remercado,39348
+2098,Tio Dongo,121
 2099,Bramil,35-039FF
 2099,Superpão,279
 2100,Bramil,35-03A0B
 2100,Remercado,65586
 2100,Superpão,7329
+2100,Tio Dongo,4863
 2101,Bramil,35-03A12
 2101,Remercado,63819
 2102,Bramil,35-03A18
@@ -5644,6 +5843,7 @@ grupo,mercado,codigo
 2106,Superpão,3155
 2107,Bramil,35-03A27
 2107,Remercado,60178
+2107,Tio Dongo,4890
 2108,Bramil,35-03A2B
 2108,Remercado,54715
 2109,Bramil,35-03A2C
@@ -5664,6 +5864,7 @@ grupo,mercado,codigo
 2113,Tio Dongo,923
 2114,Bramil,35-03A34
 2114,Remercado,40535
+2114,Tio Dongo,5590
 2115,Bramil,35-03A3A
 2115,Tio Dongo,1502
 2116,Bramil,35-03A3E
@@ -5711,6 +5912,7 @@ grupo,mercado,codigo
 2136,Tio Dongo,1082
 2137,Bramil,35-03AA9
 2137,Remercado,59840
+2137,Tio Dongo,352
 2138,Bramil,35-03AAA
 2138,Remercado,59846
 2139,Bramil,35-03AAB
@@ -5768,6 +5970,7 @@ grupo,mercado,codigo
 2160,Superpão,16133
 2161,Bramil,35-03E52
 2161,Superpão,20401
+2161,Tio Dongo,3639
 2162,Bramil,35-03E5E
 2162,Remercado,52404
 2163,Bramil,35-03E6F
@@ -5778,16 +5981,19 @@ grupo,mercado,codigo
 2164,Tio Dongo,4505
 2165,Bramil,35-03ECE
 2165,Superpão,17628
+2165,Tio Dongo,5443
 2166,Bramil,35-03F68
 2166,Tio Dongo,3746
 2167,Bramil,35-03F70
 2167,Tio Dongo,3946
 2168,Bramil,35-03F90
 2168,Remercado,56140
+2168,Tio Dongo,369
 2169,Bramil,35-03F97
 2169,Remercado,52844
 2170,Bramil,35-03F9E
 2170,Superpão,41657
+2170,Tio Dongo,315
 2171,Bramil,35-03FA0
 2171,Tio Dongo,6577
 2172,Bramil,35-03FC5
@@ -6028,6 +6234,7 @@ grupo,mercado,codigo
 2265,Superpão,25296
 2266,Bramil,35-04517
 2266,Superpão,18038
+2266,Tio Dongo,1140
 2267,Bramil,35-0451B
 2267,Superpão,300
 2267,Tio Dongo,2877
@@ -6056,12 +6263,16 @@ grupo,mercado,codigo
 2274,Tio Dongo,5678
 2275,Bramil,35-0453B
 2275,Superpão,21090
+2275,Tio Dongo,6441
 2276,Bramil,35-04544
 2276,Superpão,18017
+2276,Tio Dongo,4205
 2277,Bramil,35-04548
 2277,Superpão,18059
+2277,Tio Dongo,53
 2278,Bramil,35-0454E
 2278,Superpão,18006
+2278,Tio Dongo,2937
 2279,Bramil,35-04557
 2279,Superpão,46553
 2279,Tio Dongo,3762
@@ -6190,6 +6401,7 @@ grupo,mercado,codigo
 2326,Bramil,35-046F0
 2326,Remercado,50532
 2326,Superpão,11201
+2326,Tio Dongo,4662
 2327,Bramil,35-046F3
 2327,Remercado,53136
 2327,Superpão,10998
@@ -6244,6 +6456,7 @@ grupo,mercado,codigo
 2346,Tio Dongo,187
 2347,Bramil,35-047D0
 2347,Superpão,18028
+2347,Tio Dongo,5978
 2348,Bramil,35-047D4
 2348,Remercado,53312
 2348,Superpão,11660
@@ -6465,11 +6678,13 @@ grupo,mercado,codigo
 2434,Tio Dongo,638
 2435,Bramil,35-04B27
 2435,Remercado,47226
+2435,Tio Dongo,431
 2436,Bramil,35-04B2A
 2436,Superpão,749
 2437,Bramil,35-04B3E
 2437,Remercado,61748
 2437,Superpão,145
+2437,Tio Dongo,1780
 2438,Bramil,35-04B54
 2438,Superpão,27432
 2439,Bramil,35-04B59
@@ -6486,6 +6701,7 @@ grupo,mercado,codigo
 2442,Bramil,35-04B91
 2442,Remercado,43204
 2442,Superpão,46729
+2442,Tio Dongo,6972
 2443,Bramil,35-04B97
 2443,Superpão,17774
 2444,Bramil,35-04B98
@@ -6513,6 +6729,7 @@ grupo,mercado,codigo
 2452,Tio Dongo,6148
 2453,Bramil,35-04BBB
 2453,Superpão,17050
+2453,Tio Dongo,1173
 2454,Bramil,35-04BC0
 2454,Tio Dongo,1689
 2455,Bramil,35-04BC3
@@ -6780,8 +6997,10 @@ grupo,mercado,codigo
 2551,Bramil,35-04F73
 2551,Remercado,39237
 2551,Superpão,2716
+2551,Tio Dongo,3641
 2552,Bramil,35-05022
 2552,Superpão,2715
+2552,Tio Dongo,7276
 2553,Bramil,35-0518A
 2553,Superpão,6802
 2554,Bramil,35-051AA
@@ -6851,6 +7070,7 @@ grupo,mercado,codigo
 2577,Bramil,35-05333
 2577,Remercado,44720
 2577,Superpão,16125
+2577,Tio Dongo,4086
 2578,Bramil,35-0533D
 2578,Tio Dongo,952
 2579,Bramil,35-0533E
@@ -6954,6 +7174,7 @@ grupo,mercado,codigo
 2616,Bramil,35-053E7
 2616,Remercado,53381
 2616,Superpão,6218
+2616,Tio Dongo,2882
 2617,Bramil,35-053EE
 2617,Remercado,55669
 2617,Superpão,14762
@@ -7029,6 +7250,7 @@ grupo,mercado,codigo
 2645,Tio Dongo,2915
 2646,Bramil,35-05464
 2646,Remercado,39255
+2646,Tio Dongo,2073
 2647,Bramil,35-05468
 2647,Remercado,44119
 2648,Bramil,35-0546A
@@ -7041,6 +7263,7 @@ grupo,mercado,codigo
 2650,Tio Dongo,3892
 2651,Bramil,35-05478
 2651,Superpão,51271
+2651,Tio Dongo,2516
 2652,Bramil,35-0547A
 2652,Tio Dongo,2031
 2653,Bramil,35-0547B
@@ -7123,6 +7346,7 @@ grupo,mercado,codigo
 2679,Tio Dongo,6382
 2680,Bramil,35-054DD
 2680,Superpão,2500
+2680,Tio Dongo,600
 2681,Bramil,35-054EA
 2681,Superpão,11437
 2681,Tio Dongo,6129
@@ -7202,6 +7426,7 @@ grupo,mercado,codigo
 2711,Tio Dongo,1307
 2712,Bramil,35-05569
 2712,Superpão,21854
+2712,Tio Dongo,6576
 2713,Bramil,35-05576
 2713,Tio Dongo,197
 2714,Bramil,35-05577
@@ -7343,6 +7568,7 @@ grupo,mercado,codigo
 2763,Tio Dongo,1484
 2764,Bramil,35-0563E
 2764,Remercado,48725
+2764,Tio Dongo,7181
 2765,Bramil,35-0563F
 2765,Remercado,42495
 2765,Superpão,306
@@ -7390,6 +7616,7 @@ grupo,mercado,codigo
 2780,Superpão,8186
 2781,Bramil,35-0569F
 2781,Superpão,51605
+2781,Tio Dongo,3470
 2782,Bramil,35-056A1
 2782,Remercado,46747
 2783,Bramil,35-056A3
@@ -7522,6 +7749,7 @@ grupo,mercado,codigo
 2833,Tio Dongo,2819
 2834,Bramil,35-05755
 2834,Superpão,18039
+2834,Tio Dongo,3508
 2835,Bramil,35-0575B
 2835,Remercado,51651
 2836,Bramil,35-0575E
@@ -7571,6 +7799,7 @@ grupo,mercado,codigo
 2851,Bramil,35-057A5
 2851,Remercado,53219
 2851,Superpão,17279
+2851,Tio Dongo,5592
 2852,Bramil,35-057A7
 2852,Superpão,6219
 2852,Tio Dongo,5419
@@ -7760,6 +7989,7 @@ grupo,mercado,codigo
 2918,Tio Dongo,380
 2919,Bramil,35-058EF
 2919,Remercado,59524
+2919,Tio Dongo,5071
 2920,Bramil,35-058F8
 2920,Remercado,56220
 2921,Bramil,35-058FE
@@ -7809,6 +8039,7 @@ grupo,mercado,codigo
 2936,Bramil,35-0593D
 2936,Remercado,48672
 2936,Superpão,7675
+2936,Tio Dongo,1120
 2937,Bramil,35-05941
 2937,Remercado,52671
 2937,Tio Dongo,1170
@@ -7978,6 +8209,7 @@ grupo,mercado,codigo
 3001,Bramil,35-05A43
 3001,Remercado,50229
 3001,Superpão,15992
+3001,Tio Dongo,411
 3002,Bramil,35-05A44
 3002,Superpão,5294
 3003,Bramil,35-05A4D
@@ -8049,6 +8281,7 @@ grupo,mercado,codigo
 3030,Bramil,35-05B02
 3030,Remercado,53486
 3030,Superpão,3200
+3030,Tio Dongo,1686
 3031,Bramil,35-05B04
 3031,Tio Dongo,4625
 3032,Bramil,35-05B07
@@ -8082,6 +8315,7 @@ grupo,mercado,codigo
 3042,Superpão,11006
 3043,Bramil,35-05B31
 3043,Remercado,53772
+3043,Tio Dongo,4895
 3044,Bramil,35-05B32
 3044,Remercado,51012
 3044,Superpão,9614
@@ -8167,6 +8401,7 @@ grupo,mercado,codigo
 3071,Bramil,35-05B83
 3071,Remercado,43596
 3071,Superpão,209
+3071,Tio Dongo,4191
 3072,Bramil,35-05B87
 3072,Remercado,54840
 3072,Tio Dongo,1542
@@ -8230,6 +8465,7 @@ grupo,mercado,codigo
 3093,Bramil,35-05BBE
 3093,Remercado,51332
 3093,Superpão,8864
+3093,Tio Dongo,2965
 3094,Bramil,35-05BC0
 3094,Tio Dongo,85
 3095,Bramil,35-05BC6
@@ -8246,6 +8482,7 @@ grupo,mercado,codigo
 3098,Bramil,35-05BCE
 3098,Remercado,53484
 3098,Superpão,3197
+3098,Tio Dongo,5788
 3099,Bramil,35-05BD1
 3099,Tio Dongo,1625
 3100,Bramil,35-05BD2
@@ -8382,6 +8619,7 @@ grupo,mercado,codigo
 3158,Bramil,35-05D8B
 3158,Remercado,39887
 3158,Superpão,147
+3158,Tio Dongo,4390
 3159,Bramil,35-05D8D
 3159,Superpão,47256
 3159,Tio Dongo,2405
@@ -8401,6 +8639,7 @@ grupo,mercado,codigo
 3164,Bramil,35-05D9F
 3164,Remercado,47447
 3164,Superpão,6764
+3164,Tio Dongo,1464
 3165,Bramil,35-05DA2
 3165,Remercado,54301
 3165,Superpão,52341
@@ -8493,15 +8732,18 @@ grupo,mercado,codigo
 3199,Bramil,35-05E51
 3199,Remercado,53179
 3199,Superpão,26075
+3199,Tio Dongo,4097
 3200,Bramil,35-05E58
 3200,Superpão,20245
 3201,Bramil,35-05E5A
 3201,Remercado,53178
+3201,Tio Dongo,4463
 3202,Bramil,35-05E5F
 3202,Remercado,57042
 3203,Bramil,35-05E61
 3203,Remercado,39405
 3203,Superpão,913
+3203,Tio Dongo,1874
 3204,Bramil,35-05E64
 3204,Remercado,55571
 3204,Superpão,25508
@@ -8627,6 +8869,7 @@ grupo,mercado,codigo
 3254,Bramil,35-05F8C
 3254,Remercado,52661
 3254,Superpão,8554
+3254,Tio Dongo,6082
 3255,Bramil,35-05FA0
 3255,Remercado,52590
 3255,Tio Dongo,129
@@ -8655,6 +8898,7 @@ grupo,mercado,codigo
 3264,Tio Dongo,5353
 3265,Bramil,35-05FDE
 3265,Superpão,23705
+3265,Tio Dongo,2804
 3266,Bramil,35-05FE0
 3266,Remercado,59370
 3266,Superpão,24813
@@ -8680,6 +8924,7 @@ grupo,mercado,codigo
 3274,Tio Dongo,4535
 3275,Bramil,35-05FED
 3275,Superpão,19026
+3275,Tio Dongo,2457
 3276,Bramil,35-05FEF
 3276,Remercado,55864
 3277,Bramil,35-05FF0
@@ -8734,8 +8979,10 @@ grupo,mercado,codigo
 3294,Tio Dongo,1320
 3295,Bramil,35-06044
 3295,Superpão,3346
+3295,Tio Dongo,6795
 3296,Bramil,35-0604B
 3296,Superpão,18988
+3296,Tio Dongo,2386
 3297,Bramil,35-0604C
 3297,Superpão,25635
 3297,Tio Dongo,3989
@@ -8797,6 +9044,7 @@ grupo,mercado,codigo
 3321,Tio Dongo,3247
 3322,Bramil,35-060A6
 3322,Superpão,18077
+3322,Tio Dongo,592
 3323,Bramil,35-060B1
 3323,Superpão,12316
 3324,Bramil,35-060B2
@@ -8837,6 +9085,7 @@ grupo,mercado,codigo
 3339,Tio Dongo,2678
 3340,Bramil,35-06128
 3340,Superpão,26180
+3340,Tio Dongo,697
 3341,Bramil,35-06137
 3341,Remercado,58448
 3341,Superpão,7526
@@ -8900,6 +9149,7 @@ grupo,mercado,codigo
 3362,Tio Dongo,1486
 3363,Bramil,35-0615B
 3363,Superpão,6856
+3363,Tio Dongo,3441
 3364,Bramil,35-0615C
 3364,Remercado,54821
 3364,Superpão,41774
@@ -8970,10 +9220,11 @@ grupo,mercado,codigo
 3389,Bramil,35-061C0
 3389,Remercado,39936
 3389,Superpão,28308
-3389,Tio Dongo,5322
+3389,Tio Dongo,1495
 3390,Bramil,35-061C1
 3390,Remercado,42649
 3390,Superpão,398
+3390,Tio Dongo,6359
 3391,Bramil,35-061C3
 3391,Remercado,42651
 3391,Superpão,397
@@ -8997,6 +9248,7 @@ grupo,mercado,codigo
 3398,Superpão,11728
 3399,Bramil,35-061E1
 3399,Superpão,6655
+3399,Tio Dongo,3428
 3400,Bramil,35-061E8
 3400,Superpão,25829
 3401,Bramil,35-061E9
@@ -9091,6 +9343,7 @@ grupo,mercado,codigo
 3434,Tio Dongo,5374
 3435,Bramil,35-0629E
 3435,Remercado,48610
+3435,Tio Dongo,3453
 3436,Bramil,35-0629F
 3436,Remercado,57661
 3436,Superpão,8849
@@ -9150,6 +9403,7 @@ grupo,mercado,codigo
 3456,Tio Dongo,2596
 3457,Bramil,35-062CF
 3457,Remercado,62629
+3457,Tio Dongo,1867
 3458,Bramil,35-062D4
 3458,Remercado,54129
 3459,Bramil,35-062D9
@@ -9517,6 +9771,7 @@ grupo,mercado,codigo
 3601,Bramil,35-06563
 3601,Remercado,53502
 3601,Superpão,20277
+3601,Tio Dongo,2948
 3602,Bramil,35-06565
 3602,Superpão,17040
 3603,Bramil,35-06568
@@ -9837,6 +10092,7 @@ grupo,mercado,codigo
 3736,Tio Dongo,3500
 3737,Bramil,35-0684D
 3737,Superpão,25124
+3737,Tio Dongo,4834
 3738,Bramil,35-06851
 3738,Tio Dongo,23
 3739,Bramil,35-0685A
@@ -9958,6 +10214,7 @@ grupo,mercado,codigo
 3784,Tio Dongo,6813
 3785,Bramil,35-069DC
 3785,Superpão,27411
+3785,Tio Dongo,4648
 3786,Bramil,35-069DF
 3786,Superpão,27424
 3787,Bramil,35-069E2
@@ -10074,6 +10331,7 @@ grupo,mercado,codigo
 3833,Superpão,9876
 3834,Bramil,35-06A99
 3834,Superpão,27839
+3834,Tio Dongo,5715
 3835,Bramil,35-06A9A
 3835,Superpão,3015
 3836,Bramil,35-06AA3
@@ -10329,6 +10587,7 @@ grupo,mercado,codigo
 3944,Bramil,35-06CFE
 3944,Remercado,45387
 3944,Superpão,17339
+3944,Tio Dongo,6373
 3945,Bramil,35-06CFF
 3945,Remercado,41369
 3945,Superpão,7848
@@ -10376,6 +10635,7 @@ grupo,mercado,codigo
 3961,Tio Dongo,6470
 3962,Bramil,35-06D9C
 3962,Superpão,32641
+3962,Tio Dongo,3864
 3963,Bramil,35-06DAC
 3963,Superpão,50585
 3964,Bramil,35-06DAF
@@ -10672,6 +10932,7 @@ grupo,mercado,codigo
 4088,Superpão,10798
 4089,Bramil,35-06FF4
 4089,Remercado,39399
+4089,Tio Dongo,883
 4090,Bramil,35-06FF5
 4090,Superpão,4431
 4091,Bramil,35-06FFA
@@ -10705,6 +10966,7 @@ grupo,mercado,codigo
 4103,Remercado,41574
 4104,Bramil,35-0704C
 4104,Superpão,18013
+4104,Tio Dongo,4495
 4105,Bramil,35-07055
 4105,Tio Dongo,4072
 4106,Bramil,35-0705A
@@ -10764,6 +11026,7 @@ grupo,mercado,codigo
 4126,Tio Dongo,5904
 4127,Bramil,35-070BA
 4127,Superpão,18070
+4127,Tio Dongo,1343
 4128,Bramil,35-070BB
 4128,Tio Dongo,2208
 4129,Bramil,35-070C1
@@ -10776,8 +11039,10 @@ grupo,mercado,codigo
 4132,Remercado,47139
 4133,Bramil,35-070CB
 4133,Superpão,27843
+4133,Tio Dongo,6443
 4134,Bramil,35-070CE
 4134,Superpão,18056
+4134,Tio Dongo,5290
 4135,Bramil,35-070CF
 4135,Remercado,54350
 4135,Superpão,14763
@@ -10795,6 +11060,7 @@ grupo,mercado,codigo
 4140,Bramil,35-070E0
 4140,Remercado,55471
 4140,Superpão,18065
+4140,Tio Dongo,2602
 4141,Bramil,35-070E2
 4141,Superpão,56135
 4142,Bramil,35-070E4
@@ -10809,14 +11075,17 @@ grupo,mercado,codigo
 4146,Bramil,35-070F1
 4146,Remercado,55618
 4146,Superpão,49228
+4146,Tio Dongo,1165
 4147,Bramil,35-070F2
 4147,Superpão,53787
 4148,Bramil,35-070F7
 4148,Superpão,27845
 4149,Bramil,35-070F8
 4149,Superpão,18058
+4149,Tio Dongo,5505
 4150,Bramil,35-070FB
 4150,Superpão,18061
+4150,Tio Dongo,6480
 4151,Bramil,35-070FC
 4151,Remercado,55532
 4151,Tio Dongo,3121
@@ -10898,6 +11167,7 @@ grupo,mercado,codigo
 4183,Bramil,35-07151
 4183,Remercado,39385
 4183,Superpão,16124
+4183,Tio Dongo,499
 4184,Bramil,35-07152
 4184,Superpão,166
 4185,Bramil,35-07153
@@ -11107,6 +11377,7 @@ grupo,mercado,codigo
 4272,Bramil,35-0736F
 4272,Remercado,56147
 4272,Superpão,54927
+4272,Tio Dongo,2997
 4273,Bramil,35-07371
 4273,Remercado,49868
 4273,Tio Dongo,4316
@@ -11226,6 +11497,7 @@ grupo,mercado,codigo
 4320,Tio Dongo,4406
 4321,Bramil,35-0740C
 4321,Remercado,39410
+4321,Tio Dongo,2217
 4322,Bramil,35-0740E
 4322,Superpão,14413
 4322,Tio Dongo,4396
@@ -11411,6 +11683,7 @@ grupo,mercado,codigo
 4392,Superpão,24918
 4393,Bramil,35-0751B
 4393,Superpão,17757
+4393,Tio Dongo,3448
 4394,Bramil,35-0751C
 4394,Superpão,10455
 4395,Bramil,35-07523
@@ -11450,8 +11723,10 @@ grupo,mercado,codigo
 4409,Tio Dongo,4828
 4410,Bramil,35-07588
 4410,Superpão,27851
+4410,Tio Dongo,3646
 4411,Bramil,35-07589
 4411,Superpão,18037
+4411,Tio Dongo,2188
 4412,Bramil,35-0758A
 4412,Tio Dongo,2414
 4413,Bramil,35-07594
@@ -11508,6 +11783,7 @@ grupo,mercado,codigo
 4433,Bramil,35-075EE
 4433,Remercado,56651
 4433,Superpão,8928
+4433,Tio Dongo,3651
 4434,Bramil,35-075EF
 4434,Tio Dongo,3801
 4435,Bramil,35-075F0
@@ -11553,6 +11829,7 @@ grupo,mercado,codigo
 4454,Tio Dongo,6195
 4455,Bramil,35-0768A
 4455,Superpão,28218
+4455,Tio Dongo,3931
 4456,Bramil,35-07692
 4456,Tio Dongo,4242
 4457,Bramil,35-0769A
@@ -11567,6 +11844,7 @@ grupo,mercado,codigo
 4461,Bramil,35-076C0
 4461,Remercado,42874
 4461,Superpão,2233
+4461,Tio Dongo,2570
 4462,Bramil,35-076C5
 4462,Tio Dongo,1116
 4463,Bramil,35-076CC
@@ -11600,6 +11878,7 @@ grupo,mercado,codigo
 4475,Tio Dongo,1462
 4476,Bramil,35-07761
 4476,Superpão,18074
+4476,Tio Dongo,6000
 4477,Bramil,35-0776E
 4477,Superpão,20263
 4477,Tio Dongo,5865
@@ -12022,6 +12301,7 @@ grupo,mercado,codigo
 4647,Tio Dongo,707
 4648,Bramil,35-08128
 4648,Remercado,54646
+4648,Tio Dongo,2016
 4649,Bramil,35-0812C
 4649,Remercado,56905
 4650,Bramil,35-0812D
@@ -12297,6 +12577,7 @@ grupo,mercado,codigo
 4762,Bramil,35-0846D
 4762,Remercado,48357
 4762,Superpão,1250
+4762,Tio Dongo,5086
 4763,Bramil,35-08470
 4763,Remercado,49117
 4763,Superpão,2656
@@ -12308,7 +12589,9 @@ grupo,mercado,codigo
 4766,Bramil,35-08478
 4766,Superpão,16951
 4767,Bramil,35-0847A
+4767,Remercado,64173
 4767,Superpão,54182
+4767,Tio Dongo,4745
 4769,Bramil,35-084A4
 4769,Superpão,54929
 4770,Bramil,35-084A8
@@ -12498,847 +12781,2071 @@ grupo,mercado,codigo
 4845,Superpão,54379
 4846,Bramil,35-086DE
 4846,Superpão,55948
-4847,Remercado,38448
-4847,Superpão,11668
-4848,Remercado,38450
-4848,Superpão,21748
-4849,Remercado,38451
-4849,Superpão,2793
-4850,Remercado,38452
-4850,Superpão,2794
-4851,Remercado,38468
-4851,Superpão,26004
-4852,Remercado,38469
-4852,Superpão,26013
-4853,Remercado,38470
-4853,Superpão,26012
-4854,Remercado,38473
-4854,Superpão,2554
-4855,Remercado,38491
-4855,Superpão,322
-4856,Remercado,38492
-4856,Superpão,323
-4857,Remercado,38496
-4857,Superpão,326
-4858,Remercado,38524
-4858,Superpão,2495
-4859,Remercado,38550
-4859,Superpão,984
-4860,Remercado,38551
-4860,Superpão,26081
-4861,Remercado,38595
-4861,Superpão,18303
-4862,Remercado,38596
-4862,Superpão,18297
-4863,Remercado,38609
-4863,Superpão,18302
-4864,Remercado,38633
-4864,Superpão,261
-4865,Remercado,38645
-4865,Superpão,3729
-4866,Remercado,38659
-4866,Superpão,267
-4867,Remercado,38662
-4867,Superpão,269
-4868,Remercado,38669
-4868,Superpão,1080
-4869,Remercado,38709
-4869,Superpão,611
-4870,Remercado,38730
-4870,Superpão,616
-4871,Remercado,38779
-4871,Superpão,2758
-4872,Remercado,38848
-4872,Superpão,24715
-4873,Remercado,38854
-4873,Superpão,24637
-4874,Remercado,39010
-4874,Superpão,24734
-4875,Remercado,39180
-4875,Superpão,953
-4876,Remercado,39218
-4876,Superpão,1871
-4877,Remercado,39246
-4877,Superpão,15370
-4878,Remercado,39266
-4878,Superpão,54795
-4879,Remercado,39280
-4879,Superpão,5451
-4880,Remercado,39297
-4880,Superpão,1210
-4881,Remercado,39338
-4881,Superpão,1208
-4882,Remercado,39342
-4882,Superpão,1220
-4883,Remercado,39346
-4883,Superpão,17264
-4884,Remercado,39359
-4884,Superpão,7831
-4885,Remercado,39382
-4885,Superpão,14174
-4886,Remercado,39387
-4886,Superpão,14212
-4887,Remercado,39398
-4887,Superpão,14056
-4888,Remercado,39430
-4888,Superpão,3832
-4889,Remercado,39436
-4889,Superpão,19046
-4890,Remercado,39831
-4890,Superpão,2800
-4891,Remercado,39863
-4891,Superpão,51598
-4892,Remercado,39946
-4892,Superpão,111
-4893,Remercado,39947
-4893,Superpão,110
-4894,Remercado,40034
-4894,Superpão,2271
-4895,Remercado,40035
-4895,Superpão,2272
-4896,Remercado,40166
-4896,Superpão,14769
-4897,Remercado,40353
-4897,Superpão,25653
-4898,Remercado,40922
-4898,Superpão,947
-4899,Remercado,40923
-4899,Superpão,948
-4900,Remercado,40927
-4900,Superpão,950
-4901,Remercado,40972
-4901,Superpão,22641
-4902,Remercado,40980
-4902,Superpão,46854
-4903,Remercado,41315
-4903,Superpão,55527
-4904,Remercado,41367
-4904,Superpão,25152
-4905,Remercado,41475
-4905,Superpão,24434
-4906,Remercado,41477
-4906,Superpão,18609
-4907,Remercado,41481
-4907,Superpão,2762
-4908,Remercado,41482
-4908,Superpão,2761
-4909,Remercado,41581
-4909,Superpão,22260
-4910,Remercado,41677
-4910,Superpão,17341
-4911,Remercado,41711
-4911,Superpão,936
-4912,Remercado,41795
-4912,Superpão,28046
-4913,Remercado,42423
-4913,Superpão,3717
-4914,Remercado,42617
-4914,Superpão,2725
-4915,Remercado,42749
-4915,Superpão,691
-4916,Remercado,42855
-4916,Superpão,2624
-4917,Remercado,42954
-4917,Superpão,11702
-4918,Remercado,43096
-4918,Superpão,7593
-4919,Remercado,43098
-4919,Superpão,4324
-4920,Remercado,43099
-4920,Superpão,7592
-4921,Remercado,43153
-4921,Superpão,46724
-4922,Remercado,43156
-4922,Superpão,855
-4923,Remercado,43184
-4923,Superpão,742
-4924,Remercado,43212
-4924,Superpão,741
-4925,Remercado,43217
-4925,Superpão,46453
-4926,Remercado,43244
-4926,Superpão,688
-4927,Remercado,43256
-4927,Superpão,687
-4928,Remercado,43274
-4928,Superpão,684
-4929,Remercado,43276
-4929,Superpão,19126
-4930,Remercado,43280
-4930,Superpão,682
-4931,Remercado,43281
-4931,Superpão,683
-4932,Remercado,43285
-4932,Superpão,668
-4933,Remercado,43288
-4933,Superpão,693
-4934,Remercado,43289
-4934,Superpão,669
-4935,Remercado,43299
-4935,Superpão,671
-4936,Remercado,43302
-4936,Superpão,672
-4937,Remercado,43304
-4937,Superpão,673
-4938,Remercado,43312
-4938,Superpão,675
-4939,Remercado,43313
-4939,Superpão,702
-4940,Remercado,43314
-4940,Superpão,676
-4941,Remercado,43355
-4941,Superpão,20638
-4942,Remercado,43428
-4942,Superpão,536
-4943,Remercado,43438
-4943,Superpão,464
-4944,Remercado,43526
-4944,Superpão,168
-4945,Remercado,43541
-4945,Superpão,19475
-4946,Remercado,43542
-4946,Superpão,19476
-4947,Remercado,43600
-4947,Superpão,210
-4948,Remercado,43601
-4948,Superpão,214
-4949,Remercado,43610
-4949,Superpão,2142
-4950,Remercado,43722
-4950,Superpão,18957
-4951,Remercado,43815
-4951,Superpão,12443
-4952,Remercado,44115
-4952,Superpão,26928
-4953,Remercado,44116
-4953,Superpão,26927
-4954,Remercado,44117
-4954,Superpão,26930
-4955,Remercado,44456
-4955,Superpão,50606
-4956,Remercado,44513
-4956,Superpão,15014
-4957,Remercado,44514
-4957,Superpão,15016
-4958,Remercado,44673
-4958,Superpão,26352
-4959,Remercado,44674
-4959,Superpão,8062
-4960,Remercado,44676
-4960,Superpão,27388
-4961,Remercado,44680
-4961,Superpão,16797
-4962,Remercado,44691
-4962,Superpão,21850
-4963,Remercado,44692
-4963,Superpão,21851
-4964,Remercado,44712
-4964,Superpão,15015
-4965,Remercado,44726
-4965,Superpão,5925
-4966,Remercado,44926
-4966,Superpão,9126
-4967,Remercado,44944
-4967,Superpão,18955
-4968,Remercado,44956
-4968,Superpão,26929
-4969,Remercado,45182
-4969,Superpão,11022
-4970,Remercado,45195
-4970,Superpão,6201
-4971,Remercado,45396
-4971,Superpão,12975
-4972,Remercado,45501
-4972,Superpão,5839
-4973,Remercado,45550
-4973,Superpão,12976
-4974,Remercado,45577
-4974,Superpão,15612
-4975,Remercado,45638
-4975,Superpão,5902
-4976,Remercado,45778
-4976,Superpão,463
-4977,Remercado,45980
-4977,Superpão,21230
-4978,Remercado,46172
-4978,Superpão,12188
-4979,Remercado,46183
-4979,Superpão,10480
-4980,Remercado,46388
-4980,Superpão,17423
-4981,Remercado,46405
-4981,Superpão,5838
-4982,Remercado,46457
-4982,Superpão,16792
-4983,Remercado,46458
-4983,Superpão,16791
-4984,Remercado,46561
-4984,Superpão,26333
-4985,Remercado,46743
-4985,Superpão,51266
-4986,Remercado,46760
-4986,Superpão,847
-4987,Remercado,46761
-4987,Superpão,848
-4988,Remercado,46806
-4988,Superpão,845
-4989,Remercado,46807
-4989,Superpão,846
-4990,Remercado,46808
-4990,Superpão,3942
-4991,Remercado,46827
-4991,Superpão,14270
-4992,Remercado,46855
-4992,Superpão,15663
-4993,Remercado,46857
-4993,Superpão,15666
-4994,Remercado,46858
-4994,Superpão,15664
-4995,Remercado,46893
-4995,Superpão,5669
-4996,Remercado,46894
-4996,Superpão,5668
-4997,Remercado,46923
-4997,Superpão,17225
-4998,Remercado,46981
-4998,Superpão,26014
-4999,Remercado,47035
-4999,Superpão,15685
-5000,Remercado,47183
-5000,Superpão,8917
-5001,Remercado,47450
-5001,Superpão,28041
-5002,Remercado,47460
-5002,Superpão,12935
-5003,Remercado,47550
-5003,Superpão,7167
-5004,Remercado,47552
-5004,Superpão,7403
-5005,Remercado,47561
-5005,Superpão,7404
-5006,Remercado,47966
-5006,Superpão,49050
-5007,Remercado,47986
-5007,Superpão,438
-5008,Remercado,48062
-5008,Superpão,11703
-5009,Remercado,48072
-5009,Superpão,7066
-5010,Remercado,48073
-5010,Superpão,25542
-5011,Remercado,48092
-5011,Superpão,7096
-5012,Remercado,48105
-5012,Superpão,55526
-5013,Remercado,48204
-5013,Superpão,598
-5014,Remercado,48257
-5014,Superpão,7162
-5015,Remercado,48464
-5015,Superpão,12385
-5016,Remercado,48505
-5016,Superpão,342
-5017,Remercado,48545
-5017,Superpão,3862
-5018,Remercado,48658
-5018,Superpão,26938
-5019,Remercado,48664
-5019,Superpão,597
-5020,Remercado,48861
-5020,Superpão,7334
-5021,Remercado,48862
-5021,Superpão,7352
-5022,Remercado,48863
-5022,Superpão,7333
-5023,Remercado,49253
-5023,Superpão,4723
-5024,Remercado,49393
-5024,Superpão,22740
-5025,Remercado,49507
-5025,Superpão,767
-5026,Remercado,49509
-5026,Superpão,7773
-5027,Remercado,49520
-5027,Superpão,15637
-5028,Remercado,49530
-5028,Superpão,45633
-5029,Remercado,49606
-5029,Superpão,22786
-5030,Remercado,49611
-5030,Superpão,7706
-5031,Remercado,49916
-5031,Superpão,7063
-5032,Remercado,49947
-5032,Superpão,22644
-5033,Remercado,50112
-5033,Superpão,7468
-5034,Remercado,50148
-5034,Superpão,412
-5035,Remercado,50448
-5035,Superpão,12911
-5036,Remercado,50582
-5036,Superpão,23393
-5037,Remercado,50583
-5037,Superpão,23395
-5038,Remercado,50600
-5038,Superpão,1842
-5039,Remercado,50674
-5039,Superpão,16796
-5040,Remercado,50726
-5040,Superpão,10628
-5041,Remercado,50740
-5041,Superpão,583
-5042,Remercado,50741
-5042,Superpão,584
-5043,Remercado,50821
-5043,Superpão,6679
-5044,Remercado,50859
-5044,Superpão,7729
-5045,Remercado,50956
-5045,Superpão,54792
-5046,Remercado,50960
-5046,Superpão,15975
-5047,Remercado,50961
-5047,Superpão,15983
-5048,Remercado,50975
-5048,Superpão,2275
-5049,Remercado,50990
-5049,Superpão,17751
-5050,Remercado,51015
-5050,Superpão,1805
-5051,Remercado,51021
-5051,Superpão,8774
-5052,Remercado,51022
-5052,Superpão,8831
-5053,Remercado,51056
-5053,Superpão,11193
-5054,Remercado,51057
-5054,Superpão,11194
-5055,Remercado,51074
-5055,Superpão,11730
-5056,Remercado,51255
-5056,Superpão,8987
-5057,Remercado,51372
-5057,Superpão,17301
-5058,Remercado,51413
-5058,Superpão,8845
-5059,Remercado,51580
-5059,Superpão,17298
-5060,Remercado,51582
-5060,Superpão,17296
-5061,Remercado,51604
-5061,Superpão,13953
-5062,Remercado,51663
-5062,Superpão,12018
-5063,Remercado,51707
-5063,Superpão,8826
-5064,Remercado,51708
-5064,Superpão,10081
-5065,Remercado,51742
-5065,Superpão,5339
-5066,Remercado,51743
-5066,Superpão,50964
-5067,Remercado,51774
-5067,Superpão,12019
-5068,Remercado,51790
-5068,Superpão,17769
-5069,Remercado,51892
-5069,Superpão,12825
-5070,Remercado,51944
-5070,Superpão,10902
-5071,Remercado,51980
-5071,Superpão,12148
-5072,Remercado,51999
-5072,Superpão,11742
-5073,Remercado,52005
-5073,Superpão,22197
-5074,Remercado,52045
-5074,Superpão,9094
-5075,Remercado,52059
-5075,Superpão,9202
-5076,Remercado,52060
-5076,Superpão,9201
-5077,Remercado,52061
-5077,Superpão,10109
-5078,Remercado,52138
-5078,Superpão,14520
-5079,Remercado,52192
-5079,Superpão,8688
-5080,Remercado,52225
-5080,Superpão,9981
-5081,Remercado,52226
-5081,Superpão,11195
-5082,Remercado,52237
-5082,Superpão,20563
-5083,Remercado,52267
-5083,Superpão,3636
-5084,Remercado,52283
-5084,Superpão,25304
-5085,Remercado,52305
-5085,Superpão,16677
-5086,Remercado,52385
-5086,Superpão,12237
-5087,Remercado,52434
-5087,Superpão,12301
-5088,Remercado,52475
-5088,Superpão,5681
-5089,Remercado,52559
-5089,Superpão,13224
-5090,Remercado,52570
-5090,Superpão,6686
-5091,Remercado,52593
-5091,Superpão,8394
-5092,Remercado,52672
-5092,Superpão,18348
-5093,Remercado,52735
-5093,Superpão,10730
-5094,Remercado,52751
-5094,Superpão,15900
-5095,Remercado,52771
-5095,Superpão,25557
-5096,Remercado,52778
-5096,Superpão,54246
-5097,Remercado,52860
-5097,Superpão,2908
-5098,Remercado,52863
-5098,Superpão,11121
-5099,Remercado,52869
-5099,Superpão,8829
-5100,Remercado,52877
-5100,Superpão,2931
-5101,Remercado,52917
-5101,Superpão,26326
-5102,Remercado,53090
-5102,Superpão,52171
-5103,Remercado,53201
-5103,Superpão,4490
-5104,Remercado,53212
-5104,Superpão,19446
-5105,Remercado,53254
-5105,Superpão,12601
-5106,Remercado,53255
-5106,Superpão,17611
-5107,Remercado,53317
-5107,Superpão,492
-5108,Remercado,53395
-5108,Superpão,8196
-5109,Remercado,53567
-5109,Superpão,11454
-5110,Remercado,53568
-5110,Superpão,11453
-5111,Remercado,53624
-5111,Superpão,49203
-5112,Remercado,53693
-5112,Superpão,5990
-5113,Remercado,53792
-5113,Superpão,46791
-5114,Remercado,53838
-5114,Superpão,52152
-5115,Remercado,53844
-5115,Superpão,52078
-5116,Remercado,53853
-5116,Superpão,20248
-5117,Remercado,53885
-5117,Superpão,21659
-5118,Remercado,53922
-5118,Superpão,12020
-5119,Remercado,53925
-5119,Superpão,52204
-5120,Remercado,53926
-5120,Superpão,52203
-5121,Remercado,53979
-5121,Superpão,54787
-5122,Remercado,54025
-5122,Superpão,23940
-5123,Remercado,54050
-5123,Superpão,24683
-5124,Remercado,54078
-5124,Superpão,46966
-5125,Remercado,54177
-5125,Superpão,25273
-5126,Remercado,54187
-5126,Superpão,24147
-5127,Remercado,54218
-5127,Superpão,45530
-5128,Remercado,54219
-5128,Superpão,53580
-5129,Remercado,54317
-5129,Superpão,8643
-5130,Remercado,54319
-5130,Superpão,10776
-5131,Remercado,54459
-5131,Superpão,27647
-5132,Remercado,54488
-5132,Superpão,22036
-5133,Remercado,54501
-5133,Superpão,24486
-5134,Remercado,54568
-5134,Superpão,420
-5135,Remercado,54577
-5135,Superpão,18956
-5136,Remercado,54630
-5136,Superpão,47334
-5137,Remercado,54643
-5137,Superpão,28424
-5138,Remercado,54663
-5138,Superpão,892
-5139,Remercado,54678
-5139,Superpão,48245
-5140,Remercado,54697
-5140,Superpão,21273
-5141,Remercado,54771
-5141,Superpão,26272
-5142,Remercado,54807
-5142,Superpão,49321
-5143,Remercado,54826
-5143,Superpão,50912
-5144,Remercado,54844
-5144,Superpão,27245
-5145,Remercado,54977
-5145,Superpão,28525
-5146,Remercado,54978
-5146,Superpão,28527
-5147,Remercado,54980
-5147,Superpão,28526
-5148,Remercado,55164
-5148,Superpão,22774
-5149,Remercado,55201
-5149,Superpão,47734
-5150,Remercado,55246
-5150,Superpão,9
-5151,Remercado,55390
-5151,Superpão,55830
-5152,Remercado,55546
-5152,Superpão,52245
-5153,Remercado,55567
-5153,Superpão,52307
-5154,Remercado,55585
-5154,Superpão,22032
-5155,Remercado,55614
-5155,Superpão,11707
-5156,Remercado,55639
-5156,Superpão,28263
-5157,Remercado,55640
-5157,Superpão,45517
-5158,Remercado,55668
-5158,Superpão,49320
-5159,Remercado,55676
-5159,Superpão,53436
-5160,Remercado,55677
-5160,Superpão,53437
-5161,Remercado,55687
-5161,Superpão,49885
-5162,Remercado,55692
-5162,Superpão,50916
-5163,Remercado,55694
-5163,Superpão,49884
-5164,Remercado,55695
-5164,Superpão,49886
-5165,Remercado,55723
-5165,Superpão,24509
-5166,Remercado,55726
-5166,Superpão,48644
-5167,Remercado,55747
-5167,Superpão,48645
-5168,Remercado,55801
-5168,Superpão,25088
-5169,Remercado,55830
-5169,Superpão,51025
-5170,Remercado,55916
-5170,Superpão,19823
-5171,Remercado,55928
-5171,Superpão,48304
-5172,Remercado,56111
-5172,Superpão,3196
-5173,Remercado,56203
-5173,Superpão,48016
-5174,Remercado,56241
-5174,Superpão,49181
-5175,Remercado,56258
-5175,Superpão,52662
-5176,Remercado,56475
-5176,Superpão,22015
-5177,Remercado,56617
-5177,Superpão,51658
-5178,Remercado,56627
-5178,Superpão,55529
-5179,Remercado,56628
-5179,Superpão,55530
-5180,Remercado,56640
-5180,Superpão,52260
-5181,Remercado,56654
-5181,Superpão,20986
-5182,Remercado,56671
-5182,Superpão,16262
-5183,Remercado,56672
-5183,Superpão,53083
-5184,Remercado,56675
-5184,Superpão,1045
-5185,Remercado,56736
-5185,Superpão,53069
-5186,Remercado,56761
-5186,Superpão,53408
-5187,Remercado,56805
-5187,Superpão,55532
-5188,Remercado,56968
-5188,Superpão,10362
-5189,Remercado,57422
-5189,Superpão,3941
-5190,Remercado,57564
-5190,Superpão,8973
-5191,Remercado,58063
-5191,Superpão,46997
-5192,Remercado,58319
-5192,Superpão,14264
-5193,Remercado,58331
-5193,Superpão,28072
-5194,Remercado,58645
-5194,Superpão,37520
-5195,Remercado,58652
-5195,Superpão,18296
-5196,Remercado,58660
-5196,Superpão,23400
-5197,Remercado,58719
-5197,Superpão,8066
-5198,Remercado,58937
-5198,Superpão,2755
-5199,Remercado,58939
-5199,Superpão,2892
-5200,Remercado,59022
-5200,Superpão,1760
-5201,Remercado,59034
-5201,Superpão,19474
-5202,Remercado,59055
-5202,Superpão,16825
-5203,Remercado,59083
-5203,Superpão,4446
-5204,Remercado,59165
-5204,Superpão,16434
-5205,Remercado,59178
-5205,Superpão,365
-5206,Remercado,59247
-5206,Superpão,765
-5207,Remercado,59557
-5207,Superpão,914
-5208,Remercado,59603
-5208,Superpão,2718
-5209,Remercado,59689
-5209,Superpão,2719
-5210,Remercado,59698
-5210,Superpão,2438
-5211,Remercado,59786
-5211,Superpão,2829
-5212,Remercado,59873
-5212,Superpão,717
-5213,Remercado,59888
-5213,Superpão,28047
-5214,Remercado,59903
-5214,Superpão,2795
-5215,Remercado,59924
-5215,Superpão,26336
-5216,Remercado,60116
-5216,Superpão,3434
-5217,Remercado,60259
-5217,Superpão,4443
-5218,Remercado,60667
-5218,Superpão,6766
-5219,Remercado,60897
-5219,Superpão,14367
-5220,Remercado,60915
-5220,Superpão,25250
-5221,Remercado,60937
-5221,Superpão,3069
-5222,Remercado,60989
-5222,Superpão,2720
-5223,Remercado,60999
-5223,Superpão,2796
-5224,Remercado,61305
-5224,Superpão,11733
-5225,Remercado,61404
-5225,Superpão,27384
-5226,Remercado,61655
-5226,Superpão,11237
-5227,Remercado,61920
-5227,Superpão,2760
-5228,Remercado,61995
-5228,Superpão,2721
-5229,Remercado,62051
-5229,Superpão,8550
-5230,Remercado,62062
-5230,Superpão,2763
-5231,Remercado,62301
-5231,Superpão,11171
-5232,Remercado,62326
-5232,Superpão,20131
-5233,Remercado,62684
-5233,Superpão,2717
-5234,Remercado,62687
-5234,Superpão,2759
-5235,Remercado,62968
-5235,Superpão,6682
-5236,Remercado,63001
-5236,Superpão,2570
-5237,Remercado,63013
-5237,Superpão,52436
-5238,Remercado,63162
-5238,Superpão,4694
-5239,Remercado,63294
-5239,Superpão,25452
-5240,Remercado,63326
-5240,Superpão,19259
-5241,Remercado,63522
-5241,Superpão,735
-5242,Remercado,63588
-5242,Superpão,21661
-5243,Remercado,63672
-5243,Superpão,15982
-5244,Remercado,64111
-5244,Superpão,11920
-5245,Remercado,64118
-5245,Superpão,26918
-5246,Remercado,64128
-5246,Superpão,22482
-5247,Remercado,64139
-5247,Superpão,6685
-5248,Remercado,64209
-5248,Superpão,2304
-5249,Remercado,64210
-5249,Superpão,2303
-5250,Remercado,64289
-5250,Superpão,7069
-5251,Remercado,64440
-5251,Superpão,2302
-5252,Remercado,64563
-5252,Superpão,5048
-5253,Remercado,64730
-5253,Superpão,875
-5254,Remercado,64731
-5254,Superpão,877
-5255,Remercado,64883
-5255,Superpão,7513
-5256,Remercado,64889
-5256,Superpão,5099
-5257,Remercado,65117
-5257,Superpão,879
-5258,Remercado,65324
-5258,Superpão,17380
-5259,Remercado,65432
-5259,Superpão,11717
-5260,Remercado,65438
-5260,Superpão,451
-5261,Remercado,65504
-5261,Superpão,3581
-5262,Remercado,65588
-5262,Superpão,25999
-5263,Remercado,65638
-5263,Superpão,2530
-5264,Remercado,65639
-5264,Superpão,197
-5265,Remercado,65640
-5265,Superpão,198
-5266,Remercado,65763
-5266,Superpão,15559
-5267,Remercado,66408
-5267,Superpão,10537
-5268,Remercado,67333
-5268,Superpão,24128
+4847,Remercado,38443
+4847,Tio Dongo,2161
+4848,Remercado,38448
+4848,Superpão,11668
+4848,Tio Dongo,5124
+4849,Remercado,38450
+4849,Superpão,21748
+4849,Tio Dongo,2522
+4850,Remercado,38451
+4850,Superpão,2793
+4851,Remercado,38452
+4851,Superpão,2794
+4851,Tio Dongo,930
+4852,Remercado,38453
+4852,Tio Dongo,2669
+4853,Remercado,38458
+4853,Tio Dongo,4640
+4854,Remercado,38459
+4854,Tio Dongo,2052
+4855,Remercado,38460
+4855,Tio Dongo,5248
+4856,Remercado,38461
+4856,Tio Dongo,5249
+4857,Remercado,38468
+4857,Superpão,26004
+4857,Tio Dongo,5152
+4858,Remercado,38469
+4858,Superpão,26013
+4858,Tio Dongo,3366
+4859,Remercado,38470
+4859,Superpão,26012
+4859,Tio Dongo,36
+4860,Remercado,38473
+4860,Superpão,2554
+4860,Tio Dongo,4601
+4861,Remercado,38485
+4861,Tio Dongo,19
+4862,Remercado,38491
+4862,Superpão,322
+4863,Remercado,38492
+4863,Superpão,323
+4864,Remercado,38496
+4864,Superpão,326
+4864,Tio Dongo,3956
+4865,Remercado,38505
+4865,Tio Dongo,4554
+4866,Remercado,38524
+4866,Superpão,2495
+4867,Remercado,38550
+4867,Superpão,984
+4867,Tio Dongo,3804
+4868,Remercado,38551
+4868,Superpão,26081
+4868,Tio Dongo,3136
+4869,Remercado,38595
+4869,Superpão,18303
+4869,Tio Dongo,2396
+4870,Remercado,38596
+4870,Superpão,18297
+4871,Remercado,38597
+4871,Tio Dongo,4492
+4872,Remercado,38599
+4872,Tio Dongo,2107
+4873,Remercado,38600
+4873,Tio Dongo,5756
+4874,Remercado,38608
+4874,Tio Dongo,332
+4875,Remercado,38609
+4875,Superpão,18302
+4875,Tio Dongo,7006
+4876,Remercado,38610
+4876,Tio Dongo,6128
+4877,Remercado,38611
+4877,Tio Dongo,2013
+4878,Remercado,38617
+4878,Tio Dongo,3412
+4879,Remercado,38622
+4879,Tio Dongo,5518
+4880,Remercado,38625
+4880,Tio Dongo,3195
+4881,Remercado,38633
+4881,Superpão,261
+4882,Remercado,38645
+4882,Superpão,3729
+4883,Remercado,38659
+4883,Superpão,267
+4884,Remercado,38662
+4884,Superpão,269
+4885,Remercado,38669
+4885,Superpão,1080
+4886,Remercado,38709
+4886,Superpão,611
+4887,Remercado,38730
+4887,Superpão,616
+4888,Remercado,38768
+4888,Tio Dongo,1842
+4889,Remercado,38777
+4889,Tio Dongo,2123
+4890,Remercado,38779
+4890,Superpão,2758
+4891,Remercado,38848
+4891,Superpão,24715
+4892,Remercado,38854
+4892,Superpão,24637
+4892,Tio Dongo,7146
+4893,Remercado,39010
+4893,Superpão,24734
+4894,Remercado,39180
+4894,Superpão,953
+4894,Tio Dongo,6108
+4895,Remercado,39200
+4895,Tio Dongo,5007
+4896,Remercado,39218
+4896,Superpão,1871
+4897,Remercado,39224
+4897,Tio Dongo,1351
+4898,Remercado,39225
+4898,Tio Dongo,3542
+4899,Remercado,39228
+4899,Tio Dongo,6965
+4900,Remercado,39231
+4900,Tio Dongo,2675
+4901,Remercado,39235
+4901,Tio Dongo,914
+4902,Remercado,39239
+4902,Tio Dongo,4956
+4903,Remercado,39243
+4903,Tio Dongo,849
+4904,Remercado,39246
+4904,Superpão,15370
+4905,Remercado,39266
+4905,Superpão,54795
+4906,Remercado,39280
+4906,Superpão,5451
+4907,Remercado,39297
+4907,Superpão,1210
+4908,Remercado,39338
+4908,Superpão,1208
+4908,Tio Dongo,3576
+4909,Remercado,39342
+4909,Superpão,1220
+4910,Remercado,39344
+4910,Tio Dongo,2868
+4911,Remercado,39346
+4911,Superpão,17264
+4911,Tio Dongo,1845
+4912,Remercado,39347
+4912,Tio Dongo,3960
+4913,Remercado,39352
+4913,Tio Dongo,1707
+4914,Remercado,39359
+4914,Superpão,7831
+4914,Tio Dongo,1688
+4915,Remercado,39377
+4915,Tio Dongo,7128
+4916,Remercado,39379
+4916,Tio Dongo,2183
+4917,Remercado,39381
+4917,Tio Dongo,1570
+4918,Remercado,39382
+4918,Superpão,14174
+4918,Tio Dongo,1022
+4919,Remercado,39387
+4919,Superpão,14212
+4919,Tio Dongo,3297
+4920,Remercado,39398
+4920,Superpão,14056
+4921,Remercado,39411
+4921,Tio Dongo,6400
+4922,Remercado,39412
+4922,Tio Dongo,1196
+4923,Remercado,39430
+4923,Superpão,3832
+4924,Remercado,39436
+4924,Superpão,19046
+4925,Remercado,39787
+4925,Tio Dongo,3433
+4926,Remercado,39831
+4926,Superpão,2800
+4926,Tio Dongo,5762
+4927,Remercado,39863
+4927,Superpão,51598
+4928,Remercado,39866
+4928,Superpão,129
+4928,Tio Dongo,4091
+4929,Remercado,39876
+4929,Tio Dongo,375
+4930,Remercado,39880
+4930,Tio Dongo,5459
+4931,Remercado,39881
+4931,Tio Dongo,3502
+4932,Remercado,39946
+4932,Superpão,111
+4932,Tio Dongo,6268
+4933,Remercado,39947
+4933,Superpão,110
+4933,Tio Dongo,4703
+4934,Remercado,39948
+4934,Tio Dongo,4537
+4935,Remercado,39949
+4935,Tio Dongo,5431
+4936,Remercado,39950
+4936,Tio Dongo,501
+4937,Remercado,39980
+4937,Tio Dongo,5791
+4938,Remercado,40033
+4938,Tio Dongo,3439
+4939,Remercado,40034
+4939,Superpão,2271
+4939,Tio Dongo,3017
+4940,Remercado,40035
+4940,Superpão,2272
+4941,Remercado,40045
+4941,Tio Dongo,2970
+4942,Remercado,40046
+4942,Tio Dongo,3866
+4943,Remercado,40166
+4943,Superpão,14769
+4944,Remercado,40174
+4944,Tio Dongo,4433
+4945,Remercado,40177
+4945,Tio Dongo,1905
+4946,Remercado,40223
+4946,Tio Dongo,535
+4947,Remercado,40228
+4947,Tio Dongo,5734
+4948,Remercado,40241
+4948,Tio Dongo,2703
+4949,Remercado,40248
+4949,Tio Dongo,3895
+4950,Remercado,40313
+4950,Tio Dongo,5053
+4951,Remercado,40314
+4951,Tio Dongo,1191
+4952,Remercado,40315
+4952,Tio Dongo,6781
+4953,Remercado,40316
+4953,Tio Dongo,4240
+4954,Remercado,40317
+4954,Tio Dongo,7194
+4955,Remercado,40353
+4955,Superpão,25653
+4956,Remercado,40356
+4956,Tio Dongo,958
+4957,Remercado,40500
+4957,Tio Dongo,3290
+4958,Remercado,40673
+4958,Tio Dongo,3451
+4959,Remercado,40768
+4959,Superpão,4016
+4959,Tio Dongo,4913
+4960,Remercado,40922
+4960,Superpão,947
+4960,Tio Dongo,7008
+4961,Remercado,40923
+4961,Superpão,948
+4961,Tio Dongo,1959
+4962,Remercado,40927
+4962,Superpão,950
+4963,Remercado,40972
+4963,Superpão,22641
+4963,Tio Dongo,5789
+4964,Remercado,40980
+4964,Superpão,46854
+4965,Remercado,40985
+4965,Tio Dongo,4792
+4966,Remercado,41229
+4966,Tio Dongo,236
+4967,Remercado,41315
+4967,Superpão,55527
+4968,Remercado,41367
+4968,Superpão,25152
+4969,Remercado,41377
+4969,Tio Dongo,4324
+4970,Remercado,41416
+4970,Tio Dongo,6912
+4971,Remercado,41418
+4971,Tio Dongo,2361
+4972,Remercado,41474
+4972,Tio Dongo,28
+4973,Remercado,41475
+4973,Superpão,24434
+4973,Tio Dongo,1770
+4974,Remercado,41477
+4974,Superpão,18609
+4975,Remercado,41480
+4975,Tio Dongo,6139
+4976,Remercado,41481
+4976,Superpão,2762
+4976,Tio Dongo,6229
+4977,Remercado,41482
+4977,Superpão,2761
+4977,Tio Dongo,2783
+4978,Remercado,41513
+4978,Tio Dongo,2561
+4979,Remercado,41581
+4979,Superpão,22260
+4980,Remercado,41677
+4980,Superpão,17341
+4981,Remercado,41711
+4981,Superpão,936
+4981,Tio Dongo,4805
+4982,Remercado,41795
+4982,Superpão,28046
+4983,Remercado,42041
+4983,Tio Dongo,122
+4984,Remercado,42140
+4984,Tio Dongo,5430
+4985,Remercado,42141
+4985,Tio Dongo,1418
+4986,Remercado,42149
+4986,Tio Dongo,6537
+4987,Remercado,42207
+4987,Tio Dongo,6682
+4988,Remercado,42279
+4988,Tio Dongo,4902
+4989,Remercado,42293
+4989,Tio Dongo,5488
+4990,Remercado,42318
+4990,Tio Dongo,4684
+4991,Remercado,42423
+4991,Superpão,3717
+4992,Remercado,42617
+4992,Superpão,2725
+4992,Tio Dongo,6843
+4993,Remercado,42748
+4993,Tio Dongo,3929
+4994,Remercado,42749
+4994,Superpão,691
+4994,Tio Dongo,6010
+4995,Remercado,42754
+4995,Tio Dongo,5614
+4996,Remercado,42789
+4996,Tio Dongo,211
+4997,Remercado,42839
+4997,Tio Dongo,6991
+4998,Remercado,42840
+4998,Tio Dongo,3518
+4999,Remercado,42850
+4999,Tio Dongo,1374
+5000,Remercado,42851
+5000,Tio Dongo,756
+5001,Remercado,42855
+5001,Superpão,2624
+5001,Tio Dongo,5911
+5002,Remercado,42859
+5002,Tio Dongo,892
+5003,Remercado,42860
+5003,Tio Dongo,4718
+5004,Remercado,42863
+5004,Tio Dongo,6490
+5005,Remercado,42954
+5005,Superpão,11702
+5006,Remercado,43011
+5006,Tio Dongo,5775
+5007,Remercado,43012
+5007,Tio Dongo,6964
+5008,Remercado,43036
+5008,Tio Dongo,2548
+5009,Remercado,43037
+5009,Tio Dongo,254
+5010,Remercado,43096
+5010,Superpão,7593
+5010,Tio Dongo,3992
+5011,Remercado,43097
+5011,Tio Dongo,7037
+5012,Remercado,43098
+5012,Superpão,4324
+5012,Tio Dongo,3958
+5013,Remercado,43099
+5013,Superpão,7592
+5013,Tio Dongo,664
+5014,Remercado,43153
+5014,Superpão,46724
+5014,Tio Dongo,916
+5015,Remercado,43156
+5015,Superpão,855
+5016,Remercado,43184
+5016,Superpão,742
+5016,Tio Dongo,2140
+5017,Remercado,43208
+5017,Tio Dongo,4025
+5018,Remercado,43212
+5018,Superpão,741
+5018,Tio Dongo,5533
+5019,Remercado,43216
+5019,Superpão,893
+5019,Tio Dongo,1762
+5020,Remercado,43217
+5020,Superpão,46453
+5021,Remercado,43219
+5021,Tio Dongo,7112
+5022,Remercado,43242
+5022,Superpão,738
+5022,Tio Dongo,2553
+5023,Remercado,43244
+5023,Superpão,688
+5023,Tio Dongo,4172
+5024,Remercado,43251
+5024,Tio Dongo,5643
+5025,Remercado,43256
+5025,Superpão,687
+5025,Tio Dongo,3419
+5026,Remercado,43257
+5026,Tio Dongo,5731
+5027,Remercado,43274
+5027,Superpão,684
+5027,Tio Dongo,7117
+5028,Remercado,43276
+5028,Superpão,19126
+5029,Remercado,43280
+5029,Superpão,682
+5029,Tio Dongo,3692
+5030,Remercado,43281
+5030,Superpão,683
+5030,Tio Dongo,5645
+5031,Remercado,43285
+5031,Superpão,668
+5031,Tio Dongo,4407
+5032,Remercado,43288
+5032,Superpão,693
+5032,Tio Dongo,1980
+5033,Remercado,43289
+5033,Superpão,669
+5033,Tio Dongo,1094
+5034,Remercado,43294
+5034,Tio Dongo,2148
+5035,Remercado,43299
+5035,Superpão,671
+5035,Tio Dongo,3754
+5036,Remercado,43302
+5036,Superpão,672
+5036,Tio Dongo,6380
+5037,Remercado,43304
+5037,Superpão,673
+5037,Tio Dongo,6894
+5038,Remercado,43311
+5038,Superpão,674
+5038,Tio Dongo,893
+5039,Remercado,43312
+5039,Superpão,675
+5040,Remercado,43313
+5040,Superpão,702
+5040,Tio Dongo,5998
+5041,Remercado,43314
+5041,Superpão,676
+5041,Tio Dongo,5465
+5042,Remercado,43355
+5042,Superpão,20638
+5042,Tio Dongo,5303
+5043,Remercado,43428
+5043,Superpão,536
+5043,Tio Dongo,483
+5044,Remercado,43438
+5044,Superpão,464
+5045,Remercado,43518
+5045,Tio Dongo,6358
+5046,Remercado,43519
+5046,Tio Dongo,405
+5047,Remercado,43526
+5047,Superpão,168
+5048,Remercado,43541
+5048,Superpão,19475
+5048,Tio Dongo,6522
+5049,Remercado,43542
+5049,Superpão,19476
+5049,Tio Dongo,3988
+5050,Remercado,43584
+5050,Tio Dongo,6579
+5051,Remercado,43589
+5051,Tio Dongo,1989
+5052,Remercado,43600
+5052,Superpão,210
+5053,Remercado,43601
+5053,Superpão,214
+5054,Remercado,43610
+5054,Superpão,2142
+5055,Remercado,43722
+5055,Superpão,18957
+5055,Tio Dongo,3201
+5056,Remercado,43741
+5056,Tio Dongo,541
+5057,Remercado,43793
+5057,Tio Dongo,5802
+5058,Remercado,43815
+5058,Superpão,12443
+5059,Remercado,44085
+5059,Tio Dongo,3603
+5060,Remercado,44115
+5060,Superpão,26928
+5060,Tio Dongo,87
+5061,Remercado,44116
+5061,Superpão,26927
+5062,Remercado,44117
+5062,Superpão,26930
+5063,Remercado,44194
+5063,Tio Dongo,6850
+5064,Remercado,44213
+5064,Tio Dongo,4496
+5065,Remercado,44241
+5065,Tio Dongo,2014
+5066,Remercado,44242
+5066,Tio Dongo,6413
+5067,Remercado,44243
+5067,Tio Dongo,3779
+5068,Remercado,44244
+5068,Tio Dongo,1172
+5069,Remercado,44424
+5069,Tio Dongo,547
+5070,Remercado,44430
+5070,Tio Dongo,1407
+5071,Remercado,44456
+5071,Superpão,50606
+5072,Remercado,44466
+5072,Tio Dongo,2761
+5073,Remercado,44513
+5073,Superpão,15014
+5073,Tio Dongo,1121
+5074,Remercado,44514
+5074,Superpão,15016
+5075,Remercado,44614
+5075,Tio Dongo,4096
+5076,Remercado,44671
+5076,Tio Dongo,2351
+5077,Remercado,44673
+5077,Superpão,26352
+5078,Remercado,44674
+5078,Superpão,8062
+5078,Tio Dongo,3190
+5079,Remercado,44676
+5079,Superpão,27388
+5079,Tio Dongo,3578
+5080,Remercado,44680
+5080,Superpão,16797
+5081,Remercado,44691
+5081,Superpão,21850
+5082,Remercado,44692
+5082,Superpão,21851
+5083,Remercado,44712
+5083,Superpão,15015
+5083,Tio Dongo,101
+5084,Remercado,44726
+5084,Superpão,5925
+5085,Remercado,44811
+5085,Tio Dongo,3203
+5086,Remercado,44875
+5086,Tio Dongo,6454
+5087,Remercado,44926
+5087,Superpão,9126
+5088,Remercado,44944
+5088,Superpão,18955
+5089,Remercado,44956
+5089,Superpão,26929
+5090,Remercado,45065
+5090,Tio Dongo,2015
+5091,Remercado,45156
+5091,Tio Dongo,846
+5092,Remercado,45182
+5092,Superpão,11022
+5093,Remercado,45195
+5093,Superpão,6201
+5093,Tio Dongo,5776
+5094,Remercado,45396
+5094,Superpão,12975
+5095,Remercado,45397
+5095,Tio Dongo,5799
+5096,Remercado,45501
+5096,Superpão,5839
+5096,Tio Dongo,2076
+5097,Remercado,45519
+5097,Tio Dongo,2258
+5098,Remercado,45550
+5098,Superpão,12976
+5099,Remercado,45577
+5099,Superpão,15612
+5100,Remercado,45638
+5100,Superpão,5902
+5101,Remercado,45699
+5101,Tio Dongo,4695
+5102,Remercado,45772
+5102,Tio Dongo,6712
+5103,Remercado,45778
+5103,Superpão,463
+5104,Remercado,45867
+5104,Tio Dongo,5028
+5105,Remercado,45886
+5105,Tio Dongo,6885
+5106,Remercado,45920
+5106,Tio Dongo,6184
+5107,Remercado,45980
+5107,Superpão,21230
+5108,Remercado,45993
+5108,Tio Dongo,6200
+5109,Remercado,46049
+5109,Tio Dongo,743
+5110,Remercado,46172
+5110,Superpão,12188
+5111,Remercado,46183
+5111,Superpão,10480
+5112,Remercado,46199
+5112,Tio Dongo,4238
+5113,Remercado,46291
+5113,Tio Dongo,1530
+5114,Remercado,46388
+5114,Superpão,17423
+5115,Remercado,46405
+5115,Superpão,5838
+5115,Tio Dongo,1674
+5116,Remercado,46457
+5116,Superpão,16792
+5117,Remercado,46458
+5117,Superpão,16791
+5118,Remercado,46561
+5118,Superpão,26333
+5119,Remercado,46743
+5119,Superpão,51266
+5120,Remercado,46755
+5120,Tio Dongo,2953
+5121,Remercado,46760
+5121,Superpão,847
+5121,Tio Dongo,2309
+5122,Remercado,46761
+5122,Superpão,848
+5122,Tio Dongo,4029
+5123,Remercado,46762
+5123,Tio Dongo,2541
+5124,Remercado,46763
+5124,Tio Dongo,1333
+5125,Remercado,46802
+5125,Tio Dongo,4465
+5126,Remercado,46806
+5126,Superpão,845
+5126,Tio Dongo,6191
+5127,Remercado,46807
+5127,Superpão,846
+5128,Remercado,46808
+5128,Superpão,3942
+5128,Tio Dongo,1298
+5129,Remercado,46827
+5129,Superpão,14270
+5130,Remercado,46854
+5130,Tio Dongo,4338
+5131,Remercado,46855
+5131,Superpão,15663
+5131,Tio Dongo,6186
+5132,Remercado,46857
+5132,Superpão,15666
+5132,Tio Dongo,2321
+5133,Remercado,46858
+5133,Superpão,15664
+5133,Tio Dongo,196
+5134,Remercado,46893
+5134,Superpão,5669
+5135,Remercado,46894
+5135,Superpão,5668
+5136,Remercado,46923
+5136,Superpão,17225
+5137,Remercado,46981
+5137,Superpão,26014
+5137,Tio Dongo,2848
+5138,Remercado,47035
+5138,Superpão,15685
+5139,Remercado,47183
+5139,Superpão,8917
+5140,Remercado,47235
+5140,Tio Dongo,6748
+5141,Remercado,47314
+5141,Tio Dongo,2365
+5142,Remercado,47315
+5142,Tio Dongo,6035
+5143,Remercado,47316
+5143,Tio Dongo,4424
+5144,Remercado,47318
+5144,Tio Dongo,3276
+5145,Remercado,47450
+5145,Superpão,28041
+5146,Remercado,47460
+5146,Superpão,12935
+5146,Tio Dongo,5682
+5147,Remercado,47550
+5147,Superpão,7167
+5147,Tio Dongo,6219
+5148,Remercado,47552
+5148,Superpão,7403
+5149,Remercado,47561
+5149,Superpão,7404
+5150,Remercado,47600
+5150,Tio Dongo,4848
+5151,Remercado,47668
+5151,Tio Dongo,1302
+5152,Remercado,47933
+5152,Tio Dongo,889
+5153,Remercado,47966
+5153,Superpão,49050
+5153,Tio Dongo,6176
+5154,Remercado,47986
+5154,Superpão,438
+5155,Remercado,48062
+5155,Superpão,11703
+5156,Remercado,48072
+5156,Superpão,7066
+5156,Tio Dongo,5903
+5157,Remercado,48073
+5157,Superpão,25542
+5158,Remercado,48088
+5158,Tio Dongo,3426
+5159,Remercado,48092
+5159,Superpão,7096
+5160,Remercado,48105
+5160,Superpão,55526
+5161,Remercado,48136
+5161,Tio Dongo,7106
+5162,Remercado,48204
+5162,Superpão,598
+5162,Tio Dongo,4541
+5163,Remercado,48223
+5163,Tio Dongo,2503
+5164,Remercado,48251
+5164,Tio Dongo,428
+5165,Remercado,48257
+5165,Superpão,7162
+5165,Tio Dongo,5
+5166,Remercado,48258
+5166,Superpão,7116
+5166,Tio Dongo,6192
+5167,Remercado,48421
+5167,Superpão,3635
+5167,Tio Dongo,2360
+5168,Remercado,48464
+5168,Superpão,12385
+5168,Tio Dongo,6639
+5169,Remercado,48505
+5169,Superpão,342
+5170,Remercado,48545
+5170,Superpão,3862
+5171,Remercado,48658
+5171,Superpão,26938
+5172,Remercado,48664
+5172,Superpão,597
+5172,Tio Dongo,3055
+5173,Remercado,48745
+5173,Tio Dongo,1802
+5174,Remercado,48861
+5174,Superpão,7334
+5174,Tio Dongo,666
+5175,Remercado,48862
+5175,Superpão,7352
+5175,Tio Dongo,6652
+5176,Remercado,48863
+5176,Superpão,7333
+5176,Tio Dongo,6385
+5177,Remercado,48965
+5177,Tio Dongo,4597
+5178,Remercado,48998
+5178,Tio Dongo,1743
+5179,Remercado,49253
+5179,Superpão,4723
+5180,Remercado,49393
+5180,Superpão,22740
+5180,Tio Dongo,1739
+5181,Remercado,49493
+5181,Tio Dongo,3048
+5182,Remercado,49507
+5182,Superpão,767
+5182,Tio Dongo,270
+5183,Remercado,49509
+5183,Superpão,7773
+5183,Tio Dongo,6209
+5184,Remercado,49520
+5184,Superpão,15637
+5184,Tio Dongo,4122
+5185,Remercado,49530
+5185,Superpão,45633
+5186,Remercado,49584
+5186,Tio Dongo,3336
+5187,Remercado,49606
+5187,Superpão,22786
+5188,Remercado,49611
+5188,Superpão,7706
+5189,Remercado,49619
+5189,Tio Dongo,4453
+5190,Remercado,49686
+5190,Tio Dongo,1782
+5191,Remercado,49758
+5191,Tio Dongo,3285
+5192,Remercado,49910
+5192,Tio Dongo,5416
+5193,Remercado,49916
+5193,Superpão,7063
+5193,Tio Dongo,3404
+5194,Remercado,49947
+5194,Superpão,22644
+5194,Tio Dongo,2835
+5195,Remercado,50112
+5195,Superpão,7468
+5196,Remercado,50148
+5196,Superpão,412
+5196,Tio Dongo,2630
+5197,Remercado,50347
+5197,Tio Dongo,4675
+5198,Remercado,50404
+5198,Tio Dongo,4393
+5199,Remercado,50405
+5199,Tio Dongo,3110
+5200,Remercado,50427
+5200,Tio Dongo,3309
+5201,Remercado,50428
+5201,Tio Dongo,5655
+5202,Remercado,50448
+5202,Superpão,12911
+5203,Remercado,50538
+5203,Tio Dongo,2921
+5204,Remercado,50569
+5204,Tio Dongo,2296
+5205,Remercado,50582
+5205,Superpão,23393
+5206,Remercado,50583
+5206,Superpão,23395
+5207,Remercado,50585
+5207,Tio Dongo,865
+5208,Remercado,50600
+5208,Superpão,1842
+5209,Remercado,50674
+5209,Superpão,16796
+5209,Tio Dongo,1188
+5210,Remercado,50718
+5210,Tio Dongo,1590
+5211,Remercado,50726
+5211,Superpão,10628
+5212,Remercado,50732
+5212,Tio Dongo,4376
+5213,Remercado,50740
+5213,Superpão,583
+5214,Remercado,50741
+5214,Superpão,584
+5214,Tio Dongo,1386
+5215,Remercado,50821
+5215,Superpão,6679
+5216,Remercado,50837
+5216,Tio Dongo,4818
+5217,Remercado,50841
+5217,Tio Dongo,3604
+5218,Remercado,50842
+5218,Tio Dongo,2364
+5219,Remercado,50843
+5219,Tio Dongo,1944
+5220,Remercado,50844
+5220,Tio Dongo,6941
+5221,Remercado,50859
+5221,Superpão,7729
+5222,Remercado,50898
+5222,Tio Dongo,6484
+5223,Remercado,50917
+5223,Tio Dongo,3644
+5224,Remercado,50936
+5224,Tio Dongo,325
+5225,Remercado,50951
+5225,Tio Dongo,4195
+5226,Remercado,50956
+5226,Superpão,54792
+5227,Remercado,50960
+5227,Superpão,15975
+5228,Remercado,50961
+5228,Superpão,15983
+5229,Remercado,50975
+5229,Superpão,2275
+5229,Tio Dongo,3705
+5230,Remercado,50980
+5230,Tio Dongo,348
+5231,Remercado,50981
+5231,Tio Dongo,3826
+5232,Remercado,50990
+5232,Superpão,17751
+5233,Remercado,51015
+5233,Superpão,1805
+5234,Remercado,51021
+5234,Superpão,8774
+5234,Tio Dongo,51
+5235,Remercado,51022
+5235,Superpão,8831
+5235,Tio Dongo,1619
+5236,Remercado,51056
+5236,Superpão,11193
+5236,Tio Dongo,6363
+5237,Remercado,51057
+5237,Superpão,11194
+5237,Tio Dongo,3047
+5238,Remercado,51074
+5238,Superpão,11730
+5239,Remercado,51094
+5239,Tio Dongo,5428
+5240,Remercado,51255
+5240,Superpão,8987
+5240,Tio Dongo,1356
+5241,Remercado,51281
+5241,Tio Dongo,2894
+5242,Remercado,51372
+5242,Superpão,17301
+5243,Remercado,51413
+5243,Superpão,8845
+5243,Tio Dongo,4911
+5244,Remercado,51531
+5244,Tio Dongo,4
+5245,Remercado,51533
+5245,Tio Dongo,2497
+5246,Remercado,51534
+5246,Tio Dongo,4125
+5247,Remercado,51536
+5247,Tio Dongo,5842
+5248,Remercado,51580
+5248,Superpão,17298
+5249,Remercado,51582
+5249,Superpão,17296
+5250,Remercado,51604
+5250,Superpão,13953
+5251,Remercado,51625
+5251,Tio Dongo,4598
+5252,Remercado,51663
+5252,Superpão,12018
+5252,Tio Dongo,4658
+5253,Remercado,51707
+5253,Superpão,8826
+5254,Remercado,51708
+5254,Superpão,10081
+5255,Remercado,51742
+5255,Superpão,5339
+5256,Remercado,51743
+5256,Superpão,50964
+5257,Remercado,51772
+5257,Tio Dongo,3246
+5258,Remercado,51774
+5258,Superpão,12019
+5258,Tio Dongo,6564
+5259,Remercado,51790
+5259,Superpão,17769
+5260,Remercado,51830
+5260,Tio Dongo,4861
+5261,Remercado,51892
+5261,Superpão,12825
+5261,Tio Dongo,2133
+5262,Remercado,51944
+5262,Superpão,10902
+5263,Remercado,51963
+5263,Tio Dongo,1609
+5264,Remercado,51980
+5264,Superpão,12148
+5264,Tio Dongo,75
+5265,Remercado,51996
+5265,Tio Dongo,5040
+5266,Remercado,51999
+5266,Superpão,11742
+5267,Remercado,52005
+5267,Superpão,22197
+5267,Tio Dongo,5413
+5268,Remercado,52045
+5268,Superpão,9094
+5268,Tio Dongo,6074
+5269,Remercado,52059
+5269,Superpão,9202
+5269,Tio Dongo,6053
+5270,Remercado,52060
+5270,Superpão,9201
+5270,Tio Dongo,6528
+5271,Remercado,52061
+5271,Superpão,10109
+5271,Tio Dongo,988
+5272,Remercado,52096
+5272,Tio Dongo,3135
+5273,Remercado,52097
+5273,Tio Dongo,3450
+5274,Remercado,52138
+5274,Superpão,14520
+5275,Remercado,52192
+5275,Superpão,8688
+5276,Remercado,52225
+5276,Superpão,9981
+5277,Remercado,52226
+5277,Superpão,11195
+5277,Tio Dongo,6070
+5278,Remercado,52232
+5278,Tio Dongo,4912
+5279,Remercado,52237
+5279,Superpão,20563
+5280,Remercado,52267
+5280,Superpão,3636
+5280,Tio Dongo,5075
+5281,Remercado,52283
+5281,Superpão,25304
+5282,Remercado,52305
+5282,Superpão,16677
+5282,Tio Dongo,3716
+5283,Remercado,52385
+5283,Superpão,12237
+5283,Tio Dongo,6231
+5284,Remercado,52388
+5284,Tio Dongo,4143
+5285,Remercado,52398
+5285,Tio Dongo,6940
+5286,Remercado,52434
+5286,Superpão,12301
+5286,Tio Dongo,5457
+5287,Remercado,52475
+5287,Superpão,5681
+5288,Remercado,52553
+5288,Tio Dongo,6096
+5289,Remercado,52559
+5289,Superpão,13224
+5290,Remercado,52570
+5290,Superpão,6686
+5291,Remercado,52593
+5291,Superpão,8394
+5292,Remercado,52614
+5292,Tio Dongo,4928
+5293,Remercado,52616
+5293,Tio Dongo,263
+5294,Remercado,52617
+5294,Tio Dongo,2736
+5295,Remercado,52672
+5295,Superpão,18348
+5295,Tio Dongo,3565
+5296,Remercado,52733
+5296,Tio Dongo,1063
+5297,Remercado,52735
+5297,Superpão,10730
+5298,Remercado,52751
+5298,Superpão,15900
+5299,Remercado,52771
+5299,Superpão,25557
+5299,Tio Dongo,705
+5300,Remercado,52778
+5300,Superpão,54246
+5301,Remercado,52860
+5301,Superpão,2908
+5302,Remercado,52863
+5302,Superpão,11121
+5303,Remercado,52869
+5303,Superpão,8829
+5304,Remercado,52877
+5304,Superpão,2931
+5305,Remercado,52917
+5305,Superpão,26326
+5306,Remercado,53016
+5306,Tio Dongo,2863
+5307,Remercado,53017
+5307,Tio Dongo,5669
+5308,Remercado,53024
+5308,Tio Dongo,6397
+5309,Remercado,53086
+5309,Tio Dongo,1706
+5310,Remercado,53090
+5310,Superpão,52171
+5311,Remercado,53102
+5311,Tio Dongo,2902
+5312,Remercado,53201
+5312,Superpão,4490
+5313,Remercado,53212
+5313,Superpão,19446
+5313,Tio Dongo,372
+5314,Remercado,53254
+5314,Superpão,12601
+5315,Remercado,53255
+5315,Superpão,17611
+5315,Tio Dongo,5730
+5316,Remercado,53294
+5316,Tio Dongo,3458
+5317,Remercado,53317
+5317,Superpão,492
+5318,Remercado,53395
+5318,Superpão,8196
+5319,Remercado,53415
+5319,Superpão,27550
+5319,Tio Dongo,5927
+5320,Remercado,53416
+5320,Superpão,27549
+5320,Tio Dongo,5090
+5321,Remercado,53439
+5321,Tio Dongo,3179
+5322,Remercado,53507
+5322,Tio Dongo,719
+5323,Remercado,53547
+5323,Tio Dongo,2342
+5324,Remercado,53567
+5324,Superpão,11454
+5324,Tio Dongo,4054
+5325,Remercado,53568
+5325,Superpão,11453
+5325,Tio Dongo,3806
+5326,Remercado,53580
+5326,Tio Dongo,444
+5327,Remercado,53624
+5327,Superpão,49203
+5328,Remercado,53659
+5328,Tio Dongo,2841
+5329,Remercado,53662
+5329,Tio Dongo,1481
+5330,Remercado,53693
+5330,Superpão,5990
+5331,Remercado,53773
+5331,Tio Dongo,1209
+5332,Remercado,53792
+5332,Superpão,46791
+5333,Remercado,53812
+5333,Tio Dongo,2097
+5334,Remercado,53838
+5334,Superpão,52152
+5335,Remercado,53844
+5335,Superpão,52078
+5336,Remercado,53853
+5336,Superpão,20248
+5337,Remercado,53885
+5337,Superpão,21659
+5337,Tio Dongo,6770
+5338,Remercado,53922
+5338,Superpão,12020
+5339,Remercado,53924
+5339,Superpão,5448
+5339,Tio Dongo,995
+5340,Remercado,53925
+5340,Superpão,52204
+5340,Tio Dongo,6406
+5341,Remercado,53926
+5341,Superpão,52203
+5341,Tio Dongo,3751
+5342,Remercado,53979
+5342,Superpão,54787
+5343,Remercado,54025
+5343,Superpão,23940
+5344,Remercado,54050
+5344,Superpão,24683
+5345,Remercado,54078
+5345,Superpão,46966
+5346,Remercado,54093
+5346,Tio Dongo,3431
+5347,Remercado,54094
+5347,Tio Dongo,5993
+5348,Remercado,54095
+5348,Tio Dongo,4241
+5349,Remercado,54177
+5349,Superpão,25273
+5350,Remercado,54187
+5350,Superpão,24147
+5351,Remercado,54218
+5351,Superpão,45530
+5351,Tio Dongo,3305
+5352,Remercado,54219
+5352,Superpão,53580
+5352,Tio Dongo,4011
+5353,Remercado,54317
+5353,Superpão,8643
+5354,Remercado,54319
+5354,Superpão,10776
+5355,Remercado,54351
+5355,Tio Dongo,6461
+5356,Remercado,54446
+5356,Tio Dongo,2799
+5357,Remercado,54459
+5357,Superpão,27647
+5358,Remercado,54488
+5358,Superpão,22036
+5359,Remercado,54501
+5359,Superpão,24486
+5359,Tio Dongo,4494
+5360,Remercado,54568
+5360,Superpão,420
+5360,Tio Dongo,1828
+5361,Remercado,54577
+5361,Superpão,18956
+5362,Remercado,54588
+5362,Tio Dongo,4245
+5363,Remercado,54618
+5363,Tio Dongo,5384
+5364,Remercado,54630
+5364,Superpão,47334
+5365,Remercado,54643
+5365,Superpão,28424
+5365,Tio Dongo,3710
+5366,Remercado,54678
+5366,Superpão,48245
+5366,Tio Dongo,973
+5367,Remercado,54681
+5367,Tio Dongo,6414
+5368,Remercado,54697
+5368,Superpão,21273
+5368,Tio Dongo,169
+5369,Remercado,54745
+5369,Tio Dongo,4437
+5370,Remercado,54760
+5370,Tio Dongo,2278
+5371,Remercado,54771
+5371,Superpão,26272
+5371,Tio Dongo,6520
+5372,Remercado,54807
+5372,Superpão,49321
+5372,Tio Dongo,3487
+5373,Remercado,54826
+5373,Superpão,50912
+5374,Remercado,54829
+5374,Tio Dongo,5966
+5375,Remercado,54844
+5375,Superpão,27245
+5376,Remercado,54863
+5376,Tio Dongo,3987
+5377,Remercado,54937
+5377,Tio Dongo,7022
+5378,Remercado,54977
+5378,Superpão,28525
+5378,Tio Dongo,4237
+5379,Remercado,54978
+5379,Superpão,28527
+5379,Tio Dongo,528
+5380,Remercado,54979
+5380,Tio Dongo,4616
+5381,Remercado,54980
+5381,Superpão,28526
+5381,Tio Dongo,5225
+5382,Remercado,55150
+5382,Tio Dongo,3323
+5383,Remercado,55164
+5383,Superpão,22774
+5384,Remercado,55201
+5384,Superpão,47734
+5385,Remercado,55218
+5385,Superpão,19569
+5385,Tio Dongo,4799
+5386,Remercado,55246
+5386,Superpão,9
+5387,Remercado,55390
+5387,Superpão,55830
+5387,Tio Dongo,6710
+5388,Remercado,55407
+5388,Tio Dongo,2529
+5389,Remercado,55546
+5389,Superpão,52245
+5389,Tio Dongo,2100
+5390,Remercado,55567
+5390,Superpão,52307
+5391,Remercado,55575
+5391,Tio Dongo,3932
+5392,Remercado,55585
+5392,Superpão,22032
+5393,Remercado,55614
+5393,Superpão,11707
+5393,Tio Dongo,4374
+5394,Remercado,55639
+5394,Superpão,28263
+5395,Remercado,55640
+5395,Superpão,45517
+5396,Remercado,55668
+5396,Superpão,49320
+5396,Tio Dongo,5410
+5397,Remercado,55676
+5397,Superpão,53436
+5397,Tio Dongo,597
+5398,Remercado,55677
+5398,Superpão,53437
+5398,Tio Dongo,4078
+5399,Remercado,55687
+5399,Superpão,49885
+5399,Tio Dongo,5088
+5400,Remercado,55692
+5400,Superpão,50916
+5401,Remercado,55694
+5401,Superpão,49884
+5401,Tio Dongo,2362
+5402,Remercado,55695
+5402,Superpão,49886
+5402,Tio Dongo,6967
+5403,Remercado,55723
+5403,Superpão,24509
+5404,Remercado,55726
+5404,Superpão,48644
+5404,Tio Dongo,3668
+5405,Remercado,55741
+5405,Tio Dongo,6979
+5406,Remercado,55747
+5406,Superpão,48645
+5406,Tio Dongo,4438
+5407,Remercado,55759
+5407,Tio Dongo,6131
+5408,Remercado,55786
+5408,Tio Dongo,443
+5409,Remercado,55787
+5409,Tio Dongo,3391
+5410,Remercado,55801
+5410,Superpão,25088
+5411,Remercado,55825
+5411,Tio Dongo,3056
+5412,Remercado,55830
+5412,Superpão,51025
+5413,Remercado,55832
+5413,Tio Dongo,1449
+5414,Remercado,55911
+5414,Superpão,12150
+5414,Tio Dongo,4362
+5415,Remercado,55916
+5415,Superpão,19823
+5416,Remercado,55928
+5416,Superpão,48304
+5416,Tio Dongo,5721
+5417,Remercado,55939
+5417,Tio Dongo,3173
+5418,Remercado,55994
+5418,Tio Dongo,6926
+5419,Remercado,56038
+5419,Tio Dongo,6408
+5420,Remercado,56108
+5420,Tio Dongo,5280
+5421,Remercado,56111
+5421,Superpão,3196
+5422,Remercado,56203
+5422,Superpão,48016
+5423,Remercado,56241
+5423,Superpão,49181
+5423,Tio Dongo,6332
+5424,Remercado,56258
+5424,Superpão,52662
+5424,Tio Dongo,3253
+5425,Remercado,56331
+5425,Tio Dongo,2069
+5426,Remercado,56420
+5426,Tio Dongo,1947
+5427,Remercado,56475
+5427,Superpão,22015
+5427,Tio Dongo,504
+5428,Remercado,56540
+5428,Tio Dongo,5214
+5429,Remercado,56617
+5429,Superpão,51658
+5430,Remercado,56627
+5430,Superpão,55529
+5430,Tio Dongo,4604
+5431,Remercado,56628
+5431,Superpão,55530
+5431,Tio Dongo,2191
+5432,Remercado,56640
+5432,Superpão,52260
+5433,Remercado,56654
+5433,Superpão,20986
+5434,Remercado,56671
+5434,Superpão,16262
+5434,Tio Dongo,1888
+5435,Remercado,56672
+5435,Superpão,53083
+5435,Tio Dongo,5538
+5436,Remercado,56675
+5436,Superpão,1045
+5436,Tio Dongo,3708
+5437,Remercado,56721
+5437,Tio Dongo,141
+5438,Remercado,56735
+5438,Tio Dongo,3207
+5439,Remercado,56736
+5439,Superpão,53069
+5439,Tio Dongo,6790
+5440,Remercado,56761
+5440,Superpão,53408
+5441,Remercado,56805
+5441,Superpão,55532
+5441,Tio Dongo,5458
+5442,Remercado,56874
+5442,Tio Dongo,5326
+5443,Remercado,56944
+5443,Tio Dongo,4108
+5444,Remercado,56968
+5444,Superpão,10362
+5445,Remercado,57108
+5445,Tio Dongo,5580
+5446,Remercado,57250
+5446,Tio Dongo,4297
+5447,Remercado,57259
+5447,Tio Dongo,2459
+5448,Remercado,57319
+5448,Tio Dongo,4814
+5449,Remercado,57422
+5449,Superpão,3941
+5449,Tio Dongo,1779
+5450,Remercado,57564
+5450,Superpão,8973
+5451,Remercado,57596
+5451,Tio Dongo,5096
+5452,Remercado,57925
+5452,Tio Dongo,6780
+5453,Remercado,58063
+5453,Superpão,46997
+5454,Remercado,58080
+5454,Tio Dongo,4507
+5455,Remercado,58098
+5455,Tio Dongo,3523
+5456,Remercado,58319
+5456,Superpão,14264
+5457,Remercado,58331
+5457,Superpão,28072
+5458,Remercado,58645
+5458,Superpão,37520
+5459,Remercado,58652
+5459,Superpão,18296
+5459,Tio Dongo,7060
+5460,Remercado,58660
+5460,Superpão,23400
+5460,Tio Dongo,488
+5461,Remercado,58719
+5461,Superpão,8066
+5462,Remercado,58937
+5462,Superpão,2755
+5462,Tio Dongo,7098
+5463,Remercado,58939
+5463,Superpão,2892
+5463,Tio Dongo,323
+5464,Remercado,59022
+5464,Superpão,1760
+5465,Remercado,59034
+5465,Superpão,19474
+5465,Tio Dongo,5970
+5466,Remercado,59036
+5466,Tio Dongo,2282
+5467,Remercado,59055
+5467,Superpão,16825
+5468,Remercado,59083
+5468,Superpão,4446
+5469,Remercado,59110
+5469,Tio Dongo,3477
+5470,Remercado,59111
+5470,Tio Dongo,6202
+5471,Remercado,59165
+5471,Superpão,16434
+5471,Tio Dongo,3097
+5472,Remercado,59178
+5472,Superpão,365
+5473,Remercado,59247
+5473,Superpão,765
+5473,Tio Dongo,4755
+5474,Remercado,59328
+5474,Tio Dongo,5920
+5475,Remercado,59531
+5475,Tio Dongo,26
+5476,Remercado,59557
+5476,Superpão,914
+5476,Tio Dongo,5921
+5477,Remercado,59598
+5477,Tio Dongo,544
+5478,Remercado,59603
+5478,Superpão,2718
+5478,Tio Dongo,2106
+5479,Remercado,59689
+5479,Superpão,2719
+5479,Tio Dongo,1085
+5480,Remercado,59698
+5480,Superpão,2438
+5481,Remercado,59786
+5481,Superpão,2829
+5481,Tio Dongo,1752
+5482,Remercado,59873
+5482,Superpão,717
+5482,Tio Dongo,3220
+5483,Remercado,59874
+5483,Tio Dongo,4562
+5484,Remercado,59876
+5484,Tio Dongo,1225
+5485,Remercado,59888
+5485,Superpão,28047
+5485,Tio Dongo,2057
+5486,Remercado,59903
+5486,Superpão,2795
+5486,Tio Dongo,2682
+5487,Remercado,59924
+5487,Superpão,26336
+5487,Tio Dongo,3838
+5488,Remercado,60116
+5488,Superpão,3434
+5489,Remercado,60259
+5489,Superpão,4443
+5490,Remercado,60414
+5490,Tio Dongo,2649
+5491,Remercado,60667
+5491,Superpão,6766
+5491,Tio Dongo,2490
+5492,Remercado,60840
+5492,Tio Dongo,7161
+5493,Remercado,60897
+5493,Superpão,14367
+5493,Tio Dongo,5837
+5494,Remercado,60915
+5494,Superpão,25250
+5495,Remercado,60918
+5495,Tio Dongo,7108
+5496,Remercado,60937
+5496,Superpão,3069
+5497,Remercado,60989
+5497,Superpão,2720
+5497,Tio Dongo,7041
+5498,Remercado,60999
+5498,Superpão,2796
+5498,Tio Dongo,1104
+5499,Remercado,61121
+5499,Tio Dongo,3595
+5500,Remercado,61215
+5500,Tio Dongo,812
+5501,Remercado,61305
+5501,Superpão,11733
+5502,Remercado,61366
+5502,Tio Dongo,4263
+5503,Remercado,61404
+5503,Superpão,27384
+5504,Remercado,61655
+5504,Superpão,11237
+5504,Tio Dongo,521
+5505,Remercado,61791
+5505,Superpão,48293
+5505,Tio Dongo,1245
+5506,Remercado,61920
+5506,Superpão,2760
+5506,Tio Dongo,6612
+5507,Remercado,61995
+5507,Superpão,2721
+5508,Remercado,62051
+5508,Superpão,8550
+5509,Remercado,62062
+5509,Superpão,2763
+5509,Tio Dongo,6751
+5510,Remercado,62301
+5510,Superpão,11171
+5511,Remercado,62304
+5511,Tio Dongo,3150
+5512,Remercado,62326
+5512,Superpão,20131
+5513,Remercado,62512
+5513,Tio Dongo,3457
+5514,Remercado,62684
+5514,Superpão,2717
+5514,Tio Dongo,937
+5515,Remercado,62687
+5515,Superpão,2759
+5515,Tio Dongo,4082
+5516,Remercado,62968
+5516,Superpão,6682
+5516,Tio Dongo,2034
+5517,Remercado,63001
+5517,Superpão,2570
+5518,Remercado,63013
+5518,Superpão,52436
+5519,Remercado,63150
+5519,Tio Dongo,5246
+5520,Remercado,63162
+5520,Superpão,4694
+5521,Remercado,63294
+5521,Superpão,25452
+5522,Remercado,63326
+5522,Superpão,19259
+5523,Remercado,63340
+5523,Tio Dongo,3387
+5524,Remercado,63522
+5524,Superpão,735
+5525,Remercado,63588
+5525,Superpão,21661
+5526,Remercado,63672
+5526,Superpão,15982
+5527,Remercado,64111
+5527,Superpão,11920
+5528,Remercado,64118
+5528,Superpão,26918
+5529,Remercado,64128
+5529,Superpão,22482
+5530,Remercado,64139
+5530,Superpão,6685
+5530,Tio Dongo,5633
+5531,Remercado,64209
+5531,Superpão,2304
+5531,Tio Dongo,4211
+5532,Remercado,64210
+5532,Superpão,2303
+5532,Tio Dongo,3109
+5533,Remercado,64249
+5533,Tio Dongo,5571
+5534,Remercado,64289
+5534,Superpão,7069
+5535,Remercado,64438
+5535,Tio Dongo,4608
+5536,Remercado,64440
+5536,Superpão,2302
+5537,Remercado,64563
+5537,Superpão,5048
+5538,Remercado,64685
+5538,Tio Dongo,1685
+5539,Remercado,64730
+5539,Superpão,875
+5540,Remercado,64731
+5540,Superpão,877
+5541,Remercado,64754
+5541,Tio Dongo,4512
+5542,Remercado,64883
+5542,Superpão,7513
+5543,Remercado,64889
+5543,Superpão,5099
+5543,Tio Dongo,2267
+5544,Remercado,64893
+5544,Tio Dongo,5234
+5545,Remercado,65070
+5545,Tio Dongo,4466
+5546,Remercado,65117
+5546,Superpão,879
+5547,Remercado,65163
+5547,Tio Dongo,2514
+5548,Remercado,65180
+5548,Tio Dongo,6328
+5549,Remercado,65192
+5549,Tio Dongo,1740
+5550,Remercado,65324
+5550,Superpão,17380
+5551,Remercado,65388
+5551,Tio Dongo,5476
+5552,Remercado,65397
+5552,Tio Dongo,4479
+5553,Remercado,65432
+5553,Superpão,11717
+5554,Remercado,65438
+5554,Superpão,451
+5555,Remercado,65504
+5555,Superpão,3581
+5556,Remercado,65532
+5556,Tio Dongo,3138
+5557,Remercado,65588
+5557,Superpão,25999
+5557,Tio Dongo,5877
+5558,Remercado,65634
+5558,Superpão,201
+5558,Tio Dongo,2019
+5559,Remercado,65638
+5559,Superpão,2530
+5559,Tio Dongo,1048
+5560,Remercado,65639
+5560,Superpão,197
+5560,Tio Dongo,429
+5561,Remercado,65640
+5561,Superpão,198
+5561,Tio Dongo,2530
+5562,Remercado,65692
+5562,Tio Dongo,2773
+5563,Remercado,65749
+5563,Tio Dongo,2480
+5564,Remercado,65751
+5564,Tio Dongo,3861
+5565,Remercado,65763
+5565,Superpão,15559
+5566,Remercado,65862
+5566,Tio Dongo,3234
+5567,Remercado,65884
+5567,Tio Dongo,601
+5568,Remercado,66010
+5568,Tio Dongo,3398
+5569,Remercado,66011
+5569,Tio Dongo,2130
+5570,Remercado,66014
+5570,Tio Dongo,243
+5571,Remercado,66246
+5571,Tio Dongo,2079
+5572,Remercado,66291
+5572,Tio Dongo,1398
+5573,Remercado,66408
+5573,Superpão,10537
+5574,Remercado,66422
+5574,Tio Dongo,4234
+5575,Remercado,67328
+5575,Tio Dongo,458
+5576,Remercado,67333
+5576,Superpão,24128
+5576,Tio Dongo,2796
+5577,Superpão,1044
+5577,Tio Dongo,2989
+5578,Superpão,1108
+5578,Tio Dongo,1492
+5579,Superpão,11397
+5579,Tio Dongo,442
+5580,Superpão,11499
+5580,Tio Dongo,1204
+5581,Superpão,11600
+5581,Tio Dongo,2969
+5582,Superpão,1174
+5582,Tio Dongo,4382
+5583,Superpão,11793
+5583,Tio Dongo,4572
+5584,Superpão,11882
+5584,Tio Dongo,4145
+5585,Superpão,11887
+5585,Tio Dongo,418
+5586,Superpão,11889
+5586,Tio Dongo,1578
+5587,Superpão,11914
+5587,Tio Dongo,1365
+5588,Superpão,11928
+5588,Tio Dongo,1973
+5589,Superpão,1194
+5589,Tio Dongo,1812
+5590,Superpão,11986
+5590,Tio Dongo,2327
+5591,Superpão,12021
+5591,Tio Dongo,4981
+5592,Superpão,12149
+5592,Tio Dongo,3768
+5593,Superpão,1241
+5593,Tio Dongo,1507
+5594,Superpão,12824
+5594,Tio Dongo,1445
+5595,Superpão,13156
+5595,Tio Dongo,801
+5596,Superpão,13974
+5596,Tio Dongo,6553
+5597,Superpão,15017
+5597,Tio Dongo,6556
+5598,Superpão,15408
+5598,Tio Dongo,299
+5599,Superpão,15451
+5599,Tio Dongo,1748
+5600,Superpão,15648
+5600,Tio Dongo,4459
+5601,Superpão,15705
+5601,Tio Dongo,4419
+5602,Superpão,15766
+5602,Tio Dongo,540
+5603,Superpão,15797
+5603,Tio Dongo,5716
+5604,Superpão,15937
+5604,Tio Dongo,2619
+5605,Superpão,15947
+5605,Tio Dongo,3541
+5606,Superpão,15980
+5606,Tio Dongo,5421
+5607,Superpão,16033
+5607,Tio Dongo,2032
+5608,Superpão,16809
+5608,Tio Dongo,3943
+5609,Superpão,16826
+5609,Tio Dongo,3045
+5610,Superpão,16830
+5610,Tio Dongo,5381
+5611,Superpão,16846
+5611,Tio Dongo,4713
+5612,Superpão,16923
+5612,Tio Dongo,5201
+5613,Superpão,16925
+5613,Tio Dongo,1881
+5614,Superpão,16926
+5614,Tio Dongo,3630
+5615,Superpão,16954
+5615,Tio Dongo,2674
+5616,Superpão,17495
+5616,Tio Dongo,7104
+5617,Superpão,17615
+5617,Tio Dongo,1393
+5618,Superpão,17762
+5618,Tio Dongo,5392
+5619,Superpão,17922
+5619,Tio Dongo,6431
+5620,Superpão,17966
+5620,Tio Dongo,3181
+5621,Superpão,18000
+5621,Tio Dongo,158
+5622,Superpão,18060
+5622,Tio Dongo,4581
+5623,Superpão,18078
+5623,Tio Dongo,3753
+5624,Superpão,18293
+5624,Tio Dongo,7002
+5625,Superpão,1835
+5625,Tio Dongo,142
+5626,Superpão,18428
+5626,Tio Dongo,3032
+5627,Superpão,18429
+5627,Tio Dongo,3072
+5628,Superpão,1849
+5628,Tio Dongo,4768
+5629,Superpão,18963
+5629,Tio Dongo,4787
+5630,Superpão,19028
+5630,Tio Dongo,4251
+5631,Superpão,19473
+5631,Tio Dongo,6352
+5632,Superpão,19708
+5632,Tio Dongo,260
+5633,Superpão,19709
+5633,Tio Dongo,4859
+5634,Superpão,19960
+5634,Tio Dongo,755
+5635,Superpão,20306
+5635,Tio Dongo,4542
+5636,Superpão,20345
+5636,Tio Dongo,4377
+5637,Superpão,20482
+5637,Tio Dongo,4436
+5638,Superpão,20713
+5638,Tio Dongo,3033
+5639,Superpão,21980
+5639,Tio Dongo,2571
+5640,Superpão,2273
+5640,Tio Dongo,3071
+5641,Superpão,22875
+5641,Tio Dongo,3907
+5642,Superpão,22876
+5642,Tio Dongo,1786
+5643,Superpão,23069
+5643,Tio Dongo,7084
+5644,Superpão,2308
+5644,Tio Dongo,470
+5645,Superpão,2357
+5645,Tio Dongo,5531
+5646,Superpão,2367
+5646,Tio Dongo,6399
+5647,Superpão,23802
+5647,Tio Dongo,5530
+5648,Superpão,24059
+5648,Tio Dongo,6194
+5649,Superpão,24061
+5649,Tio Dongo,5437
+5650,Superpão,24063
+5650,Tio Dongo,1788
+5651,Superpão,24072
+5651,Tio Dongo,3962
+5652,Superpão,24107
+5652,Tio Dongo,6503
+5653,Superpão,2416
+5653,Tio Dongo,6087
+5654,Superpão,24965
+5654,Tio Dongo,407
+5655,Superpão,25123
+5655,Tio Dongo,1602
+5656,Superpão,27085
+5656,Tio Dongo,2268
+5657,Superpão,27560
+5657,Tio Dongo,3414
+5658,Superpão,2768
+5658,Tio Dongo,4271
+5659,Superpão,27829
+5659,Tio Dongo,3821
+5660,Superpão,3066
+5660,Tio Dongo,500
+5661,Superpão,3067
+5661,Tio Dongo,6982
+5662,Superpão,3137
+5662,Tio Dongo,1846
+5663,Superpão,36559
+5663,Tio Dongo,6282
+5664,Superpão,37511
+5664,Tio Dongo,3016
+5665,Superpão,377
+5665,Tio Dongo,6785
+5666,Superpão,3932
+5666,Tio Dongo,3533
+5667,Superpão,3933
+5667,Tio Dongo,5377
+5668,Superpão,3946
+5668,Tio Dongo,3394
+5669,Superpão,4025
+5669,Tio Dongo,1549
+5670,Superpão,4029
+5670,Tio Dongo,6734
+5671,Superpão,41454
+5671,Tio Dongo,2300
+5672,Superpão,41635
+5672,Tio Dongo,5867
+5673,Superpão,41678
+5673,Tio Dongo,7059
+5674,Superpão,41707
+5674,Tio Dongo,2945
+5675,Superpão,45186
+5675,Tio Dongo,5932
+5676,Superpão,46891
+5676,Tio Dongo,5965
+5677,Superpão,47215
+5677,Tio Dongo,3922
+5678,Superpão,47736
+5678,Tio Dongo,3569
+5679,Superpão,48255
+5679,Tio Dongo,3028
+5680,Superpão,48298
+5680,Tio Dongo,1363
+5681,Superpão,48946
+5681,Tio Dongo,5912
+5682,Superpão,48953
+5682,Tio Dongo,3228
+5683,Superpão,48954
+5683,Tio Dongo,3967
+5684,Superpão,49048
+5684,Tio Dongo,2068
+5685,Superpão,49177
+5685,Tio Dongo,4673
+5686,Superpão,49347
+5686,Tio Dongo,215
+5687,Superpão,49734
+5687,Tio Dongo,1289
+5688,Superpão,49914
+5688,Tio Dongo,3359
+5689,Superpão,49916
+5689,Tio Dongo,3186
+5690,Superpão,50288
+5690,Tio Dongo,5450
+5691,Superpão,50700
+5691,Tio Dongo,2797
+5692,Superpão,51309
+5692,Tio Dongo,1037
+5693,Superpão,51329
+5693,Tio Dongo,7109
+5694,Superpão,51339
+5694,Tio Dongo,4472
+5695,Superpão,51340
+5695,Tio Dongo,6351
+5696,Superpão,51342
+5696,Tio Dongo,6257
+5697,Superpão,51440
+5697,Tio Dongo,4523
+5698,Superpão,51444
+5698,Tio Dongo,4644
+5699,Superpão,51448
+5699,Tio Dongo,6502
+5700,Superpão,51449
+5700,Tio Dongo,5092
+5701,Superpão,51450
+5701,Tio Dongo,7032
+5702,Superpão,51642
+5702,Tio Dongo,1058
+5703,Superpão,51656
+5703,Tio Dongo,2469
+5704,Superpão,5169
+5704,Tio Dongo,1854
+5705,Superpão,51780
+5705,Tio Dongo,5436
+5706,Superpão,5216
+5706,Tio Dongo,2706
+5707,Superpão,52205
+5707,Tio Dongo,4735
+5708,Superpão,52216
+5708,Tio Dongo,495
+5709,Superpão,52217
+5709,Tio Dongo,1624
+5710,Superpão,52218
+5710,Tio Dongo,6829
+5711,Superpão,52223
+5711,Tio Dongo,3688
+5712,Superpão,52224
+5712,Tio Dongo,2661
+5713,Superpão,52316
+5713,Tio Dongo,6241
+5714,Superpão,52387
+5714,Tio Dongo,1227
+5715,Superpão,52388
+5715,Tio Dongo,4887
+5716,Superpão,52458
+5716,Tio Dongo,549
+5717,Superpão,5256
+5717,Tio Dongo,1157
+5718,Superpão,52561
+5718,Tio Dongo,3955
+5719,Superpão,52682
+5719,Tio Dongo,1278
+5720,Superpão,52688
+5720,Tio Dongo,3538
+5721,Superpão,53188
+5721,Tio Dongo,6951
+5722,Superpão,53189
+5722,Tio Dongo,2849
+5723,Superpão,53344
+5723,Tio Dongo,7030
+5724,Superpão,53345
+5724,Tio Dongo,3873
+5725,Superpão,54249
+5725,Tio Dongo,290
+5726,Superpão,54295
+5726,Tio Dongo,5525
+5727,Superpão,54628
+5727,Tio Dongo,4292
+5728,Superpão,54629
+5728,Tio Dongo,1920
+5729,Superpão,54630
+5729,Tio Dongo,6226
+5730,Superpão,54631
+5730,Tio Dongo,1923
+5731,Superpão,54788
+5731,Tio Dongo,3229
+5732,Superpão,54816
+5732,Tio Dongo,4832
+5733,Superpão,54837
+5733,Tio Dongo,1614
+5734,Superpão,54848
+5734,Tio Dongo,3007
+5735,Superpão,54854
+5735,Tio Dongo,4147
+5736,Superpão,54914
+5736,Tio Dongo,4653
+5737,Superpão,54940
+5737,Tio Dongo,5051
+5738,Superpão,55333
+5738,Tio Dongo,50
+5739,Superpão,55965
+5739,Tio Dongo,1193
+5740,Superpão,574
+5740,Tio Dongo,4869
+5741,Superpão,5797
+5741,Tio Dongo,6486
+5742,Superpão,5830
+5742,Tio Dongo,6446
+5743,Superpão,5907
+5743,Tio Dongo,1730
+5744,Superpão,595
+5744,Tio Dongo,3257
+5745,Superpão,6125
+5745,Tio Dongo,1914
+5746,Superpão,636
+5746,Tio Dongo,2152
+5747,Superpão,6444
+5747,Tio Dongo,1776
+5748,Superpão,6569
+5748,Tio Dongo,1311
+5749,Superpão,6737
+5749,Tio Dongo,5986
+5750,Superpão,6743
+5750,Tio Dongo,5961
+5751,Superpão,6759
+5751,Tio Dongo,694
+5752,Superpão,692
+5752,Tio Dongo,6607
+5753,Superpão,694
+5753,Tio Dongo,4896
+5754,Superpão,698
+5754,Tio Dongo,6986
+5755,Superpão,7119
+5755,Tio Dongo,4166
+5756,Superpão,7164
+5756,Tio Dongo,2519
+5757,Superpão,7446
+5757,Tio Dongo,3983
+5758,Superpão,7705
+5758,Tio Dongo,5545
+5759,Superpão,7903
+5759,Tio Dongo,328
+5760,Superpão,7904
+5760,Tio Dongo,2788
+5761,Superpão,7905
+5761,Tio Dongo,763
+5762,Superpão,7906
+5762,Tio Dongo,117
+5763,Superpão,7907
+5763,Tio Dongo,282
+5764,Superpão,7908
+5764,Tio Dongo,804
+5765,Superpão,7979
+5765,Tio Dongo,6061
+5766,Superpão,8152
+5766,Tio Dongo,1325
+5767,Superpão,8198
+5767,Tio Dongo,6721
+5768,Superpão,8525
+5768,Tio Dongo,3093
+5769,Superpão,8610
+5769,Tio Dongo,3521
+5770,Superpão,874
+5770,Tio Dongo,2381
+5771,Superpão,8884
+5771,Tio Dongo,6739
+5772,Superpão,897
+5772,Tio Dongo,4602
+5773,Superpão,8976
+5773,Tio Dongo,4219
+5774,Superpão,9914
+5774,Tio Dongo,3846
+5775,Superpão,9915
+5775,Tio Dongo,4527
+5776,Superpão,9917
+5776,Tio Dongo,946
+5777,Superpão,9969
+5777,Tio Dongo,452

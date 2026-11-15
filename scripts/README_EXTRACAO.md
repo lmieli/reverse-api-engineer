@@ -68,3 +68,11 @@ Vale para a Bramil, o Superpão e qualquer mercado novo que entrar na comparaç�
 - Tio Dongo x Superpão/Remercado: entram no comparador por transitividade, via Bramil. Os 2.9 mil produtos do
   Tio Dongo sem EAN em comum com a Bramil ainda não têm de-para com Superpão/Remercado.
 - Carregar só o Tio Dongo na base: `python3 scripts/base_historica/base.py carregar AAAA-MM-DD tiodongo`.
+
+### Tio Dongo x Superpão / Remercado
+- `scripts/depara_tiodongo_superpao.csv` (625 pares) e `scripts/depara_tiodongo_remercado.csv` (679 pares), por nome,
+  1 para 1, só para os produtos do Tio Dongo sem par por EAN na Bramil. Revisados item a item; também ficam na
+  tabela `depara_tiodongo_mercado` da base.
+- Produtos da padaria própria do Tio Dongo (marcados "Tio Dongo" no nome) não são pareados com os de outros mercados.
+- Itens por kg do Tio Dongo: `preco` é o preço da porção estimada; o preço por kg está em `preco_original`. O
+  comparador e a base usam o preço por kg. Sem `preco_original`, estima pelo peso da porção no nome.

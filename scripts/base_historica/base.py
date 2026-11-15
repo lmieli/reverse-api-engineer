@@ -27,6 +27,7 @@ CREATE TABLE IF NOT EXISTS depara (bramil_sku TEXT, superpao_id TEXT, origem TEX
 CREATE TABLE IF NOT EXISTS depara_remercado (bramil_sku TEXT, remercado_id TEXT, origem TEXT);
 CREATE TABLE IF NOT EXISTS depara_remercado_superpao (remercado_id TEXT, superpao_id TEXT, origem TEXT);
 CREATE TABLE IF NOT EXISTS depara_tiodongo (bramil_sku TEXT, tiodongo_id TEXT, origem TEXT);
+CREATE TABLE IF NOT EXISTS depara_tiodongo_mercado (tiodongo_id TEXT, mercado TEXT, codigo TEXT, origem TEXT);
 CREATE TABLE IF NOT EXISTS produto_grupo (grupo INTEGER, mercado TEXT, codigo TEXT);
 CREATE INDEX IF NOT EXISTS ix_preco_data ON preco(data);
 """
@@ -85,10 +86,12 @@ def le_tiodongo(caminho):
     for p in json.load(open(caminho)):
         of = p.get("oferta") or {}
         promo = float(of["preco_oferta"]) if of.get("nome") == "Encarte" and of.get("preco_oferta") else 0
+        # item por kg: `preco` = preço da porção estimada; preço por kg em `preco_original`
+        kg = (p.get("unidade") or "").upper() == "KG" and p.get("preco_original")
         yield dict(codigo=p["id"], nome=p["nome"], departamento=p.get("departamento"), unidade=p.get("unidade"),
                    barras=p.get("codigo_barras"), url=p.get("url"),
                    imagem=(IMG_VIP + p["imagem_arquivo"]) if p.get("imagem_arquivo") else None,
-                   preco=p["preco"], preco_promocional=promo, preco_original=p["preco"] if promo else None,
+                   preco=p["preco_original"] if kg else p["preco"], preco_promocional=promo, preco_original=p["preco"] if promo else None,
                    em_oferta=bool(promo), disponivel=1 if p.get("disponivel") else 0)
 
 def carregar(data, so=None):
@@ -121,6 +124,12 @@ def carregar(data, so=None):
     if os.path.exists(arqt):
         for r in csv.DictReader(open(arqt, encoding="utf-8")):
             c.execute("INSERT INTO depara_tiodongo VALUES (?,?,?)", (r["bramil_sku"], r["tiodongo_id"], r["origem"]))
+    c.execute("DELETE FROM depara_tiodongo_mercado")
+    for mk in ("superpao", "remercado"):
+        arq = os.path.join(RAIZ, f"scripts/depara_tiodongo_{mk}.csv")
+        if os.path.exists(arq):
+            for r in csv.DictReader(open(arq, encoding="utf-8")):
+                c.execute("INSERT INTO depara_tiodongo_mercado VALUES (?,?,?,?)", (r["tiodongo_id"], mk, r[f"{mk}_id"], r["origem"]))
     c.execute("DELETE FROM produto_grupo")
     arq3 = os.path.join(RAIZ, "scripts/produto_grupo.csv")
     if os.path.exists(arq3):
