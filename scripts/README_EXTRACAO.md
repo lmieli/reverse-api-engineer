@@ -85,3 +85,11 @@ Vale para a Bramil, o Superpão e qualquer mercado novo que entrar na comparaç�
 ### Revisão das linhas "conferir" (diferença > 100%)
 - Revisadas uma a uma. Pares errados (pack x unidade, sabor/modelo diferente, sachê x vidro, cadastro errado do site)
   foram desfeitos nos de-paras. As que restam são o mesmo produto com preço de fato diferente (promoção, bandeja x kg).
+
+## Atualização diária (`scripts/atualizar_tudo.py`)
+- `python3 scripts/atualizar_tudo.py` coleta os 4 mercados em paralelo (~45 min, a Bramil é a mais lenta), grava o dia
+  na base histórica, refaz `comparacao_precos_todos_mercados.xlsx` e gera `relatorio/precos_mercados.html` (a página)
+  e `relatorio/ultima_atualizacao.json` (resumo). Se um mercado falhar ou vier com menos de 80% dos produtos da coleta
+  anterior, mantém os dados antigos e não grava esse mercado no dia.
+- Os de-paras não são refeitos: produtos novos entram na base, mas só aparecem na comparação depois de pareados.
+- Roda todo dia por volta das 4h (Brasília) por uma tarefa agendada, que também republica a página e faz o commit.

@@ -125,3 +125,4 @@ macos/DerivedData/
 
 # The homepage demo videos are served from the site.
 !website/public/demo/*.mp4
+.coleta_tmp/

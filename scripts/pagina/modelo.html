@@ -1,0 +1,122 @@
+<title>Preços nos Quatro Mercados</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<style>
+/* Layout: filtros no topo, resumo de quem é mais barato, tabela com uma linha por produto e uma coluna de preço por mercado. */
+:root{
+  --bg:#f6f7f5; --surface:#ffffff; --fg:#1b2420; --muted:#5d6a63; --line:#dfe4e0;
+  --bramil:#1f5fbf; --bramil-bg:#e4edfb; --sp:#c2410c; --sp-bg:#fdeadd; --re:#0f766e; --re-bg:#dcf3ef; --td:#7c3aed; --td-bg:#ece4fc;
+  --good:#17803d; --good-bg:#e1f3e7; --warn:#a16207; --warn-bg:#fbefd0; --focus:#1f5fbf;
+  --font-body:'Inter',system-ui,sans-serif; --font-head:'Space Grotesk','Inter',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121715; --surface:#1a211e; --fg:#e8eeea; --muted:#9aa8a0; --line:#2a342f;
+  --bramil:#7aa7ee; --bramil-bg:#1c2a44; --sp:#f2995f; --sp-bg:#3a2417; --re:#4fd1c0; --re-bg:#12332f; --td:#b595f5; --td-bg:#2b2147;
+  --good:#58c97f; --good-bg:#16301f; --warn:#e4b44f; --warn-bg:#35290f; --focus:#7aa7ee; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121715; --surface:#1a211e; --fg:#e8eeea; --muted:#9aa8a0; --line:#2a342f;
+  --bramil:#7aa7ee; --bramil-bg:#1c2a44; --sp:#f2995f; --sp-bg:#3a2417; --re:#4fd1c0; --re-bg:#12332f; --td:#b595f5; --td-bg:#2b2147;
+  --good:#58c97f; --good-bg:#16301f; --warn:#e4b44f; --warn-bg:#35290f; --focus:#7aa7ee; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--font-body);font-size:14px;line-height:1.45;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+.wrap{max-width:1240px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+h1{font-family:var(--font-head);font-size:26px;line-height:1.15;margin:0;text-wrap:balance}
+.sub{color:var(--muted);margin:4px 0 0;max-width:72ch}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;align-items:end;
+  background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px}
+.filters label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted);font-weight:500;min-width:0}
+.filters input[type=search],.filters input[type=number],.filters select{font:inherit;font-size:14px;color:var(--fg);background:var(--bg);
+  border:1px solid var(--line);border-radius:6px;padding:7px 9px;min-width:0;width:100%}
+.filters .chk{flex-direction:row;align-items:center;gap:8px;color:var(--fg);font-size:13px;padding-bottom:7px}
+.stats{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;font-size:13px;color:var(--muted)}
+.stats b{color:var(--fg);font-variant-numeric:tabular-nums}
+.bar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:var(--line);flex:1 1 220px;min-width:160px}
+.bar i{display:block;height:100%}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+.tablebox{background:var(--surface);border:1px solid var(--line);border-radius:10px;overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:820px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;font-weight:600;color:var(--muted);position:sticky;top:0;background:var(--surface);cursor:pointer;white-space:nowrap;user-select:none}
+th[aria-sort]{color:var(--fg)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.name{min-width:240px}
+td .nm{display:block;color:var(--muted);font-size:12px}
+td .nm b{font-weight:600}
+.cell{display:inline-block;padding:2px 8px;border-radius:6px}
+.best{background:var(--good-bg);color:var(--good);font-weight:600}
+.pill{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap}
+.pill.b{background:var(--bramil-bg);color:var(--bramil)}.pill.s{background:var(--sp-bg);color:var(--sp)}.pill.r{background:var(--re-bg);color:var(--re)}.pill.t{background:var(--td-bg);color:var(--td)}
+.pill.w{background:var(--warn-bg);color:var(--warn)}
+.na{color:var(--muted)}
+td a{color:var(--bramil);text-decoration:none}td a:hover{text-decoration:underline}
+.pager{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.pager button{font:inherit;padding:6px 12px;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:6px;cursor:pointer}
+.pager button:disabled{opacity:.4;cursor:default}
+.empty{padding:28px;text-align:center;color:var(--muted)}
+.note{font-size:12px;color:var(--muted);max-width:92ch}
+@media (max-width:560px){h1{font-size:22px}}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Preços nos quatro mercados</h1>
+    <p class="sub">Cada linha é um produto. Bramil em Casa (Nova Friburgo), Superpão, Remercado e Tio Dongo, coletados em __COLETA__. O verde marca o mercado mais barato. Produtos vendidos por quilo são comparados em R$/kg.</p>
+  </header>
+  <section class="filters" aria-label="Filtros">
+    <label>Buscar produto<input id="q" type="search" placeholder="ex.: leite, tio joão, 3 corações"></label>
+    <label>Mercados com o produto<select id="nm"><option value="2">2 ou mais</option><option value="3">3 ou mais</option><option value="4">Todos os 4</option></select></label>
+    <label>Mais barato<select id="bar"><option value="">Qualquer</option><option value="B">Bramil</option><option value="S">Superpão</option><option value="R">Remercado</option><option value="T">Tio Dongo</option></select></label>
+    <label>Diferença mínima (%)<input id="dmin" type="number" min="0" step="5" placeholder="0"></label>
+    <label>Só mostrar<select id="only"><option value="">Todos</option><option value="kg">Comparados por kg</option><option value="conf">Para conferir (&gt;100%)</option></select></label>
+  </section>
+  <div class="stats" id="stats"></div>
+  <div class="tablebox"><table id="tb"><thead></thead><tbody></tbody></table><div class="empty" id="empty" hidden>Nenhum produto com esses filtros.</div></div>
+  <div class="pager"><span id="info"></span><span><button id="prev">Anterior</button> <button id="next">Próxima</button></span></div>
+  <p class="note">A diferença é entre o mais caro e o mais barato do produto. Linhas "para conferir" têm mais de 100% de diferença e podem ter embalagens diferentes. Quando um mercado cadastra o produto sem peso (ex.: bandeja) e outro vende por kg, esse mercado fica de fora da comparação.</p>
+</div>
+
+<script>
+const D=__DATA__;
+// linha: [nome,n,pB,pS,pR,pT,barato,dif,base,conf,nB,nS,nR,nT,uS,uR,uT,iB,iS,iR,iT]
+const M=[['B','Bramil','b','bramil'],['S','Superpão','s','sp'],['R','Remercado','r','re'],['T','Tio Dongo','t','td']];
+const fmt=v=>v==null?'—':v.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+const $=id=>document.getElementById(id);
+let sortK=null,sortDir=1,page=0,view=[];const PS=100;
+const cols=[['Produto',0,'name'],['Bramil',2,'n'],['Superpão',3,'n'],['Remercado',4,'n'],['Tio Dongo',5,'n'],['Mais barato',6,''],['Diferença',7,'n']];
+$('tb').tHead.innerHTML='<tr>'+cols.map((c,i)=>`<th class="${c[2]}" data-i="${i}" tabindex="0" role="columnheader">${c[0]}</th>`).join('')+'</tr>';
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function filt(){
+  const q=$('q').value.trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,''),nm=+$('nm').value,b=$('bar').value,dm=+$('dmin').value||0,o=$('only').value;
+  view=D.filter(r=>{
+    if(r[1]<nm)return false; if(b&&r[6]!==b)return false; if(dm&&(r[7]||0)<dm)return false;
+    if(o==='kg'&&!/kg/.test(r[8]))return false; if(o==='conf'&&r[9]!=='conferir')return false;
+    if(q){const t=(r[0]+' '+(r[10]||'')+' '+(r[11]||'')+' '+(r[12]||'')+' '+(r[13]||'')).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+      return q.split(/\s+/).every(w=>t.includes(w));}
+    return true});
+  if(sortK!=null){const k=cols[sortK][1];view.sort((a,c)=>{const x=a[k],y=c[k];if(x==null&&y==null)return 0;if(x==null)return 1;if(y==null)return -1;return (x>y?1:x<y?-1:0)*sortDir})}
+  page=0;draw();
+}
+function draw(){
+  const tb=$('tb').tBodies[0];const s=view.slice(page*PS,page*PS+PS);
+  tb.innerHTML=s.map(r=>{
+    const min=Math.min(...[2,3,4,5].map(i=>r[i]).filter(v=>v!=null));
+    const nm=[['Bramil',r[10],r[17]],['Superpão',r[11],r[18],r[14]],['Remercado',r[12],r[19],r[15]],['Tio Dongo',r[13],r[20],r[16]]].filter(x=>x[1]).map(x=>`<span class="nm"><b>${x[0]}:</b> ${esc(x[1])}${x[2]?` · <a href="${esc(x[2])}" target="_blank" rel="noopener">foto</a>`:''}${x[3]?` · <a href="${esc(x[3])}" target="_blank" rel="noopener">link</a>`:''}</span>`).join('');
+    const cell=i=>r[i]==null?'<span class="na">—</span>':`<span class="cell ${r[i]===min&&r[1]>=2?'best':''}">${fmt(r[i])}</span>`;
+    const bm=M.find(m=>m[0]===r[6]);
+    return `<tr><td class="name">${esc(r[0])}${r[9]?' <span class="pill w">conferir</span>':''}${nm}</td><td class="n">${cell(2)}</td><td class="n">${cell(3)}</td><td class="n">${cell(4)}</td><td class="n">${cell(5)}</td><td><span class="pill ${bm[2]}">${bm[1]}</span></td><td class="n">${r[7]==null?'—':r[7].toLocaleString('pt-BR')+'%'}</td></tr>`}).join('');
+  $('empty').hidden=view.length>0;
+  const tot=Math.max(1,Math.ceil(view.length/PS));
+  $('info').textContent=view.length?`${(page*PS+1).toLocaleString('pt-BR')}–${Math.min(view.length,page*PS+PS).toLocaleString('pt-BR')} de ${view.length.toLocaleString('pt-BR')} produtos · página ${page+1} de ${tot}`:'';
+  $('prev').disabled=page===0;$('next').disabled=page>=tot-1;
+  const w={B:0,S:0,R:0,T:0};view.forEach(r=>w[r[6]]++);const n=view.length||1;
+  $('stats').innerHTML=`<span><b>${view.length.toLocaleString('pt-BR')}</b> produtos</span>`+M.map(m=>`<span><i class="dot" style="background:var(--${m[3]})"></i>${m[1]} mais barato em <b>${w[m[0]].toLocaleString('pt-BR')}</b> (${Math.round(w[m[0]]/n*100)}%)</span>`).join('')
+   +`<span class="bar" aria-hidden="true">${M.map(m=>`<i style="width:${w[m[0]]/n*100}%;background:var(--${m[3]})"></i>`).join('')}</span>`;
+}
+['q','nm','bar','dmin','only'].forEach(id=>$(id).addEventListener('input',filt));
+$('prev').onclick=()=>{page--;draw();scrollTo(0,0)};$('next').onclick=()=>{page++;draw();scrollTo(0,0)};
+function srt(e){const th=e.target.closest('th');if(!th)return;const i=+th.dataset.i;if(e.type==='keydown'&&e.key!=='Enter')return;
+  sortDir=sortK===i?-sortDir:1;sortK=i;document.querySelectorAll('th').forEach(t=>t.removeAttribute('aria-sort'));th.setAttribute('aria-sort',sortDir>0?'ascending':'descending');filt()}
+$('tb').tHead.addEventListener('click',srt);$('tb').tHead.addEventListener('keydown',srt);
+filt();
+</script>

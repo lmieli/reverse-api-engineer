@@ -1,0 +1,13 @@
+{
+ "data": "2026-11-15",
+ "mercados": {
+  "tiodongo": {
+   "ok": true,
+   "produtos": 5622,
+   "anterior": 5622,
+   "minutos": 3.8,
+   "erro": null
+  }
+ },
+ "produtos_comparaveis": 5806
+}
