@@ -93,3 +93,13 @@ Vale para a Bramil, o Superpão e qualquer mercado novo que entrar na comparaç�
   anterior, mantém os dados antigos e não grava esse mercado no dia.
 - Os de-paras não são refeitos: produtos novos entram na base, mas só aparecem na comparação depois de pareados.
 - Roda todo dia por volta das 4h (Brasília) por uma tarefa agendada, que também republica a página e faz o commit.
+
+## Encartes (WhatsApp)
+
+- `scripts/encartes/supermarket.csv`: ofertas transcritas das imagens (preço normal, condicional, clube, validade, imagem de origem).
+- `scripts/encartes/supermarket_depara.csv`: oferta -> produto em cada mercado (B/S/R/T). `tipo=exato` é o mesmo produto;
+  `tipo=variante` quando a oferta vale para vários sabores/fragrâncias e foi ligada a um deles. Uma oferta pode ficar sem par.
+- `scripts/encartes/candidatos.py`: sugere candidatos para revisão manual de novas ofertas.
+- `scripts/encartes/comparar_encarte.py [loja]`: gera `relatorio/encarte_<loja>.xlsx` e grava as tabelas `encarte` e
+  `encarte_depara` na base histórica.
+- Novo lote: acrescentar linhas ao CSV de ofertas, rodar `candidatos.py`, revisar, acrescentar ao de-para e rodar o comparador.

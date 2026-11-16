@@ -1,0 +1,168 @@
+id,produto,tamanho,preco,preco_condicional,condicao,preco_clube,validade_inicio,validade_fim,fonte,imagem
+1,Água Mineral Vitoriosa Sem Gás 510ml,510ml,0.99,0.89,"fardo com 12 (R$ 10,68)",,2026-11-13,2026-11-19,encarte,91305.jpg
+2,Bebida Láctea Pirakids Chocolate 200ml,200ml,1.69,0.99,"caixa com 27 (R$ 26,73)",,2026-11-13,2026-11-19,encarte,91306.jpg
+3,Sabonete Farnese 85g Frutas Vermelhas ou Erva Doce,85g,1.79,1.29,a partir da 12ª unidade,,2026-11-13,2026-11-19,encarte,91307.jpg
+4,"Água Mineral Vitoriosa Sem Gás 1,5L","1,5l",2.29,1.95,"fardo com 6 (R$ 11,70)",,2026-11-13,2026-11-19,encarte,91308.jpg
+5,"Chocolate Kit Kat 41,5g Branco Dark ou Ao Leite","41,5g",5.99,2.99,a partir da 3ª unidade,,2026-11-13,2026-11-19,encarte,91309.jpg
+6,Margarina Cremosy Com Sal 500g,500g,5.99,3.99,"caixa com 12 (R$ 47,88)",,2026-11-13,2026-11-19,encarte,91310.jpg
+7,Leite UHT Elegê Desnatado 1L,1l,4.45,4.39,"caixa com 12 (R$ 52,68)",,2026-11-13,2026-11-19,encarte,91311.jpg
+8,Leite UHT Elegê Semidesnatado 1L,1l,4.45,4.39,"caixa com 12 (R$ 52,68)",,2026-11-13,2026-11-19,encarte,91312.jpg
+9,Leite UHT Itambé Integral 1L,1l,4.97,4.47,"caixa com 12 (R$ 53,64)",,2026-11-13,2026-11-19,encarte,91313.jpg
+10,Maionese Hellmann's Sachê 1kg,1kg,16.9,,,,2026-11-13,2026-11-19,encarte,91314.jpg
+11,Linguiça Tipo Calabresa Lecker kg,kg,12.97,11.97,"pacote com 5 kg (R$ 59,85)",,2026-11-13,2026-11-19,encarte,91315.jpg
+12,Linguiça de Pernil Seara Churrasco kg,kg,14.97,12.97,"pacote com 5 kg (R$ 64,85)",,2026-11-13,2026-11-19,encarte,91316.jpg
+13,Linguiça de Frango Lar Congelada kg,kg,13.97,12.97,"pacote com 5 kg (R$ 64,85)",,2026-11-13,2026-11-19,encarte,91317.jpg
+14,"Batata Pré-Frita Easy Chef Tradicional 1,5kg","1,5kg",15.98,13.75,"caixa com 8 (R$ 110,00)",,2026-11-13,2026-11-19,encarte,91318.jpg
+15,Café Pelé Tradicional ou Extraforte 500g,500g,24.99,17.98,"fardo com 10 (R$ 179,80)",,2026-11-13,2026-11-19,encarte,91319.jpg
+16,Bacon Defumado Seara Manta Peça kg,kg,27.97,,,,2026-11-13,2026-11-19,encarte,91320.jpg
+17,Queijo Mussarela Peça kg,kg,31.9,,,,2026-11-13,2026-11-19,encarte,91321.jpg
+18,Feijão Branco Combrasil 500g,500g,6.99,,"de R$ 8,90 (etiqueta de gôndola)",,2026-11-16,,gôndola,91324.jpg
+19,Feijão Fradinho Combrasil 500g,500g,4.99,,"de R$ 5,99 (etiqueta de gôndola)",,2026-11-16,,gôndola,91323.jpg
+20,Mamão Papaya Unidade,un,2.99,,"de R$ 4,99 (etiqueta de gôndola)",,2026-11-16,,gôndola,91325.jpg
+21,Açúcar Refinado Neve 1kg,1kg,2.99,,"de R$ 3,59 (etiqueta de gôndola)",,2026-11-16,,gôndola,91326.jpg
+22,Leite Longa Vida Godam ou Tirol Integral Semidesnatado ou Desnatado 1L,1l,4.47,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+23,Filé de Coxa e Sobrecoxa de Frango Lar Congelado kg,kg,13.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+24,Bife Ancho Bovino Maturatta ou Pul Selection Peça kg,kg,59.9,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+25,Picanha Bovina Fatiada Maturatta ou Bordon kg,kg,49.98,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+26,Coxa com Sobrecoxa de Frango Lar Congelada com Porção Dorsal kg,kg,7.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+27,Peito de Frango Congelado a Granel kg,kg,12.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+28,Filé de Peito de Frango Lar Congelado a Granel kg,kg,15.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+29,Pernil Suíno Congelado Com Osso e Com Pele a Granel kg,kg,9.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+30,Arroz Branco Dona Elza 5kg,5kg,17.95,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+31,Feijão Preto Tio Bruno Tipo 2 1kg,1kg,5.49,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+32,Açúcar Refinado Neve 1kg,1kg,2.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+33,Café União 500g,500g,18.9,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+34,Café Melitta 500g,500g,22.8,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+35,Espaguete ou Parafuso de Sêmola Santa Amália 1kg,1kg,4.49,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+36,Creme de Leite Damare TP 200g,200g,1.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+37,Leite Condensado Semidesnatado Italac TP 395g,395g,4.77,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+38,Leite Condensado Semidesnatado Moça TP 395g,395g,5.49,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+39,Leite em Pó Integral Glória Sachê 360g,360g,11.75,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+40,Leite em Pó Molico Desnatado Lata 280g,280g,14.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+41,Fralda Descartável Huggies Máxima Proteção,,36.9,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+42,Papel Higiênico Carinho Super Macio Folha Dupla Neutro 20m 12 Unidades,12un,9.98,,,8.98,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+43,Kit Shampoo 350ml + Condicionador 175ml Pantene,,26.98,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+44,Amaciante Concentrado Downy 1L,1l,19.96,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+45,"Lava Roupas em Pó Ace Sachê 1,5kg ou Invicto 1,6kg","1,5kg",10.98,,,9.98,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+46,Cerveja Brahma Pilsen Latão 473ml Pack 12,473ml,4.49,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+47,Cerveja Brahma Zero Latão 473ml,473ml,3.89,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+48,Cerveja Spaten Puro Malte Latão 473ml,473ml,5.49,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+49,Cerveja Skol Pilsen Latão 550ml,550ml,4.19,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+50,Cerveja Michelob Ultra Latão 473ml,473ml,5.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+51,Cerveja Corona Extra ou Cero Sunbrew Long Neck 330ml,330ml,6.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+52,Energético Baly Sabores Latão 473ml,473ml,6.99,,,5.99,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+53,Vodka Smirnoff Red 998ml,998ml,44.9,,,39.9,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+54,Vinho Espanhol Pata Negra Oro Tempranillo 750ml,750ml,49.9,,,42.9,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+55,Vinho Chileno Concha y Toro Reservado 750ml,750ml,29.9,,,24.9,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+56,Vinho Nacional Pérgola 750ml,750ml,21.9,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+57,"Suco de Uva Integral Aurora TP 1,5L","1,5l",19.99,,,18.99,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+58,"Refrigerante H2OH Sabores Pet 1,5L","1,5l",7.29,,,6.99,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+59,Isotônico Gatorade Sabores 500ml,500ml,4.59,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+60,"Refrigerante Pepsi Cola Tradicional Pet 2,5L","2,5l",7.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+61,"Refrigerante Guaraná Antarctica Zero Pet 1,5L","1,5l",5.49,,,4.99,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+62,"Refrigerante Guaraná Antarctica Tradicional ou Zero Pet 2,5L","2,5l",8.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91282.jpg
+63,Iogurte Grego Vigor Sabores 90g,90g,3.49,,,2.99,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+64,Bebida Láctea Polpa Vigor Todo Dia Sabores 480g,480g,5.99,,,5.49,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+65,"Iogurte Líquido Vigor Sabores 1,15kg","1,15kg",15.99,,,14.99,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+66,"Iogurte Líquido Itambé Zero 1,15kg","1,15kg",15.99,,,14.99,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+67,"Bebida Láctea Pulsi 1,1kg","1,1kg",9.99,,,8.99,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+68,Requeijão Cremoso Godam 410g,410g,15.99,,,14.99,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+69,Manteiga Président Tablete ou Pote 200g,200g,14.98,,,13.98,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+70,Empanados de Frango Tekitos Seara 1kg,1kg,18.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+71,Empanados Recheados Seara Sabores 110g,110g,3.99,2.66,leve 3 pague 2,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+72,Almôndega Bovina Friboi 500g,500g,16.98,,,15.98,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+73,Linguiça de Pernil para Churrasco Seara a Granel kg,kg,14.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+74,Batata Palito Pré-Frita Prime Fries ou The Fries 2kg,2kg,18.98,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+75,Linguiça de Frango para Churrasco Lar Congelada 1kg,1kg,13.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+76,Coxinhas das Asas Drumet de Frango Lar Congeladas a Granel kg,kg,11.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+77,Coxa de Frango Lar Congelada IQF 1kg,1kg,9.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+78,Frango a Passarinho Lar Congelado IQF 1kg,1kg,10.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+79,Sobrecoxa de Frango Lar Congelada IQF 1kg,1kg,12.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+80,Filezinho do Peito de Frango Lar Congelado IQF 1kg,1kg,16.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+81,Carré Suíno Congelado a Granel kg,kg,14.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+82,Filé de Panga DH Fish 500g,500g,14.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+83,Filé de Tilápia Lar Congelado 700g,700g,36.9,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+84,Azeite Português Extra Virgem Olival D'Ouro Vidro 500ml,500ml,19.98,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+85,Azeite Português Única Gallo Vidro 400ml,400ml,20.98,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+86,Massa Italiana Grano Duro Reggia 500g,500g,7.99,,,5.99,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+87,Nhoque de Batata Italiano Reggia 500g,500g,13.99,,,11.99,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+88,Tomate Pelado Italiano Don Mimi 400g,400g,8.98,,,7.49,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+89,Passata di Pomodoro Don Mimi Vidro 680g,680g,12.98,,,10.98,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+90,Arroz Branco Tio João Tipo 1 5kg,5kg,27.95,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+91,Feijão Preto Supermarket Tipo 1 1kg,1kg,5.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+92,Farinha de Trigo Três Coroas Tipo 1 1kg,1kg,2.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+93,Açúcar Demerara União Naturale 1kg,1kg,5.98,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+94,Maionese Hellmann's Tradicional 500g,500g,9.9,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+95,Tempero Gourmet Quinta da Vieira Vidro 500ml,500ml,12.98,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+96,Achocolatado em Pó Nescau Sachê 550g,550g,15.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+97,Biscoito Recheado Bono ou Negresco Nestlé 90g,90g,1.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+98,Biscoito Recheado Passatempo Nestlé 130g,130g,2.29,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+99,Biscoito Cream Cracker Richester 350g,350g,5.89,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+100,Batata Tubo Mr. Chips Sabores 90g,90g,7.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+101,Biscoito Maizena Piraquê 175g (Festival Piraquê),175g,2.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+102,Biscoito Goiabinha Piraquê 75g (Festival Piraquê),75g,2.97,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+103,Sabonete Hidratante Farnese Fragrâncias 85g,85g,0.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+104,Sabonete Palmolive Naturals Fragrâncias 85g,85g,2.29,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+105,Creme Dental Sorriso Tripla Limpeza Completa ou Dentes Brancos 120g,120g,3.49,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+106,Desodorante Aerosol Rexona Fragrâncias 150ml,150ml,12.9,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+107,Desodorante Aerosol Dryon Fragrâncias 250ml,250ml,13.98,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+108,Detergente Líquido Ypê Fragrâncias 500ml,500ml,2.49,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+109,Creme de Tratamento Skala Fragrâncias 1kg,1kg,10.99,,,9.99,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+110,Toalhas Umedecidas Meu Bebê Soft 100 Unidades,100un,8.98,,,7.98,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+111,Limpador Multiuso Casa & Limpeza Fragrâncias 500ml,500ml,2.99,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+112,Limpador Perfumado Casa & Perfume Fragrâncias 1L,1l,6.98,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+113,Lava Roupas Líquido Urca Fragrâncias 3L,3l,13.98,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+114,"Lava Roupas em Pó Omo Fragrâncias 1,4kg","1,4kg",16.9,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+115,Toalha de Papel Bom Pety ou Yuri Fit 2 Unidades,2un,3.49,,,,2026-11-13,2026-11-15,tabloide Detona Preço,91283.jpg
+116,Vinho Português Mula Velha 750ml,,64.9,,,59.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+117,Vinho Português Pintus 750ml,,42.9,,,35.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+118,Vinho Português Alentejano Outeiro dos Pinheiros 750ml,,39.9,,,29.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+119,Vinho Português Tapada do Cunha 750ml,,38.9,,,33.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+120,Vinho Português Olaria Suave Tinto 750ml,,44.9,,,41.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+121,Vinho Português Casal Mendes 750ml,,59.9,,,52.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+122,Vinho Chileno Isla del Sur 750ml,,27.9,,,24.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+123,Vinho Chileno Santa Carolina Reservado 750ml,,28.9,,,24.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+124,Vinho Chileno Concha y Toro Reservado 750ml,,29.9,,,25.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+125,Vinho Chileno Casillero del Diablo 750ml,,49.9,,,44.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+126,Vinho Nacional Marcus James Reservado 750ml,,29.9,,,25.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+127,Vinho Argentino La Plata 750ml,,29.9,,,23.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+128,Vinho Espanhol Pata Negra Oro Tempranillo 750ml,,49.9,,,44.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+129,Vinho Chileno Sol de Chile 750ml,,25.9,,,23.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+130,Vinho Nacional Verza Tinto Suave 1L,,25.9,,,21.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+131,Vinho Nacional Catania Reservado 750ml,,25.9,,,21.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+132,Vinho Frisante Mioranza 750ml,,29.9,,,25.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+133,Vinho Nacional Country Wine Bordô Suave 1L,,25.9,,,23.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+134,Espumante Garibaldi Tradicional ou Zero Álcool 750ml,,47.9,,,41.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+135,Espumante Nacional Aurora 750ml,,42.9,,,39.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+136,Espumante Casa Perini Moscatel Brut ou Brut Rosé 750ml,,55.9,,,45.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+137,Espumante Casa Perini Aquarela Moscatel Rosé 750ml,,55.9,,,45.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+138,Desodorante em Creme Herbíssimo Fragrâncias 55g,,7.99,,,6.99,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+139,Creme para Pentear Beleza Natural Fragrâncias 800g,,21.98,,,19.98,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+140,Toalhas Umedecidas Babysec Ultra Fresh 48 Unidades,,7.98,,,6.98,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+141,Absorvente Sempre Livre Conforto Noturno com Abas 16 Unidades,,22.98,,,19.98,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+142,Vodka Smirnoff Red 998ml,,45.9,,,42.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+143,Whisky Escocês White Horse 500ml,,49.9,,,39.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+144,Espumante Mioranza Branco ou Rosé 750ml,,37.9,,,29.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+145,Espumante Garibaldi Rosé Floratta 750ml,,45.9,,,37.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+146,Creme de Pentear Elseve Fragrâncias 250ml,,21.9,,,19.98,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+147,Condicionador Elseve Fragrâncias 200ml,,21.9,,,19.98,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+148,Coloração Cor & Ton Nuances,,15.98,,,12.98,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+149,Óleo Extraordinário ou Sérum Elseve 100ml,,59.9,,,49.9,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+150,Creme Dental Sorriso Dentes Brancos 120g,,4.99,,,4.59,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+151,Creme Dental Sorriso Tripla Limpeza Completa 120g,,4.99,,,4.59,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+152,Creme Dental Colgate Total 180g,,16.98,,,15.98,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+153,Kit Shampoo 275ml + Condicionador 175ml Niely Gold,,19.98,,,17.98,2026-11-12,2026-11-25,guia Superclube (app),91289-91299.jpg
+154,Hambúrguer Império Carne Bovina 56g,56g,0.99,0.75,"caixa com 36 (R$ 27,00)",,2026-11-13,2026-11-19,encarte,91304.jpg
+155,Refresco Guaraplus 290ml,290ml,0.89,0.75,"caixa com 24 (R$ 18,00)",,2026-11-13,2026-11-19,encarte,91303.jpg
+156,Absorvente Always Noturno Ultra Suave com Abas 32 Unidades,,29.98,,,27.98,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+157,Absorvente Always Dia Ultra Suave com Abas 32 Unidades,,21.98,,,19.98,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+158,Kit 2 Cloro Ativo Uau 500ml + Limpador Multiuso Uau Rosas e Sedução 500ml,,13.98,,,12.98,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+159,Kit 2 Cloro Ativo Uau 500ml + Limpador Multiuso Uau Lavanda 500ml,,13.98,,,12.98,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+160,Antisséptico Bucal Cepacol Leve 500ml Pague 350ml,,14.98,,,12.98,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+161,Desodorante Aerosol Monange Fragrâncias 150ml,,10.98,,,9.98,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+162,Shampoo Monange Fragrâncias 325ml,,9.98,,,8.98,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+163,Hidratante Corporal Monange Fragrâncias 200ml,,10.98,,,9.98,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+164,Sabonete Protex Fragrâncias 85g Leve 6 Pague Menos,,18.9,,"no Superclube a unidade sai por R$ 2,99",17.94,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+165,Sabonete Palmolive Naturals Fragrâncias 85g Leve 6 Pague Menos,,13.14,,"no Superclube a unidade sai por R$ 1,99",11.94,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+166,Escova Dental Colgate Slim Soft Black 2 Unidades,,19.98,,,17.98,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
+167,Creme Dental Colgate Máxima Proteção Anticáries Menta 120g,,6.98,,,5.98,2026-11-12,2026-11-25,guia Superclube (app),91300-91302.jpg
