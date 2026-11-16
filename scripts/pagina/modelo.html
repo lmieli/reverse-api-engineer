@@ -54,6 +54,11 @@ td a{color:var(--bramil);text-decoration:none}td a:hover{text-decoration:underli
 .pager button{font:inherit;padding:6px 12px;border:1px solid var(--line);background:var(--surface);color:var(--fg);border-radius:6px;cursor:pointer}
 .pager button:disabled{opacity:.4;cursor:default}
 .empty{padding:28px;text-align:center;color:var(--muted)}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:1px solid var(--line)}
+.tabs button{font:inherit;font-weight:600;font-size:14px;padding:8px 14px;border:0;border-bottom:2px solid transparent;background:none;color:var(--muted);cursor:pointer;margin-bottom:-1px}
+.tabs button[aria-selected=true]{color:var(--fg);border-bottom-color:var(--fg)}
+.panel{display:flex;flex-direction:column;gap:16px}.panel[hidden]{display:none}
+.enc{font-weight:600}.sm{font-size:12px;color:var(--muted);display:block}
 .note{font-size:12px;color:var(--muted);max-width:92ch}
 @media (max-width:560px){h1{font-size:22px}}
 </style>
@@ -63,6 +68,8 @@ td a{color:var(--bramil);text-decoration:none}td a:hover{text-decoration:underli
     <h1>Preços nos quatro mercados</h1>
     <p class="sub">Cada linha é um produto. Bramil em Casa (Nova Friburgo), Superpão, Remercado e Tio Dongo, coletados em __COLETA__. O verde marca o mercado mais barato. Produtos vendidos por quilo são comparados em R$/kg.</p>
   </header>
+  <div class="tabs" role="tablist"><button role="tab" id="t1" aria-selected="true">Mercados</button><button role="tab" id="t2" aria-selected="false">Encarte Supermarket</button></div>
+  <div class="panel" id="p1">
   <section class="filters" aria-label="Filtros">
     <label>Buscar produto<input id="q" type="search" placeholder="ex.: leite, tio joão, 3 corações"></label>
     <label>Mercados com o produto<select id="nm"><option value="2">2 ou mais</option><option value="3">3 ou mais</option><option value="4">Todos os 4</option></select></label>
@@ -73,6 +80,16 @@ td a{color:var(--bramil);text-decoration:none}td a:hover{text-decoration:underli
   <div class="stats" id="stats"></div>
   <div class="tablebox"><table id="tb"><thead></thead><tbody></tbody></table><div class="empty" id="empty" hidden>Nenhum produto com esses filtros.</div></div>
   <div class="pager"><span id="info"></span><span><button id="prev">Anterior</button> <button id="next">Próxima</button></span></div>
+  </div>
+  <div class="panel" id="p2" hidden>
+  <p class="sub">Ofertas dos encartes do Supermarket recebidos por WhatsApp, comparadas com o preço atual de cada mercado. O preço do encarte considerado é o menor entre o normal, o condicional (ex.: leve 3) e o do Superclube. "Variante" indica oferta válida para vários sabores ou fragrâncias, comparada com um deles.</p>
+  <section class="filters" aria-label="Filtros do encarte">
+    <label>Buscar oferta<input id="eq" type="search" placeholder="ex.: café, vinho, frango"></label>
+    <label>Mostrar<select id="eo"><option value="par">Com par nos mercados</option><option value="">Todas</option><option value="ganha">Encarte mais barato</option><option value="perde">Mercado mais barato</option><option value="sem">Sem par</option></select></label>
+  </section>
+  <div class="stats" id="estats"></div>
+  <div class="tablebox"><table id="etb"><thead><tr><th>Oferta</th><th class="n">Encarte</th><th class="n">Bramil</th><th class="n">Superpão</th><th class="n">Remercado</th><th class="n">Tio Dongo</th><th class="n">Encarte vs mais barato</th></tr></thead><tbody></tbody></table><div class="empty" id="eempty" hidden>Nenhuma oferta com esses filtros.</div></div>
+  </div>
   <p class="note">A diferença é entre o mais caro e o mais barato do produto. Linhas "para conferir" têm mais de 100% de diferença e podem ter embalagens diferentes. Quando um mercado cadastra o produto sem peso (ex.: bandeja) e outro vende por kg, esse mercado fica de fora da comparação.</p>
 </div>
 
@@ -119,4 +136,25 @@ function srt(e){const th=e.target.closest('th');if(!th)return;const i=+th.datase
   sortDir=sortK===i?-sortDir:1;sortK=i;document.querySelectorAll('th').forEach(t=>t.removeAttribute('aria-sort'));th.setAttribute('aria-sort',sortDir>0?'ascending':'descending');filt()}
 $('tb').tHead.addEventListener('click',srt);$('tb').tHead.addEventListener('keydown',srt);
 filt();
+const E=__ENCARTE__;
+// oferta: [id,produto,preço,cond,condição,clube,validade,melhor, nB,pB,tB, nS,pS,tS, nR,pR,tR, nT,pT,tT, barato,preçoBarato,%]
+function efilt(){
+  const q=$('eq').value.trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,''),o=$('eo').value;
+  const v=E.filter(r=>{const p=r[22]!=null;
+    if(o==='par'&&!p||o==='sem'&&p||o==='ganha'&&!(p&&r[22]<=0)||o==='perde'&&!(p&&r[22]>0))return false;
+    if(q){const t=[r[1],r[8],r[11],r[14],r[17]].join(' ').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');return q.split(/\s+/).every(w=>t.includes(w))}
+    return true});
+  $('etb').tBodies[0].innerHTML=v.map(r=>{
+    const ex=[r[2]!=null?`normal ${fmt(r[2])}`:'',r[3]!=null?`${esc(r[4]||'condicional')} ${fmt(r[3])}`:'',r[5]!=null?`Superclube ${fmt(r[5])}`:''].filter(Boolean).join(' · ');
+    const nm=[[0,'Bramil'],[1,'Superpão'],[2,'Remercado'],[3,'Tio Dongo']].filter(x=>r[8+x[0]*3]).map(x=>`<span class="nm"><b>${x[1]}:</b> ${esc(r[8+x[0]*3])}${r[10+x[0]*3]==='variante'?' (variante)':''}</span>`).join('');
+    const c=i=>{const p=r[9+i*3];return p==null?'<span class="na">—</span>':`<span class="cell ${p===r[21]&&p<r[7]?'best':''}">${fmt(p)}</span>`};
+    const d=r[22]==null?'<span class="na">sem par</span>':`<span class="pill ${r[22]<=0?'r':'w'}">${r[22]>0?'+':''}${r[22].toLocaleString('pt-BR')}%</span>`;
+    return `<tr><td class="name">${esc(r[1])}<span class="sm">${esc(String(r[6]||'').replace(/(\d{4})-(\d\d)-(\d\d)/g,'$3/$2'))} · ${ex}</span>${nm}</td><td class="n"><span class="cell ${r[21]!=null&&r[7]<=r[21]?'best':''} enc">${fmt(r[7])}</span></td><td class="n">${c(0)}</td><td class="n">${c(1)}</td><td class="n">${c(2)}</td><td class="n">${c(3)}</td><td class="n">${d}</td></tr>`}).join('');
+  $('eempty').hidden=v.length>0;
+  const p=E.filter(r=>r[22]!=null),g=p.filter(r=>r[22]<=0).length,md=p.length?p.map(r=>r[22]).sort((a,b)=>a-b)[p.length>>1]:0;
+  $('estats').innerHTML=`<span><b>${E.length}</b> ofertas</span><span><b>${p.length}</b> com par nos mercados</span><span>encarte igual ou mais barato em <b>${g}</b> (${p.length?Math.round(g/p.length*100):0}%)</span><span>mediana <b>${md.toLocaleString('pt-BR')}%</b> vs o mercado mais barato</span>`;
+}
+['eq','eo'].forEach(id=>$(id).addEventListener('input',efilt));efilt();
+function tab(n){[1,2].forEach(i=>{$('t'+i).setAttribute('aria-selected',i===n);$('p'+i).hidden=i!==n})}
+$('t1').onclick=()=>tab(1);$('t2').onclick=()=>tab(2);
 </script>

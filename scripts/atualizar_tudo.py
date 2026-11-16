@@ -67,6 +67,13 @@ def pagina(data):
     t = open(f"{S}/pagina/modelo.html", encoding="utf-8").read()
     t = t.replace("__COLETA__", datetime.date.fromisoformat(data).strftime("%d/%m/%Y"))
     t = t.replace("__DATA__", json.dumps(rows, ensure_ascii=False, separators=(",", ":")))
+    enc = []
+    if os.path.exists(f"{RAIZ}/relatorio/encarte_supermarket.xlsx"):
+        it = openpyxl.load_workbook(f"{RAIZ}/relatorio/encarte_supermarket.xlsx", read_only=True).active.iter_rows(values_only=True)
+        next(it)
+        for r in it:  # id, produto, tam, preço, cond, condição, clube, validade, melhor, 4x(nome, preço, tipo), barato, preço, %, fonte
+            r = list(r); enc.append(r[:2] + r[3:21] + [inv.get(r[21], ""), r[22], r[23]])
+    t = t.replace("__ENCARTE__", json.dumps(enc, ensure_ascii=False, separators=(",", ":")))
     os.makedirs(f"{RAIZ}/relatorio", exist_ok=True)
     open(f"{RAIZ}/relatorio/precos_mercados.html", "w", encoding="utf-8").write(t)
     return len(rows)
@@ -85,6 +92,7 @@ def main():
     if ok:
         subprocess.run([sys.executable, f"{S}/base_historica/base.py", "carregar", a.data] + ok, check=True)
     subprocess.run([sys.executable, f"{S}/comparar_mercados.py"], check=True, capture_output=True)
+    subprocess.run([sys.executable, f"{S}/encartes/comparar_encarte.py"], check=True, capture_output=True)
     n = pagina(a.data)
     resumo = dict(data=a.data, mercados=res, produtos_comparaveis=n)
     json.dump(resumo, open(f"{RAIZ}/relatorio/ultima_atualizacao.json", "w"), ensure_ascii=False, indent=1)
