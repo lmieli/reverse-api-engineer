@@ -87,18 +87,27 @@ def main():
     os.makedirs(TMP, exist_ok=True)
     with ThreadPoolExecutor(len(a.so)) as ex:
         res = dict(ex.map(coletar, a.so))
+    for tentativa in (2, 3):  # falhas passageiras (503, resposta vazia): tenta de novo os que falharam
+        falhos = [n for n, r in res.items() if not r["ok"]]
+        if not falhos: break
+        print(f"tentativa {tentativa}: {falhos}", flush=True); time.sleep(120)
+        with ThreadPoolExecutor(len(falhos)) as ex:
+            for n, r in ex.map(coletar, falhos): r["tentativas"] = tentativa; res[n] = r
     for n, r in res.items(): print(n, r, flush=True)
     ok = [n for n, r in res.items() if r["ok"]]
     if ok:
         subprocess.run([sys.executable, f"{S}/base_historica/base.py", "carregar", a.data] + ok, check=True)
-    subprocess.run([sys.executable, f"{S}/comparar_mercados.py"], check=True, capture_output=True)
-    subprocess.run([sys.executable, f"{S}/encartes/comparar_encarte.py"], check=True, capture_output=True)
+    # A comparação sempre é refeita, mesmo que algum mercado tenha falhado (usa os dados anteriores dele).
+    erros = []
+    for etapa in ("comparar_mercados.py", "encartes/comparar_encarte.py"):
+        r = subprocess.run([sys.executable, f"{S}/{etapa}"], capture_output=True, text=True)
+        if r.returncode: erros.append(f"{etapa}: {r.stderr[-400:]}")
     n = pagina(a.data)
-    resumo = dict(data=a.data, mercados=res, produtos_comparaveis=n)
+    resumo = dict(data=a.data, mercados=res, produtos_comparaveis=n, erros_comparacao=erros)
     json.dump(resumo, open(f"{RAIZ}/relatorio/ultima_atualizacao.json", "w"), ensure_ascii=False, indent=1)
     shutil.rmtree(TMP, ignore_errors=True)
     print(json.dumps(resumo, ensure_ascii=False))
-    return 0 if ok else 1
+    return 0 if ok and not erros else 1
 
 
 if __name__ == "__main__":
