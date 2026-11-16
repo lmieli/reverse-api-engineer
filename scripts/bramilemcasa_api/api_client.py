@@ -5,6 +5,7 @@ chave embutida no front-end) -> token Bearer -> listagem de produtos.
 Preços variam por centro de distribuição (loja física).
 """
 import json
+import time
 import urllib.request
 
 BASE = "https://services-beta.vipcommerce.com.br/api-admin/v1"
@@ -51,14 +52,18 @@ class BramilClient:
         """Árvore de departamentos (id, descricao, children)."""
         return self._req("GET", self._loja() + "/classificacoes_mercadologicas/departamentos/arvore")["data"]
 
-    def produtos_departamento(self, departamento_id):
-        """Itera todos os produtos de um departamento (paginação automática)."""
+    def produtos_departamento(self, departamento_id, por_pagina=200, pausa=0.3):
+        """Itera todos os produtos de um departamento (paginação automática, `por_pagina` itens por requisição)."""
         page = 1
         while True:
-            out = self._req("GET", self._loja() +
-                            f"/classificacoes_mercadologicas/departamentos/{departamento_id}/produtos?page={page}")
+            out = self._req("GET", self._loja() + f"/classificacoes_mercadologicas/departamentos/{departamento_id}"
+                            f"/produtos?page={page}&limit={por_pagina}")
             items = out.get("data") or []
             if not items:
                 return
             yield from items
+            total = (out.get("paginator") or {}).get("total_pages")
+            if total and page >= total:
+                return
             page += 1
+            time.sleep(pausa)

@@ -11,7 +11,6 @@ rows, seen = [], set()
 for dep in c.departamentos():
     n = 0
     for p in c.produtos_departamento(dep["classificacao_mercadologica_id"]):
-        time.sleep(0.15)
         if p["produto_id"] in seen:
             continue
         seen.add(p["produto_id"])
