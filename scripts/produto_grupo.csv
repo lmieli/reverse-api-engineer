@@ -115,8 +115,6 @@ grupo,mercado,codigo
 44,Tio Dongo,4623
 45,Bramil,35-00139
 45,Remercado,41466
-46,Bramil,35-00163
-46,Superpão,27557
 47,Bramil,35-00164
 47,Superpão,27558
 48,Bramil,35-0016E
@@ -636,8 +634,6 @@ grupo,mercado,codigo
 233,Remercado,52304
 233,Superpão,15969
 233,Tio Dongo,6746
-234,Bramil,35-0092D
-234,Remercado,44820
 235,Bramil,35-00930
 235,Tio Dongo,2573
 236,Bramil,35-0093D
@@ -1197,8 +1193,6 @@ grupo,mercado,codigo
 436,Remercado,45899
 437,Bramil,35-00FE3
 437,Tio Dongo,6296
-438,Bramil,35-0100F
-438,Superpão,7272
 439,Bramil,35-01019
 439,Superpão,35389
 440,Bramil,35-01026
@@ -1210,8 +1204,6 @@ grupo,mercado,codigo
 442,Remercado,40919
 442,Superpão,919
 442,Tio Dongo,3819
-443,Bramil,35-0102B
-443,Superpão,27383
 444,Bramil,35-01031
 444,Remercado,46707
 444,Superpão,14077
@@ -1900,8 +1892,6 @@ grupo,mercado,codigo
 690,Bramil,35-018BF
 690,Superpão,51061
 690,Tio Dongo,30
-691,Bramil,35-018C7
-691,Superpão,53815
 692,Bramil,35-018D5
 692,Tio Dongo,4364
 693,Bramil,35-018D6
@@ -1930,8 +1920,6 @@ grupo,mercado,codigo
 701,Bramil,35-018F6
 701,Remercado,45602
 701,Tio Dongo,1667
-702,Bramil,35-018FA
-702,Tio Dongo,6584
 703,Bramil,35-018FF
 703,Tio Dongo,3945
 704,Bramil,35-0190B
@@ -2019,8 +2007,6 @@ grupo,mercado,codigo
 734,Tio Dongo,5714
 735,Bramil,35-01A11
 735,Tio Dongo,539
-736,Bramil,35-01A12
-736,Superpão,7199
 737,Bramil,35-01A15
 737,Remercado,45699
 737,Tio Dongo,4695
@@ -2486,8 +2472,6 @@ grupo,mercado,codigo
 908,Tio Dongo,3035
 909,Bramil,35-01F7F
 909,Superpão,13269
-910,Bramil,35-01F83
-910,Superpão,50978
 911,Bramil,35-01F84
 911,Remercado,41362
 911,Tio Dongo,4151
@@ -3002,8 +2986,6 @@ grupo,mercado,codigo
 1092,Bramil,35-02409
 1092,Remercado,59892
 1092,Superpão,23316
-1093,Bramil,35-02411
-1093,Superpão,379
 1094,Bramil,35-02416
 1094,Remercado,42437
 1094,Superpão,30677
@@ -3403,8 +3385,6 @@ grupo,mercado,codigo
 1238,Bramil,35-02699
 1238,Remercado,55298
 1238,Superpão,627
-1239,Bramil,35-0269A
-1239,Superpão,625
 1240,Bramil,35-0269B
 1240,Superpão,624
 1241,Bramil,35-0269E
@@ -3560,8 +3540,6 @@ grupo,mercado,codigo
 1294,Superpão,18309
 1295,Bramil,35-027A6
 1295,Remercado,61294
-1296,Bramil,35-027A7
-1296,Superpão,1072
 1297,Bramil,35-027B1
 1297,Remercado,52522
 1297,Superpão,54
@@ -4449,8 +4427,6 @@ grupo,mercado,codigo
 1604,Bramil,35-02DAA
 1604,Remercado,39306
 1604,Superpão,23193
-1605,Bramil,35-02DAD
-1605,Superpão,23184
 1606,Bramil,35-02DAF
 1606,Remercado,63529
 1606,Superpão,16171
@@ -4857,6 +4833,9 @@ grupo,mercado,codigo
 1745,Tio Dongo,6182
 1746,Bramil,35-030CF
 1746,Superpão,1163
+1747,Bramil,35-030E5
+1747,Superpão,1849
+1747,Tio Dongo,4768
 1748,Bramil,35-030E8
 1748,Remercado,39330
 1748,Superpão,1205
@@ -5916,8 +5895,6 @@ grupo,mercado,codigo
 2136,Remercado,63819
 2137,Bramil,35-03A18
 2137,Tio Dongo,3014
-2138,Bramil,35-03A19
-2138,Superpão,458
 2139,Bramil,35-03A1E
 2139,Remercado,60220
 2139,Tio Dongo,6124
@@ -6260,10 +6237,6 @@ grupo,mercado,codigo
 2274,Tio Dongo,5332
 2275,Bramil,35-043A6
 2275,Superpão,9399
-2276,Bramil,35-043A8
-2276,Superpão,28846
-2277,Bramil,35-043A9
-2277,Superpão,23665
 2278,Bramil,35-043AB
 2278,Superpão,37598
 2279,Bramil,35-043AD
@@ -6739,8 +6712,6 @@ grupo,mercado,codigo
 2459,Remercado,44787
 2460,Bramil,35-04A67
 2460,Remercado,44120
-2461,Bramil,35-04A6B
-2461,Superpão,4080
 2462,Bramil,35-04A83
 2462,Remercado,55434
 2462,Superpão,24145
@@ -6889,8 +6860,6 @@ grupo,mercado,codigo
 2516,Bramil,35-04C78
 2516,Superpão,7564
 2516,Tio Dongo,758
-2517,Bramil,35-04C7A
-2517,Superpão,16447
 2518,Bramil,35-04C7B
 2518,Remercado,42527
 2518,Superpão,6473
@@ -7168,8 +7137,6 @@ grupo,mercado,codigo
 2617,Bramil,35-0533E
 2617,Remercado,53765
 2617,Tio Dongo,56
-2618,Bramil,35-05343
-2618,Superpão,3188
 2619,Bramil,35-05344
 2619,Superpão,11337
 2619,Tio Dongo,2249
@@ -7316,8 +7283,6 @@ grupo,mercado,codigo
 2672,Bramil,35-05431
 2672,Remercado,45783
 2672,Tio Dongo,6207
-2673,Bramil,35-0543A
-2673,Superpão,53885
 2674,Bramil,35-0543C
 2674,Remercado,54591
 2674,Superpão,48659
@@ -7914,8 +7879,6 @@ grupo,mercado,codigo
 2897,Bramil,35-057BB
 2897,Remercado,62881
 2897,Tio Dongo,2164
-2898,Bramil,35-057C3
-2898,Superpão,46442
 2899,Bramil,35-057C7
 2899,Remercado,50736
 2899,Tio Dongo,5612
@@ -8054,8 +8017,6 @@ grupo,mercado,codigo
 2947,Bramil,35-058C9
 2947,Remercado,54138
 2947,Tio Dongo,2828
-2948,Bramil,35-058CB
-2948,Superpão,14955
 2949,Bramil,35-058CF
 2949,Remercado,53768
 2949,Tio Dongo,5619
@@ -8243,8 +8204,6 @@ grupo,mercado,codigo
 3017,Superpão,21256
 3018,Bramil,35-059D6
 3018,Tio Dongo,4949
-3019,Bramil,35-059DE
-3019,Superpão,19485
 3020,Bramil,35-059E8
 3020,Superpão,14075
 3021,Bramil,35-059EB
@@ -8656,8 +8615,6 @@ grupo,mercado,codigo
 3171,Bramil,35-05C96
 3171,Remercado,61050
 3171,Tio Dongo,5019
-3172,Bramil,35-05C99
-3172,Superpão,24953
 3173,Bramil,35-05C9D
 3173,Remercado,56204
 3173,Superpão,9129
@@ -8822,8 +8779,6 @@ grupo,mercado,codigo
 3235,Tio Dongo,1501
 3236,Bramil,35-05E32
 3236,Tio Dongo,4005
-3237,Bramil,35-05E33
-3237,Superpão,14516
 3238,Bramil,35-05E39
 3238,Superpão,7274
 3238,Tio Dongo,1560
@@ -10082,8 +10037,6 @@ grupo,mercado,codigo
 3730,Tio Dongo,1477
 3731,Bramil,35-06736
 3731,Superpão,46861
-3732,Bramil,35-06737
-3732,Superpão,46859
 3733,Bramil,35-0673A
 3733,Superpão,46860
 3734,Bramil,35-0673D
@@ -10095,8 +10048,6 @@ grupo,mercado,codigo
 3737,Bramil,35-0675C
 3737,Remercado,54546
 3737,Tio Dongo,2006
-3738,Bramil,35-0675F
-3738,Superpão,19578
 3739,Bramil,35-06761
 3739,Superpão,19579
 3740,Bramil,35-06767
@@ -11494,8 +11445,6 @@ grupo,mercado,codigo
 4318,Tio Dongo,2858
 4319,Bramil,35-07362
 4319,Tio Dongo,6855
-4320,Bramil,35-07365
-4320,Superpão,51902
 4321,Bramil,35-0736C
 4321,Tio Dongo,5635
 4322,Bramil,35-0736F
@@ -11693,8 +11642,6 @@ grupo,mercado,codigo
 4398,Remercado,55496
 4398,Superpão,52198
 4398,Tio Dongo,4693
-4399,Bramil,35-0743E
-4399,Superpão,26421
 4400,Bramil,35-0743F
 4400,Superpão,8918
 4401,Bramil,35-07440
@@ -12196,8 +12143,6 @@ grupo,mercado,codigo
 4604,Superpão,15272
 4605,Bramil,35-07945
 4605,Superpão,15240
-4606,Bramil,35-07947
-4606,Superpão,41710
 4607,Bramil,35-07949
 4607,Superpão,15265
 4608,Bramil,35-07954
@@ -12214,8 +12159,6 @@ grupo,mercado,codigo
 4611,Superpão,5364
 4612,Bramil,35-07962
 4612,Tio Dongo,4988
-4613,Bramil,35-07963
-4613,Superpão,53822
 4614,Bramil,35-07964
 4614,Remercado,45916
 4614,Tio Dongo,4304
@@ -12232,8 +12175,6 @@ grupo,mercado,codigo
 4619,Tio Dongo,2565
 4620,Bramil,35-0796E
 4620,Superpão,53438
-4621,Bramil,35-07970
-4621,Superpão,53821
 4622,Bramil,35-0797C
 4622,Superpão,52619
 4622,Tio Dongo,690
@@ -12510,8 +12451,6 @@ grupo,mercado,codigo
 4730,Superpão,486
 4731,Bramil,35-08191
 4731,Superpão,479
-4732,Bramil,35-08193
-4732,Superpão,49227
 4733,Bramil,35-08199
 4733,Superpão,481
 4734,Bramil,35-0819B
@@ -12522,8 +12461,6 @@ grupo,mercado,codigo
 4736,Tio Dongo,1736
 4737,Bramil,35-081E6
 4737,Superpão,25754
-4738,Bramil,35-081ED
-4738,Superpão,53744
 4739,Bramil,35-081F7
 4739,Superpão,53077
 4739,Tio Dongo,6961
@@ -12597,8 +12534,6 @@ grupo,mercado,codigo
 4766,Superpão,15710
 4767,Bramil,35-082DC
 4767,Superpão,484
-4768,Bramil,35-082DD
-4768,Superpão,50678
 4769,Bramil,35-082F1
 4769,Superpão,50679
 4770,Bramil,35-082FB
@@ -12648,8 +12583,6 @@ grupo,mercado,codigo
 4788,Superpão,53439
 4789,Bramil,35-08336
 4789,Superpão,53329
-4790,Bramil,35-08337
-4790,Superpão,54248
 4791,Bramil,35-0833C
 4791,Remercado,51475
 4792,Bramil,35-0833D
@@ -12665,10 +12598,6 @@ grupo,mercado,codigo
 4796,Bramil,35-08363
 4796,Remercado,56699
 4796,Superpão,53149
-4797,Bramil,35-08365
-4797,Superpão,53200
-4798,Bramil,35-08367
-4798,Superpão,53201
 4799,Bramil,35-0836E
 4799,Tio Dongo,4068
 4800,Bramil,35-0837F
@@ -12682,8 +12611,6 @@ grupo,mercado,codigo
 4803,Remercado,41397
 4804,Bramil,35-0838F
 4804,Superpão,52714
-4805,Bramil,35-083A4
-4805,Superpão,54356
 4806,Bramil,35-0840A
 4806,Superpão,55086
 4807,Bramil,35-08412
@@ -12847,8 +12774,6 @@ grupo,mercado,codigo
 4869,Tio Dongo,5408
 4870,Bramil,35-085DC
 4870,Tio Dongo,6288
-4871,Bramil,35-085E5
-4871,Superpão,53432
 4872,Bramil,35-085E6
 4872,Superpão,27428
 4873,Bramil,35-085E7
@@ -13173,8 +13098,6 @@ grupo,mercado,codigo
 5016,Remercado,40972
 5016,Superpão,22641
 5016,Tio Dongo,5789
-5017,Remercado,40980
-5017,Superpão,46854
 5018,Remercado,40985
 5018,Tio Dongo,4792
 5019,Remercado,41229
@@ -13213,8 +13136,6 @@ grupo,mercado,codigo
 5034,Remercado,41711
 5034,Superpão,936
 5034,Tio Dongo,4805
-5035,Remercado,41795
-5035,Superpão,28046
 5036,Remercado,42041
 5036,Tio Dongo,122
 5037,Remercado,42140
@@ -13461,8 +13382,6 @@ grupo,mercado,codigo
 5139,Superpão,9126
 5140,Remercado,44944
 5140,Superpão,18955
-5141,Remercado,44956
-5141,Superpão,26929
 5142,Remercado,45065
 5142,Tio Dongo,2015
 5143,Remercado,45156
@@ -13574,8 +13493,6 @@ grupo,mercado,codigo
 5190,Tio Dongo,6748
 5191,Remercado,47314
 5191,Tio Dongo,2365
-5192,Remercado,47315
-5192,Tio Dongo,6035
 5193,Remercado,47316
 5193,Tio Dongo,4424
 5194,Remercado,47318
@@ -13802,8 +13719,6 @@ grupo,mercado,codigo
 5290,Tio Dongo,1356
 5291,Remercado,51281
 5291,Tio Dongo,2894
-5292,Remercado,51372
-5292,Superpão,17301
 5293,Remercado,51413
 5293,Superpão,8845
 5293,Tio Dongo,4911
@@ -14013,8 +13928,6 @@ grupo,mercado,codigo
 5384,Superpão,52152
 5385,Remercado,53844
 5385,Superpão,52078
-5386,Remercado,53853
-5386,Superpão,20248
 5387,Remercado,53885
 5387,Superpão,21659
 5387,Tio Dongo,6770
@@ -14164,8 +14077,6 @@ grupo,mercado,codigo
 5449,Remercado,55687
 5449,Superpão,49885
 5449,Tio Dongo,5088
-5450,Remercado,55692
-5450,Superpão,50916
 5451,Remercado,55694
 5451,Superpão,49884
 5451,Tio Dongo,2362
@@ -14362,8 +14273,6 @@ grupo,mercado,codigo
 5532,Tio Dongo,2682
 5533,Remercado,60116
 5533,Superpão,3434
-5534,Remercado,60259
-5534,Superpão,4443
 5535,Remercado,60414
 5535,Tio Dongo,2649
 5536,Remercado,60667
@@ -14656,8 +14565,6 @@ grupo,mercado,codigo
 5669,Tio Dongo,3072
 5670,Superpão,18963
 5670,Tio Dongo,4787
-5671,Superpão,19028
-5671,Tio Dongo,4251
 5672,Superpão,19473
 5672,Tio Dongo,6352
 5673,Superpão,19708
@@ -14692,8 +14599,6 @@ grupo,mercado,codigo
 5687,Tio Dongo,5530
 5688,Superpão,24059
 5688,Tio Dongo,6194
-5689,Superpão,24061
-5689,Tio Dongo,5437
 5690,Superpão,24063
 5690,Tio Dongo,1788
 5691,Superpão,24072
@@ -14742,8 +14647,6 @@ grupo,mercado,codigo
 5712,Tio Dongo,7059
 5713,Superpão,41707
 5713,Tio Dongo,2945
-5714,Superpão,45186
-5714,Tio Dongo,5932
 5715,Superpão,46891
 5715,Tio Dongo,5965
 5716,Superpão,47215
@@ -14924,8 +14827,6 @@ grupo,mercado,codigo
 5803,Tio Dongo,2381
 5804,Superpão,8884
 5804,Tio Dongo,6739
-5805,Superpão,897
-5805,Tio Dongo,4602
 5806,Superpão,8976
 5806,Tio Dongo,4219
 5807,Superpão,9914

@@ -1,13 +1,35 @@
 {
- "data": "2026-11-15",
+ "data": "2026-11-16",
  "mercados": {
+  "bramil": {
+   "ok": true,
+   "produtos": 17505,
+   "anterior": 17505,
+   "minutos": 2.2,
+   "erro": null
+  },
+  "superpao": {
+   "ok": true,
+   "produtos": 6302,
+   "anterior": 6302,
+   "minutos": 11.2,
+   "erro": null
+  },
+  "remercado": {
+   "ok": true,
+   "produtos": 4896,
+   "anterior": 4896,
+   "minutos": 11.6,
+   "erro": null
+  },
   "tiodongo": {
    "ok": true,
-   "produtos": 5622,
-   "anterior": 5622,
+   "produtos": 5620,
+   "anterior": 5620,
    "minutos": 3.8,
    "erro": null
   }
  },
- "produtos_comparaveis": 5806
+ "produtos_comparaveis": 5756,
+ "erros_comparacao": []
 }
